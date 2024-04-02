@@ -7,7 +7,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * João Felipe da Silva Prado
 * Breno Pinheiro de Oliveira 
 * Ingrid Yara Alves dos Santos 
-* Nome completo do aluno 4
+* Anielle Carla de Oliveira
 
 ## Professores responsáveis
 
