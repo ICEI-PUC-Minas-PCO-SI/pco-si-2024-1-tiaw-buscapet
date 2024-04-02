@@ -10,6 +10,7 @@ Dito isso, torna-se necessário a criação de um site que possa dinamizar e cha
 * Breno Pinheiro de Oliveira 
 * Ingrid Yara Alves dos Santos 
 * Anielle Carla de Oliveira
+* Rodrigo Oliveira Nunes
 
 ## Professores responsáveis
 
