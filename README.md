@@ -2,7 +2,7 @@
 # BuscaPet
 O objetivo é criar um ambiente que facilite o contato entre um animal que por muitos motivos não é escolhido para ser adotado e um possível adotante, que tenha interesse em acolher um pet que faça parte desse grupo.
 
-A intenção do projeto se dá na necessidade de contribuir para o bem-estar de todos os animais, colaborando para que eles possam ser amados e respeitados pelas pessoas que os adotarem, e na ânsia de diminuir a desinformação nesse nicho de pets.
+Dito isso, torna-se necessário a criação de um site que possa dinamizar e chamar a atenção para esses animais que são afetados por esse preconceito, criando uma plataforma que facilite o contato entre um bichinho animal e um possível adotante que lute contra a propagação desse problema. Essa plataforma será o Busca Pet, um software que oferecerá de forma ampla um meio comum entre eles e os possíveis clientes, disponibilizando endereços de Ongs de ajuda animal, dicas de como cuidar do seu pet com alguma característica limitante é o principal, onde adotar. 
 
 ## Alunos integrantes da equipe
 
