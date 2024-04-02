@@ -11,6 +11,7 @@ Dito isso, torna-se necessário a criação de um site que possa dinamizar e cha
 * Ingrid Yara Alves dos Santos 
 * Anielle Carla de Oliveira
 * Rodrigo Oliveira Nunes
+* Deborah Fernandes Barbosa
 
 ## Professores responsáveis
 
