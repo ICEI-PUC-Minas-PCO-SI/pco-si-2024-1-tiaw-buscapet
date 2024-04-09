@@ -16,7 +16,6 @@ Dito isso, torna-se necessário a criação de um site que possa dinamizar e cha
 ## Professores responsáveis
 
 * Leonardo Vilela Cardoso
-* Amália Soares Vieira de Vasconcelos 
 
 ## INTRODUÇÃO
 
