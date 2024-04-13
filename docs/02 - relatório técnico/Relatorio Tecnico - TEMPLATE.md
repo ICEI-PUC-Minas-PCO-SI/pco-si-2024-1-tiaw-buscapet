@@ -2,21 +2,22 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+BuscaPet
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Sistema de Informação
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+<ul>
+  <li>ANIELLE CARLA DE OLIVEIRA</li>
+  <li>BRENO PINHEIRO DE OLIVEIRA</li>
+  <li>DEBORAH FERNANDES BARBOSA</li>
+  <li>INGRID YARA ALVES DOS SANTOS</li>
+  <li>JOÃO FELIPE DA SILVA PRADO</li>
+  <li>RODRIGO OLIVEIRA NUNES</li>
+</ul>
 
 # Estrutura do Documento
 
@@ -57,71 +58,29 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O problema se estabelece no preconceito vivenciado por esses animais que possuem características que dificultam sua adoção, como sua idade, raça, pelagem e até mesmo se portadores de alguma deficiência.  Logo sendo vítimas dessa tangência na hora de serem escolhidos como pets, prejudicando que possam ter uma vida feliz e digna. 
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+<h4>OBJETIVO GERAL</h4>
+O objetivo do projeto é dar um lar para animais que por conta de suas características físicas acabam sendo rejeitados e não escolhidos para serem adotados como os demais. Então a BuscaPet vê a necessidade de viabilizar o encontro desses bichinhos com um lugar para chamar de lar.
+<h4>OBJETIVO ESPECÍFICO</h4>
+O objetivo específico do projeto é criar uma aplicação que facilite o contato entre um animal que por muitos motivos não é escolhido para ser adotado e um possível adotante que possivelmente se interesse em acolher um pet que faça parte desse grupo.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A justificativa se dá na necessidade de contribuir para o bem-estar de todos os animais, colaborando para que eles possam ser amados e respeitados pelas pessoas que os adotarem, e na ânsia de diminuir a desinformação nesse nicho de pets. Segundo pesquisas feitas pelo Instituto Pet, o Brasil possui, aproximadamente, cerca de 190.000 animais resgatados em situação de abandono ou sendo vítimas de maus tratos, sendo que 96% desse número corresponde a cães e gatos. Desse modo, o quadro deletério se evidencia, contribuindo para a criação de um ambiente onde a adoção desses animais é facilitada, podendo proporcionar uma melhor qualidade de vida para eles. 
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+<ul>
+  <li>Mulheres jovens entre 25 e 34 anos que cursam ou estão se graduando na faculdade que buscam adotar cães e gatos como companheiros.</li>
+  <li>Homens adultos e solteiros entre 28 e 40 anos que se encontram inseridos no mercado de trabalho, interessados em adotar cães para passeios ao ar livre.</li>
+  <li>Casais jovens, entre 25 e 35 anos que estejam morando juntos, que desejam adotar um animal de estimação para compartilhar responsabilidades e fortalecer seu relacionamento.</li>
+  <li>Instituições de ajuda animal que possam se interessar em divulgar seus animais sem um lar em nosso site na esperança de que sejam adotados.</li>
+</ul>
  
 # Especificações do Projeto
 
@@ -288,68 +247,39 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Durante o processo de organização usamos o KanBan como gerenciador de tarefas, nele criamos um projeto chamado de “Quadro de Tarefas”, esse ambiente nos permitiu criar um espaço onde todos os integrantes do grupo pudessem adicionar seus artefatos a serem desenvolvidos e com a possibilidade de dar um status a eles, variando de “Não Iniciadas”, “Em andamento”, “Concluídas” e “Em Revisão”, assim conseguimos obter uma visão ampla quanto ao avanço do projeto. 
+Dentro do KanBan, todos os integrantes possuem autonomia para adicionar comentários para auxiliar ou guiar para um melhor direcionamento ao desenvolvimento, sendo assim o ambiente integrado usado para o controle de produção na etapa de organização.
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+> **Link KanBan**:
+> - [Quadro de Tarefas](https://b24-9v8igv.bitrix24.com.br/workgroups/group/1/tasks/ )
+
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+<ul>
+  <li><strong>Anielle Carla:</strong> Responsável pela prototipação do Projeto de Interface, criando os diagramas do sistema e o wireframe interativo.</li>
+  <li><strong>Breno Pinheiro:</strong> Responsável pelo levantamento de Requisitos, sendo os funcionários e os não funcionais, além das histórias dos usuários.</li>
+  <li><strong>Deborah Fernandes:</strong> Responsável pelo Design Thinking, contemplando o mapa de proposta de valor, o mural de possibilidades e o mapa de priorização, e também responsável pela arquitetura do slide de apresentação.</li>
+  <li><strong>Ingrid Yara:</strong> Responsável pela Documentação do Contexto e responsável pela prototipação do Projeto de Interface, criando os diagramas do sistema e o wireframe interativo.</li>
+  <li><strong>João Felipe:</strong> Líder,  responsável pela Documentação do Contexto, Design Thinking contemplando a criação da matriz CSD,  mapa de stakeholders e diagrama de personas e na organização do projeto.</li>
+  <li><strong>Rodrigo Nunes:</strong> Responsável pelo Design Thinking contemplando a criação da matriz CSD, mapa de stakeholders e diagrama de personas.</li>
+</ul>
 
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Obtenção de Informçãoes  | Canvas Puc - Minas |  https://canvas.pucminas.br/ | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-buscapet | 
+|Ambiente Integrado | Docs |  https://docs.google.com/document/create?hl=pt-br | 
+|Protótipo Interativo |  Figma | https://www.figma.com/ | 
+|Edição e Criação | Canva | https://www.canva.com/ | 
+|Gestão de Tarefas | Bitrix24 | https://www.bitrix24.com.br/uses/o-que-e-kanban.php?utm_source=google&utm_medium=cpc&utm_campaign=16092073909-136819242669&gad_source=1&gclid=Cj0KCQjw5cOwBhCiARIsAJ5njuadHl48a0Y0Cb6WXLuNrWmSvy_79pPYRcQqbRrruH6VIu-68_egEVwaAhjkEALw_wcB | 
+|Reuniões | Discord | https://discord.com/ | 
+|Criação de Slides | Power Point | https://discord.com/)(https://www.microsoft.com/pt-br/microsoft-365/powerpoint | 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
 
