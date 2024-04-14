@@ -2,11 +2,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-BuscaPet
+<h3>BuscaPet</h3>
 
 `CURSO` 
 
-Sistema de Informação
+<h3>Sistema de Informação</h3>
 
 ## Participantes
 
@@ -92,33 +92,33 @@ A justificativa se dá na necessidade de contribuir para o bem-estar de todos os
 
 ## Personas e Mapas de Empatia
 
-<h4>Persona 1 </h4>
+<h4><strong> Persona 1 </strong> </h4>
 
 <ul> 
-       <li>Nome: Ana Santos</li>
-<li>Idade: 28 anos </li>
-<li>Profissão: Designer Gráfica</li> 
-<li>Hobby: Ana adora fotografia e passa seu tempo livre capturando momentos especiais em sua câmera. Ela também gosta de explorar parques e trilhas ao ar livre, sempre em busca de novas aventuras fotográficas. 
+<li><strong>Nome:</strong></strong> Ana Santos</li>
+<li><strong>Idade:</strong> 28 anos </li>
+<li><strong>Profissão:</strong> Designer Gráfica</li> 
+<li><strong>Hobby:</strong> Ana adora fotografia e passa seu tempo livre capturando momentos especiais em sua câmera. Ela também gosta de explorar parques e trilhas ao ar livre, sempre em busca de novas aventuras fotográficas. 
 Personalidade: Ana é uma pessoa extrovertida, criativa e aventureira. Ela é uma pessoa comprometida em cuidar de seu animal de estimação e proporcionar-lhe uma vida cheia de aventuras e momentos especiais ao ar livre.</li>
 </ul>
 
 
 <h5>Objetos e Lugares:</h5>  
 <ul>
-<li>Câmera fotográfica: Ana usa sua câmera fotográfica durante suas aventuras ao ar livre, em parques, trilhas e em suas viagens fotográficas.</li> 
-<li>Smartphone: Ana usa seu smartphone em diversos momentos do dia e em diferentes locais. Ela o utiliza em casa, no trabalho, durante suas atividades ao ar livre e em suas viagens.  </li>
-<li>Computador ou laptop: Ana utiliza seu computador ou laptop principalmente em casa ou no escritório. Ela o utiliza para realizar trabalhos de design gráfico, editar fotos, acessar o site de adoção de animais e interagir com a comunidade online. </li>
-<li>Navegador da web: Ana acessa o site de adoção de animais por meio de um navegador da web em seu computador ou laptop. Ela pesquisa informações sobre os animais disponíveis para adoção, preenche formulários de adoção e interage com outros usuários.</li>
+<li><strong>Câmera fotográfica:</strong> Ana usa sua câmera fotográfica durante suas aventuras ao ar livre, em parques, trilhas e em suas viagens fotográficas.</li> 
+<li><strong>Smartphone:</strong> Ana usa seu smartphone em diversos momentos do dia e em diferentes locais. Ela o utiliza em casa, no trabalho, durante suas atividades ao ar livre e em suas viagens.  </li>
+<li><strong>Computador ou laptop:</strong> Ana utiliza seu computador ou laptop principalmente em casa ou no escritório. Ela o utiliza para realizar trabalhos de design gráfico, editar fotos, acessar o site de adoção de animais e interagir com a comunidade online. </li>
+<li><strong>Navegador da web:</strong> Ana acessa o site de adoção de animais por meio de um navegador da web em seu computador ou laptop. Ela pesquisa informações sobre os animais disponíveis para adoção, preenche formulários de adoção e interage com outros usuários.</li>
 </ul>
  
 <h5>Objetivos Chave: </h5>
 <ul>
-<li>Encontrar um companheiro animal adequado: O principal objetivo de Ana ao utilizar o serviço é encontrar um animal de estimação que se adapte ao seu estilo de vida ativo e criativo. Ela deseja encontrar um companheiro que possa acompanhá-la em suas aventuras ao ar livre e também se tornar uma fonte de inspiração para suas fotografias.</li> 
-<li>Contribuir para o bem-estar animal: Ana acredita firmemente em dar uma segunda chance aos animais abandonados e  adotar em abrigos em vez de comprar de criadores. Seu objetivo é contribuir para o bem-estar animal oferecendo um lar amoroso e seguro para um animal que precisa de cuidados e afeto. </li>
+<li><strong>Encontrar um companheiro animal adequado:</strong> O principal objetivo de Ana ao utilizar o serviço é encontrar um animal de estimação que se adapte ao seu estilo de vida ativo e criativo. Ela deseja encontrar um companheiro que possa acompanhá-la em suas aventuras ao ar livre e também se tornar uma fonte de inspiração para suas fotografias.</li> 
+<li><strong>Contribuir para o bem-estar animal:</strong> Ana acredita firmemente em dar uma segunda chance aos animais abandonados e  adotar em abrigos em vez de comprar de criadores. Seu objetivo é contribuir para o bem-estar animal oferecendo um lar amoroso e seguro para um animal que precisa de cuidados e afeto. </li>
  
 <li>Ana usaria o site para encontrar um animal de estimação que se encaixe em seu estilo de vida e que possa lhe trazer companhia e alegria. </li>
 </ul>
-<h5>Como Devemos Tratar: </h5>
+<h5><strong>Como Devemos Tratar:</strong> </h5>
 <ul>
 <li>Empatia e compreensão </li>
 <li>Transparência e confiabilidade </li>
