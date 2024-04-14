@@ -226,8 +226,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do Sistema | Entender quais são os benefícios de se adotar um pet idoso ou portador de necessidades especiais | Sanar minhas dúvidas |
+|Usuário do Sistema | Ter na minha mão informações a respeito de dificuldades ao se adotar um pet idoso ou com necessidades especiais | Ter mais informações sobre cuidados e problemas enfrentados durante o cuidado de um pet especial |
+| Usuário do Sistema | Ter uma ligação mais fácil com ONGs | Conseguir adotar pets idosos ou com necessidades especiais |
+| ONG | Entrar em contato com os desenvolvedores para a divulgação da minha organização e dos meus animais na plataforma | Atrair mais pessoas que querem adotar um pet |
+| Usuário do Sistema | Ter facilidade para encontrar informações sobre como denunciar maus-tratos | Colaborar com a sociedade |
+| ONG | Conseguir deixar informações de contato | Ser possível os usuários do site entrarem em contato conosco |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
