@@ -183,8 +183,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário visualize postagens informativas sobre a adoção de pets | ALTA | 
+|RF-002| Permitir ao usuário acessar uma página com os dados de contato de ONGs para entrar em contato e esclarecer dúvidas ou adotar um pet   | ALTA |
+|RF-003| Permitir ao usuário ser direcionado ao site de uma determinada ONG caso ele deseja adotar um animal | ALTA 
+|RF-004| Mostrar ao usuário um slide show com imagens para ilustrar o site | MÉDIA |
+|RF-005| A persona Ana Santos pode entrar no site e encontrar um animal que esteja para adoção | MÉDIA |
+|RF-006| Mostrar ao usuário comentários dos desenvolvedores
 
 
 ### Requisitos não Funcionais
