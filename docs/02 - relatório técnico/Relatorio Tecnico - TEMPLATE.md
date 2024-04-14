@@ -209,7 +209,7 @@ Embora viva uma vida ocupada, Carlos é comprometido com suas responsabilidades 
   <h5><strong>Como Devemos Tratar:</strong></h5>  
 <ul>
 <li>Empatia e compreensão 
-<li>>Transparência e confiabilidade </li>
+<li>Transparência e confiabilidade </li>
 <li>Suporte e orientação </li>
 <li>Respeito e valorização  </li>
 
