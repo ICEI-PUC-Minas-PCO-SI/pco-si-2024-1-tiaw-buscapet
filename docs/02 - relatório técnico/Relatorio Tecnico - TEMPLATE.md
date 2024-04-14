@@ -134,7 +134,6 @@ Personalidade: Ana é uma pessoa extrovertida, criativa e aventureira. Ela é um
 <li><strong>Idade:</strong> 35 anos</li>
 <li><strong>Profissão:</strong> Analista de sistemas</li> 
 <li><strong>Hobbys:</strong> Carlos é um amante dos animais e sempre sonhou em ter um pet para fazer companhia em casa. Ele gosta de passar seu tempo livre ao ar livre, praticando atividades como caminhadas e corridas. Além disso, ele é um entusiasta da natureza e gosta de aprender sobre diferentes espécies de animais.</li>
-<li><strong>Hobbys:</strong> Carlos é um amante dos animais e sempre sonhou em ter um pet para fazer companhia em casa. Ele gosta de passar seu tempo livre ao ar livre, praticando atividades como caminhadas e corridas. Além disso, ele é um entusiasta da natureza e gosta de aprender sobre diferentes espécies de animais.</li>
 <li><strong>Personalidade:</strong> Carlos é um indivíduo tranquilo e atencioso, cujo coração se ilumina na presença de animais. Sua paixão pela natureza o conecta profundamente com o mundo ao seu redor, e ele valoriza a simplicidade e a serenidade que encontra ao ar livre. Ele é um espírito livre que busca equilíbrio entre sua vida agitada na cidade e seu desejo de estar em harmonia com a natureza.
 Embora viva uma vida ocupada, Carlos é comprometido com suas responsabilidades e está determinado a oferecer o melhor cuidado possível para seu futuro companheiro peludo. Sua gentileza e paciência fazem dele um amigo confiável para qualquer animal de estimação que entre em sua vida.</li>
 
