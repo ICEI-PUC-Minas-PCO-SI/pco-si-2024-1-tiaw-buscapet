@@ -156,7 +156,7 @@ Adoção responsável: Carlos optaria por adotar um animal de estimação em vez
 
 <li> Carlos usaria o site  para encontrar o companheiro perfeito para sua vida. Como ele mora em um apartamento pequeno e trabalha em período integral, um site de adoção oferece a conveniência de pesquisar e filtrar animais com base em critérios específicos, como tamanho, idade e nível de energia.</li>
 </ul>
-<h5><strong>Como Devemos Tratar:</strong>strong></h5>
+<h5><strong>Como Devemos Tratar:</strong></h5>
 <ul>
 
 <li>Empatia e compreensão</li>   
