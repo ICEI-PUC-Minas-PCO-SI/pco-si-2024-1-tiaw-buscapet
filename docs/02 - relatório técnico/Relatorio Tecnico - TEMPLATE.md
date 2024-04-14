@@ -257,7 +257,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| Permitir ao usuário ser direcionado ao site de uma determinada ONG caso ele deseja adotar um animal | ALTA 
 |RF-004| Mostrar ao usuário um slide show com imagens para ilustrar o site | MÉDIA |
 |RF-005| A persona Ana Santos pode entrar no site e encontrar um animal que esteja para adoção | MÉDIA |
-|RF-006| Mostrar ao usuário comentários dos desenvolvedores
+|RF-006| Mostrar ao usuário comentários dos desenvolvedores | MÉDIA |
+|RF-007| Mostrar ao usuário as pessoas responsáveis por criar e manter o projeto para tornar mais humanizado o acesso ao site | MÉDIA | 
+|RF-008| Mostrar ao usuário dados relativos à quantidade de adoções para informá-lo um pouco sobre a adoção de pets no Brasil | MÉDIA |
+|RF-009| Mostrar ao usuário nosso objetivo com o projeto para deixá-lo informado sobre nossas pretenções | MÉDIA |
+|RF-010| Mostrar ao usuário perguntas e respostas pertinentes sobre cuidados com os pets para sanar possíveis dúvidas existentes | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -265,7 +269,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Mostrar ao usuário políticas de privacidade | MÉDIA |
+|RNF-003| Mostrar ao usuário mensagens de confirmação de cadastro e envio de formulário | BAIXA |
+|RNF-004| Estar disponível 7/24 | ALTA |
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
@@ -678,8 +684,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do Sistema | Entender quais são os benefícios de se adotar um pet idoso ou portador de necessidades especiais | Sanar minhas dúvidas |
+|Usuário do Sistema | Ter na minha mão informações a respeito de dificuldades ao se adotar um pet idoso ou com necessidades especiais | Ter mais informações sobre cuidados e problemas enfrentados durante o cuidado de um pet especial |
+| Usuário do Sistema | Ter uma ligação mais fácil com ONGs | Conseguir adotar pets idosos ou com necessidades especiais |
+| ONG | Entrar em contato com os desenvolvedores para a divulgação da minha organização e dos meus animais na plataforma | Atrair mais pessoas que querem adotar um pet |
+| Usuário do Sistema | Ter facilidade para encontrar informações sobre como denunciar maus-tratos | Colaborar com a sociedade |
+| ONG | Conseguir deixar informações de contato | Ser possível os usuários do site entrarem em contato conosco |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -700,8 +710,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário visualize postagens informativas sobre a adoção de pets | ALTA | 
+|RF-002| Permitir ao usuário acessar uma página com os dados de contato de ONGs para entrar em contato e esclarecer dúvidas ou adotar um pet   | ALTA |
+|RF-003| Permitir ao usuário ser direcionado ao site de uma determinada ONG caso ele deseja adotar um animal | ALTA 
+|RF-004| Mostrar ao usuário um slide show com imagens para ilustrar o site | MÉDIA |
+|RF-005| A persona Ana Santos pode entrar no site e encontrar um animal que esteja para adoção | MÉDIA |
+|RF-006| Mostrar ao usuário comentários dos desenvolvedores | MÉDIA |
+|RF-007| Mostrar ao usuário as pessoas responsáveis por criar e manter o projeto para tornar mais humanizado o acesso ao site | MÉDIA | 
+|RF-008| Mostrar ao usuário dados relativos à quantidade de adoções para informá-lo um pouco sobre a adoção de pets no Brasil | MÉDIA |
+|RF-009| Mostrar ao usuário nosso objetivo com o projeto para deixá-lo informado sobre nossas pretenções | MÉDIA |
+|RF-010| Mostrar ao usuário perguntas e respostas pertinentes sobre cuidados com os pets para sanar possíveis dúvidas existentes | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -709,7 +727,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Mostrar ao usuário políticas de privacidade | MÉDIA |
+|RNF-003| Mostrar ao usuário mensagens de confirmação de cadastro e envio de formulário | BAIXA |
+|RNF-004| Estar disponível 7/24 | ALTA |
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
