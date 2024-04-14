@@ -300,7 +300,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >
 > **Exemplo**:
 > 
-> <img>src= "images/userflow.jpg">
+> ![userflow](images/userflow.jpg)
 
 
 ## Wireframes
