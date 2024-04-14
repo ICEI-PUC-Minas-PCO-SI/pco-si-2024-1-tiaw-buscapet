@@ -84,11 +84,7 @@ A justificativa se dá na necessidade de contribuir para o bem-estar de todos os
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Durante a etapa de concepção do projeto, foram levantados inúmeros dados e estátisticas que, posteriormente, foram condensados em personas e histórias de usuários. Esses dados resultantes foram fundamentais para traçarmos estrátegias para alcançarmos o maior número de pessoas para o nosso site, adicionando uma experiência personalizada e fornecendo uma compreensão aprofundada das necessidades, desejos e comportamentos dos usuários-alvo. 
 
 ## Personas e Mapas de Empatia
 
