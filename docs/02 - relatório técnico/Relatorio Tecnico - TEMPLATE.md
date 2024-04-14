@@ -283,16 +283,10 @@ Dentro do KanBan, todos os integrantes possuem autonomia para adicionar comentá
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Em conjunto com o grupo, optamos por usar o Github como ferramenta de gerência de versão pela sua popularidade no mercado de desenvolvedores e também pela possibilidade de criar um ambiente integrado onde todos os desenvolvedores possam contribuir remotamente com o projeto. Desse modo, contribuindo para a fluidez do projeto, controle de versões, analise das versões anteriores e também para a facilidade e segurança na programação.
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
+
+
 > O projeto segue a seguinte convenção para o nome de branchs:
 > 
 > - `master`: versão estável já testada do software
