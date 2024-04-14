@@ -320,6 +320,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > 
 > **Exemplo**:
 > ![Wireframe](images/tela1.jpg)
+> ![Wireframe](images/tela2.jpg)
+> ![Wireframe](images/tela3.jpg)
+> ![Wireframe](images/tela4.jpg)
+> ![Wireframe](images/tela5.jpg)
 
 
 # Metodologia
