@@ -128,6 +128,7 @@ Personalidade: Ana é uma pessoa extrovertida, criativa e aventureira. Ela é um
 <li>Julgamento: Julgar as escolhas de Ana em relação à adoção de um animal de estimação ou criticar sua decisão de adotar de um abrigo em vez de comprar de criadores pode fazer com que ela se sinta julgada e envergonhada.</li>
 </ul>
 
+
 <h4><strong>Persona 2</strong></h4>
 <ul>
 <li><strong>Nome:</strong> Carlos</li>
@@ -148,33 +149,33 @@ Embora viva uma vida ocupada, Carlos é comprometido com suas responsabilidades 
 <ul>
   <li>Carlos está em busca de um companheiro leal e amoroso que possa trazer alegria e companhia para sua vida diária. Ele quer encontrar um pet que se adapte bem ao ambiente de um apartamento e que seja fácil de cuidar, mas também está aberto a investir tempo e esforço para proporcionar o melhor ambiente possível para seu novo pet.</li>
 
-<li>Desafios: Carlos mora sozinho em um apartamento pequeno e trabalha em período integral, então ele está procurando por um animal de estimação que se adapte ao seu estilo de vida ocupado e ao espaço limitado de sua casa. Ele também está preocupado com a responsabilidade de cuidar de um animal e quer garantir que escolha o pet certo para ele.</li>
+<li><strong>Desafios:</strong> Carlos mora sozinho em um apartamento pequeno e trabalha em período integral, então ele está procurando por um animal de estimação que se adapte ao seu estilo de vida ocupado e ao espaço limitado de sua casa. Ele também está preocupado com a responsabilidade de cuidar de um animal e quer garantir que escolha o pet certo para ele.</li>
 
-<li>Contribuir para o bem-estar: 
-Adoção responsável: Carlos optaria por adotar um animal de estimação em vez de comprar de criadores, contribuindo para reduzir o número de animais abandonados e ajudando a dar uma segunda chance a um pet que precisa de um lar amoroso.</li>
+<li><strong>Contribuir para o bem-estar: </strong>
+<strong>Adoção responsável:</strong> Carlos optaria por adotar um animal de estimação em vez de comprar de criadores, contribuindo para reduzir o número de animais abandonados e ajudando a dar uma segunda chance a um pet que precisa de um lar amoroso.</li>
 
 <li> Carlos usaria o site  para encontrar o companheiro perfeito para sua vida. Como ele mora em um apartamento pequeno e trabalha em período integral, um site de adoção oferece a conveniência de pesquisar e filtrar animais com base em critérios específicos, como tamanho, idade e nível de energia.</li>
 </ul>
+
 <h5><strong>Como Devemos Tratar:</strong></h5>
 <ul>
-
 <li>Empatia e compreensão</li>   
 <li>Transparência e confiabilidade </li>
 <li>Suporte e orientação </li>
 <li>Respeito e valorização </li>
+  
+<h5><strong>Como nunca devemos trata-lo:</strong> </h5>
 
-<li><strong>Como nunca devemos trata-lo:</strong> </li>
+<li><strong>Desrespeito às suas preferências:</strong>Carlos não gostaria que suas preferências e requisitos para um animal de estimação fossem ignorados ou menosprezados durante sua busca no site de adoção.</li>
 
-<li>Desrespeito às suas preferências: Carlos não gostaria que suas preferências e requisitos para um animal de estimação fossem ignorados ou menosprezados durante sua busca no site de adoção.</li>
+<li>><strong>Informações enganosas:</strong> Ele não apreciaria encontrar informações falsas ou enganosas sobre os animais disponíveis para adoção, como idade, temperamento ou histórico médico.</li>
 
-<li>Informações enganosas: Ele não apreciaria encontrar informações falsas ou enganosas sobre os animais disponíveis para adoção, como idade, temperamento ou histórico médico.</li>
-
-<li>Falta de suporte pós-adoção: Carlos valorizaria o suporte contínuo após a adoção, como orientações sobre cuidados com o animal e acesso a recursos veterinários, para garantir que ele possa proporcionar o melhor ambiente possível para seu novo pet.</li>
+<li>><strong>Falta de suporte pós-adoção:</strong> Carlos valorizaria o suporte contínuo após a adoção, como orientações sobre cuidados com o animal e acesso a recursos veterinários, para garantir que ele possa proporcionar o melhor ambiente possível para seu novo pet.</li>
 </ul>
 
 <h4><strong>Persona 3</strong></h4>
 <ul>
-  <li><strong>Nome:</strong> João Oliveira</li>  
+<li><strong>Nome:</strong> João Oliveira</li>  
 <li><strong>Idade:</strong> 35 anos </li>
 <li><strong>Profissão:</strong> Engenheiro Civil  </li>
 <li><strong>Hobby:</strong> João é uma pessoa que gosta de passar o seu tempo livre em casa jogando com seus amigos virtuais. Ele também tem interesse em fotografia e gosta de capturar belas paisagens naturais e busca um companheiro para dividir seu tempo.</li>  
@@ -183,18 +184,18 @@ Adoção responsável: Carlos optaria por adotar um animal de estimação em vez
 
 <h5><strong>Objetos e lugares:</strong></h5>
 <ul>
-<li>Smartphone: João usa seu smartphone diariamente para acessar a internet, verificar e-mails, usar aplicativos de redes sociais e fazer chamadas. Ele o usa em casa, no trabalho e em movimento, especialmente quando está ao ar livre explorando trilhas ou acampando.  </li>
+<li><strong>Smartphone:</strong> João usa seu smartphone diariamente para acessar a internet, verificar e-mails, usar aplicativos de redes sociais e fazer chamadas. Ele o usa em casa, no trabalho e em movimento, especialmente quando está ao ar livre explorando trilhas ou acampando.  </li>
   
-<li>Computador portátil: João possui um laptop que ele usa principalmente para trabalhar, mas também para atividades de lazer, como assistir a vídeos online, navegar na web e editar suas fotos de viagem. Ele geralmente usa seu laptop em casa ou em cafés, onde pode se concentrar em suas tarefas.  </li>
+<li><strong>Computador portátil:</strong> João possui um laptop que ele usa principalmente para trabalhar, mas também para atividades de lazer, como assistir a vídeos online, navegar na web e editar suas fotos de viagem. Ele geralmente usa seu laptop em casa ou em cafés, onde pode se concentrar em suas tarefas.  </li>
   
-<li>Câmera fotográfica: Como entusiasta da fotografia, João possui uma câmera fotográfica digital que ele leva consigo em suas aventuras ao ar livre. Ele a utiliza para capturar belas paisagens naturais, registrar momentos especiais e documentar suas viagens e experiências ao ar livre.  </li>
-<li>Objetos Digitais:</li>  
+<li><strong>Câmera fotográfica:</strong> Como entusiasta da fotografia, João possui uma câmera fotográfica digital que ele leva consigo em suas aventuras ao ar livre. Ele a utiliza para capturar belas paisagens naturais, registrar momentos especiais e documentar suas viagens e experiências ao ar livre.  </li>
+<li><strong>Objetos Digitais:</li>  
 
-<li>Site de adoção de animais: João utiliza um site de adoção de animais para pesquisar e encontrar informações sobre animais disponíveis para adoção. Ele acessa o site em seu smartphone ou laptop, navegando pelos perfis dos animais, lendo suas histórias e visualizando fotos.  </li>
+<li><strong>Site de adoção de animais:</strong> João utiliza um site de adoção de animais para pesquisar e encontrar informações sobre animais disponíveis para adoção. Ele acessa o site em seu smartphone ou laptop, navegando pelos perfis dos animais, lendo suas histórias e visualizando fotos.  </li>
   
-<li>Redes sociais: João está ativo em algumas redes sociais, como Facebook e Instagram. Ele usa essas plataformas para se conectar com amigos e familiares, compartilhar fotos de suas aventuras ao ar livre e seguir organizações de resgate e abrigos de animais para se manter informado sobre eventos de adoção e oportunidades.</li>  
+<li><strong>Redes sociais: </strong>João está ativo em algumas redes sociais, como Facebook e Instagram. Ele usa essas plataformas para se conectar com amigos e familiares, compartilhar fotos de suas aventuras ao ar livre e seguir organizações de resgate e abrigos de animais para se manter informado sobre eventos de adoção e oportunidades.</li>  
 
-<li>Aplicativos de planejamento de viagens: Quando João está planejando uma viagem ao ar livre, ele utiliza aplicativos de planejamento de viagens para encontrar trilhas, acampamentos e outras atividades ao ar livre em diferentes destinos. Ele usa esses aplicativos para obter informações sobre rotas, condições do tempo e dicas de viagem. </li>
+<li><strong>Aplicativos de planejamento de viagens:</strong> Quando João está planejando uma viagem ao ar livre, ele utiliza aplicativos de planejamento de viagens para encontrar trilhas, acampamentos e outras atividades ao ar livre em diferentes destinos. Ele usa esses aplicativos para obter informações sobre rotas, condições do tempo e dicas de viagem. </li>
 </ul>
 
 <h5><strong>Objetivos Chave:</strong></h5>
@@ -206,39 +207,17 @@ Adoção responsável: Carlos optaria por adotar um animal de estimação em vez
   </ul>
   
   <h5><strong>Como Devemos Tratar:</strong></h5>  
-    <ul>
+<ul>
 <li>Empatia e compreensão 
 <li>>Transparência e confiabilidade </li>
 <li>Suporte e orientação </li>
 <li>Respeito e valorização  </li>
 
-<h5>Nunca Devemos:</h5> 
+<h5><strong>Nunca Devemos:</strong></h5> 
 <li>Falta de comprometimento com o bem-estar dos animais, como falta de recursos adequados para cuidar dos animais disponíveis para adoção.</li>  
 <li>Experiências negativas, como dificuldades técnicas persistentes no site de adoção de animais ou falta de resposta a perguntas e preocupações de João. </li> 
 <li>Qualquer forma de exploração ou abuso de animais por parte de criadores ou outras partes interessadas na indústria de animais de estimação.</li> 
 </ul>
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
 
 ## Histórias de Usuários
