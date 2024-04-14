@@ -319,9 +319,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
 > 
 > **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
-> ![Wireframe] (images/tela1.jpg)
+> ![Wireframe](images/tela1.jpg)
 
 
 # Metodologia
