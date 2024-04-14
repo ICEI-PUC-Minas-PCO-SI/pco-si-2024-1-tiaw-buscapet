@@ -173,16 +173,16 @@ Adoção responsável: Carlos optaria por adotar um animal de estimação em vez
 <li>Falta de suporte pós-adoção: Carlos valorizaria o suporte contínuo após a adoção, como orientações sobre cuidados com o animal e acesso a recursos veterinários, para garantir que ele possa proporcionar o melhor ambiente possível para seu novo pet.</li>
 </ul>
 
-<h4><strong>Persona 3</strong>strong></h4>
+<h4><strong>Persona 3</strong></h4>
 <ul>
-  <li><strong>Nome:</strong>strong> João Oliveira</li>  
+  <li><strong>Nome:</strong> João Oliveira</li>  
 <li><strong>Idade:</strong> 35 anos </li>
 <li><strong>Profissão:</strong> Engenheiro Civil  </li>
-<li><strong>Hobby:</strong>strong> João é uma pessoa que gosta de passar o seu tempo livre em casa jogando com seus amigos virtuais. Ele também tem interesse em fotografia e gosta de capturar belas paisagens naturais e busca um companheiro para dividir seu tempo.</li>  
+<li><strong>Hobby:</strong> João é uma pessoa que gosta de passar o seu tempo livre em casa jogando com seus amigos virtuais. Ele também tem interesse em fotografia e gosta de capturar belas paisagens naturais e busca um companheiro para dividir seu tempo.</li>  
 <li><strong>Personalidade:</strong> João é uma pessoa tranquila, amigável e compassiva, especialmente em relação aos animais. Ele é determinado, valoriza a autenticidade e a simplicidade, e mantém uma visão otimista da vida, mesmo diante de desafios.</li> 
 </ul>  
 
-<h5><strong>Objetos e lugares:</strong>strong></h5>
+<h5><strong>Objetos e lugares:</strong></h5>
 <ul>
 <li>Smartphone: João usa seu smartphone diariamente para acessar a internet, verificar e-mails, usar aplicativos de redes sociais e fazer chamadas. Ele o usa em casa, no trabalho e em movimento, especialmente quando está ao ar livre explorando trilhas ou acampando.  </li>
   
