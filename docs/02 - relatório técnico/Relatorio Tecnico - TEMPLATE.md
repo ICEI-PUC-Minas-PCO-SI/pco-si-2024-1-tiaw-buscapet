@@ -128,6 +128,96 @@ Personalidade: Ana é uma pessoa extrovertida, criativa e aventureira. Ela é um
 <li>Julgamento: Julgar as escolhas de Ana em relação à adoção de um animal de estimação ou criticar sua decisão de adotar de um abrigo em vez de comprar de criadores pode fazer com que ela se sinta julgada e envergonhada.</li>
 </ul>
 
+<h4>Persona 2</h4>
+<ul>
+<li>Nome: Carlos</li>
+<li>Idade: 35 anos</li>
+<li>Profissão: Analista de sistemas</li> 
+<li>Hobbys: Carlos é um amante dos animais e sempre sonhou em ter um pet para fazer companhia em casa. Ele gosta de passar seu tempo livre ao ar livre, praticando atividades como caminhadas e corridas. Além disso, ele é um entusiasta da natureza e gosta de aprender sobre diferentes espécies de animais.</li>
+<li>Personalidade: Carlos é um indivíduo tranquilo e atencioso, cujo coração se ilumina na presença de animais. Sua paixão pela natureza o conecta profundamente com o mundo ao seu redor, e ele valoriza a simplicidade e a serenidade que encontra ao ar livre. Ele é um espírito livre que busca equilíbrio entre sua vida agitada na cidade e seu desejo de estar em harmonia com a natureza.
+Embora viva uma vida ocupada, Carlos é comprometido com suas responsabilidades e está determinado a oferecer o melhor cuidado possível para seu futuro companheiro peludo. Sua gentileza e paciência fazem dele um amigo confiável para qualquer animal de estimação que entre em sua vida.</li>
+
+<h4>Objetos e lugares:</h4>
+<ul>
+<li>Tênis confortáveis e roupas esportivas para suas caminhadas e corridas ao ar livre. Parques locais e trilhas para caminhadas onde ele pode desfrutar da natureza e praticar atividades ao ar livre.</li>
+<li>Laptop ou computador desktop, seu principal instrumento de trabalho para desenvolvimento, análise e resolução de problemas de software.</li>
+<li>Escritórios de empresas de tecnologia, onde ele trabalha diretamente com sua equipe de desenvolvimento ou com clientes.</li>
+<li>Smartphone onde ele utiliza para pesquisar sobre pet shops e centros de adoção de animais, onde ele pode encontrar seu companheiro peludo.</li>
+</ul>
+<h5>Objetivos:</h5>  
+<ul>
+  <li>Carlos está em busca de um companheiro leal e amoroso que possa trazer alegria e companhia para sua vida diária. Ele quer encontrar um pet que se adapte bem ao ambiente de um apartamento e que seja fácil de cuidar, mas também está aberto a investir tempo e esforço para proporcionar o melhor ambiente possível para seu novo pet.</li>
+
+<li>Desafios: Carlos mora sozinho em um apartamento pequeno e trabalha em período integral, então ele está procurando por um animal de estimação que se adapte ao seu estilo de vida ocupado e ao espaço limitado de sua casa. Ele também está preocupado com a responsabilidade de cuidar de um animal e quer garantir que escolha o pet certo para ele.</li>
+
+<li>Contribuir para o bem-estar: 
+Adoção responsável: Carlos optaria por adotar um animal de estimação em vez de comprar de criadores, contribuindo para reduzir o número de animais abandonados e ajudando a dar uma segunda chance a um pet que precisa de um lar amoroso.</li>
+
+<li> Carlos usaria o site  para encontrar o companheiro perfeito para sua vida. Como ele mora em um apartamento pequeno e trabalha em período integral, um site de adoção oferece a conveniência de pesquisar e filtrar animais com base em critérios específicos, como tamanho, idade e nível de energia.</li>
+</ul>
+<h5>Como Devemos Tratar:</h5>
+<ul>
+
+<li>Empatia e compreensão</li>   
+<li>Transparência e confiabilidade </li>
+<li>Suporte e orientação </li>
+<li>Respeito e valorização </li>
+
+<li>Como nunca devemos trata-lo: </li>
+
+<li>Desrespeito às suas preferências: Carlos não gostaria que suas preferências e requisitos para um animal de estimação fossem ignorados ou menosprezados durante sua busca no site de adoção.</li>
+
+<li>Informações enganosas: Ele não apreciaria encontrar informações falsas ou enganosas sobre os animais disponíveis para adoção, como idade, temperamento ou histórico médico.</li>
+
+<li>Falta de suporte pós-adoção: Carlos valorizaria o suporte contínuo após a adoção, como orientações sobre cuidados com o animal e acesso a recursos veterinários, para garantir que ele possa proporcionar o melhor ambiente possível para seu novo pet.</li>
+</ul>
+
+<h4>Persona 3</h4>
+<ul>
+  <li>Nome: João Oliveira</li>  
+<li>Idade: 35 anos </li>
+<li>Profissão: Engenheiro Civil  </li>
+<li>Hobby: João é uma pessoa que gosta de passar o seu tempo livre em casa jogando com seus amigos virtuais. Ele também tem interesse em fotografia e gosta de capturar belas paisagens naturais e busca um companheiro para dividir seu tempo.</li>  
+<li>Personalidade: João é uma pessoa tranquila, amigável e compassiva, especialmente em relação aos animais. Ele é determinado, valoriza a autenticidade e a simplicidade, e mantém uma visão otimista da vida, mesmo diante de desafios.</li> 
+</ul>  
+
+<h5>Objetos e lugares:</h5>
+<ul>
+<li>Smartphone: João usa seu smartphone diariamente para acessar a internet, verificar e-mails, usar aplicativos de redes sociais e fazer chamadas. Ele o usa em casa, no trabalho e em movimento, especialmente quando está ao ar livre explorando trilhas ou acampando.  </li>
+  
+<li>Computador portátil: João possui um laptop que ele usa principalmente para trabalhar, mas também para atividades de lazer, como assistir a vídeos online, navegar na web e editar suas fotos de viagem. Ele geralmente usa seu laptop em casa ou em cafés, onde pode se concentrar em suas tarefas.  </li>
+  
+<li>Câmera fotográfica: Como entusiasta da fotografia, João possui uma câmera fotográfica digital que ele leva consigo em suas aventuras ao ar livre. Ele a utiliza para capturar belas paisagens naturais, registrar momentos especiais e documentar suas viagens e experiências ao ar livre.  </li>
+<li>Objetos Digitais:</li>  
+
+<li>Site de adoção de animais: João utiliza um site de adoção de animais para pesquisar e encontrar informações sobre animais disponíveis para adoção. Ele acessa o site em seu smartphone ou laptop, navegando pelos perfis dos animais, lendo suas histórias e visualizando fotos.  </li>
+  
+<li>Redes sociais: João está ativo em algumas redes sociais, como Facebook e Instagram. Ele usa essas plataformas para se conectar com amigos e familiares, compartilhar fotos de suas aventuras ao ar livre e seguir organizações de resgate e abrigos de animais para se manter informado sobre eventos de adoção e oportunidades.</li>  
+
+<li>Aplicativos de planejamento de viagens: Quando João está planejando uma viagem ao ar livre, ele utiliza aplicativos de planejamento de viagens para encontrar trilhas, acampamentos e outras atividades ao ar livre em diferentes destinos. Ele usa esses aplicativos para obter informações sobre rotas, condições do tempo e dicas de viagem. </li>
+</ul>
+
+<h5>Objetivos Chave:</h5>
+  <ul>
+<li>Encontrar informações detalhadas sobre animais disponíveis para adoção, incluindo fotos, descrições e histórico de saúde.</li>  
+<li>Conectar-se com abrigos e organizações de resgate de animais para iniciar o processo de adoção.</li>  
+<li>Aprender mais sobre cuidados com animais, treinamento e comportamento.  </li>
+<li>João usaria o site para encontrar um animal de estimação que se encaixe em seu estilo de vida e que possa lhe trazer companhia e alegria. </li> 
+  </ul>
+  
+  <h5>Como Devemos Tratar:</h5>  
+    <ul>
+<li>Empatia e compreensão 
+<li>>Transparência e confiabilidade </li>
+<li>Suporte e orientação </li>
+<li>Respeito e valorização  </li>
+
+<h5>Nunca Devemos:</h5> 
+<li>Falta de comprometimento com o bem-estar dos animais, como falta de recursos adequados para cuidar dos animais disponíveis para adoção.</li>  
+<li>Experiências negativas, como dificuldades técnicas persistentes no site de adoção de animais ou falta de resposta a perguntas e preocupações de João. </li> 
+<li>Qualquer forma de exploração ou abuso de animais por parte de criadores ou outras partes interessadas na indústria de animais de estimação.</li> 
+</ul>
+
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
 > você deve ser enumerar e descrever precisamente e de forma
 > personalizada todos os principais envolvidos com a solução almeja. 
