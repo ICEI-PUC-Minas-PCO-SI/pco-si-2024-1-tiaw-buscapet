@@ -292,14 +292,16 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Wireframes
 
 > Ao total foram desenvolvidas 5 telas de wireframes, estas foram divididas da seguinte forma: tela1 = Tela inicial, tela2 = Tela de ONGS, tela3 = Tela de adoção de animais, tela4 = Tela de FaQs (perguntas e dúvias frequentes do usuário), tela5 = Tela de Sobre (é uma tela com um brevo contexto do projeto). O projeto foi divido dessa meneira com o intuito de ser didático e de fácil uso para o usuário, de modo que todas as funções são claras e precisas. As cores também foram implementas com o paradigma de não serem muito extravagantes a ponto de deixar todo o trabalho colorido e também de não serem muito claras para não atrabalhar a legibilidade do cliente.
-
+>
+> Link do Figma -[Figma](https://www.figma.com/file/KJaAloPIq4PHWH2uBqvSjw/BuscaPET?type=design&node-id=0%3A1&mode=design&t=0TRnSQ2ReaXQo6Su-1).
+> 
 > **Exemplo**:
 > ![Wireframe](images/tela1.jpg)
 > ![Wireframe](images/tela2.jpg)
 > ![Wireframe](images/tela3.jpg)
 > ![Wireframe](images/tela4.jpg)
 > ![Wireframe](images/tela5.jpg)
-> Link do Figma ![Figma](https://www.figma.com/file/KJaAloPIq4PHWH2uBqvSjw/BuscaPET?type=design&node-id=0%3A1&mode=design&t=0TRnSQ2ReaXQo6Su-1).
+
 
 
 # Metodologia
