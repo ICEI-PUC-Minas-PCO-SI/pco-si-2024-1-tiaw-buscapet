@@ -299,6 +299,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > ![Wireframe](images/tela3.jpg)
 > ![Wireframe](images/tela4.jpg)
 > ![Wireframe](images/tela5.jpg)
+> Link do Figma ![Figma](https://www.figma.com/file/KJaAloPIq4PHWH2uBqvSjw/BuscaPET?type=design&node-id=0%3A1&mode=design&t=0TRnSQ2ReaXQo6Su-1).
 
 
 # Metodologia
