@@ -291,6 +291,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
+> Ao total foram desenvolvidas 5 telas de wireframes, estas foram divididas da seguinte forma: tela1 = Tela inicial, tela2 = Tela de ONGS, tela3 = Tela de adoção de animais, tela4 = Tela de FaQs (perguntas e dúvias frequentes do usuário), tela5 = Tela de Sobre (é uma tela com um brevo contexto do projeto). O projeto foi divido dessa meneira com o intuito de ser didático e de fácil uso para o usuário, de modo que todas as funções são claras e precisas. As cores também foram implementas com o paradigma de não serem muito extravagantes a ponto de deixar todo o trabalho colorido e também de não serem muito claras para não atrabalhar a legibilidade do cliente.
+
 > **Exemplo**:
 > ![Wireframe](images/tela1.jpg)
 > ![Wireframe](images/tela2.jpg)
@@ -444,11 +446,28 @@ Em conjunto com o grupo, optamos por usar o Github como ferramenta de gerência 
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+>PERIFÉRICO, Vegano. Comprar animais é uma prática ultrapassada e desnecessária: Adotar é a forma mais correta de ter animais em casa, até porque nenhum ser vivo deve ser tratado como objeto ou coisa. Terra, 2023. Disponível em: https://www.terra.com.br/visao-do-corre/rango-esperto/comprar-animais-e-uma-pratica-ultrapassada-e desnecessaria,cd82410d65ee468512c285b46912f8a69hramamn.html. Acesso em: 11 abril. 2024. 
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
+>SILVEIRA, Letícia. Como decidir entre adotar ou comprar um animal; confira custos. Agência de notícias CEUB, 2017.Disponível em: https://agenciadenoticias.uniceub.br/economia/como-decidir-entre-adotar-ou-compra
+r-um-animal-confira-custos/. Acesso em 11 abril. 2024.
+
+>A adoção de cães e gatos deve ser incentivada:O hábito dos brasileiros em comprar animais de estimação, ao invés da adoção de cães e gatos, fazem com que muitos pets permaneçam abandonados.Vet Quality Centro veterinário 24H. Disponível em:
+https://vetquality.com.br/cao/adocao-de-animais-confira-7-beneficios/#:~:text=Adotar%20um%20animal%20pode%20aumentar,ansiedade%20e%20sedentarismo%20dos%20donos. Acesso em 11 abril. 2024.
+
+>Quais são os animais mais comprados?. Portal Insights. Disponível em: https://www.portalinsights.com.br/perguntas-frequentes/qual-o-animal-mais-vendido-no-brasil#:~:text=Quais%20s%C3%A3o%20os%20animais%20mais,3%20milh%C3%B5es%20do%20ano%20anterior. Acesso em 11 abril. 2024.
+
+>Número de animais de estimação em situação de vulnerabilidade mais doque dobra em dois anos, aponta pesquisa do IPB. Instituto Pet Brasil, 2022. Disponível em: https://institutopetbrasil.com/fique-por-dentro/numero-de-animais-de-estimacao-em-situacao-de-vulnerabilidade-mais-do-que-dobra-em-dois-anos-aponta-pesquisa-do-ipb/#:~:text=O%20Brasil%20possui%20hoje%20184.960,mais%20de%2060%20mil%20animais. Acesso em 11 abril. 2024.
+
+>IBGE - População de animais de estimação no Brasil - 2013 - Em milhões. ABINET, 2015. Disponível em: https://www.gov.br/agricultura/pt-br/assuntos/camaras-setoriais-tematicas/documentos/camaras-tematicas/insumos-agropecuarios/anos-anteriores/ibge-populacao-de-animais-de-estimacao-no-brasil-2013-abinpet-79.pdf. Acesso em: 11 abril. 2024.
+
+>Censo Pet IPB: com alta recorde de 6% em um ano, gatos lideram crescimento de animais de estimação no Brasil: Procura por felinos tem aumentado mais do que a de cães, que tiveram alta de 4% de 2020 para 2021; cachorros ainda lideram ranking em números absolutos. Instituto Pet Brasil, 2022. Disponível em: https://institutopetbrasil.com/fique-por-dentro/amor-pelos-animais-impulsiona-os-negocios-2-2/. Acesso em: 11 abril. 2024.
+
+>Número de animais abandonados e acolhidos por ONGs cresce no Brasil. Jornal do Comércio: O Jornal de economia e negócios do RS, 2024. Disponível em: https://www.jornaldocomercio.com/geral/2024/01/1139363-numero-de-animais-abandonados-e-acolhidos-por-ongs-cresce-no-brasil.html#:~:text=Segundo%20pesquisa%20feita%20pelo%20Instituto,7.398%20(4%25)%20s%C3%A3o%20gatos. Acesso em: 11 abril. 2024.
+
+>LEMOS, Simone.Cresce o número de adoções e de abandono de animais na pandemia:Os animais não são objetos, eles necessitam de atenção e cuidados, por isso o processo de adoção de um pet deve ser feito com responsabilidade, jamais por impulso. Jornal da USP, 2021. Disponível em: https://jornal.usp.br/atualidades/cresce-o-numero-de-adocoes-e-de-abandono-de-animais-na-pandemia/. Acesso em: 11 abril. 2024.
+
+>Por que as pessoas abandonam os vira-latas?: A falta de preparação e responsabilidade é um dos principais fatores. Alguns tutores dão mais valor quando pagam pelo cachorro e tendem a inferiorizar os vira-latas. Totós da Teté, 2023. Disponível em:  https://totosdatete.org.br/adocao-responsavel/porque-pessoas-abandonam-vira-latas/?gad_source=1&gclid=Cj0KCQjw5cOwBhCiARIsAJ5njuaPxy2j6z37nG8Xfk4r7C049P3noymYhnta5kZhCwYbok4_wN177TAaAiijEALw_wcB. Acesso em: 11 abril. 2024.
+
 > **Links Úteis**:
 > - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
 =======
