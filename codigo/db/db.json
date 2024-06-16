@@ -1,0 +1,55 @@
+{
+    "ongs": [
+
+        {
+            "nome": "AMPARA Animal",
+            "descricao": "O Instituto Ampara Animal é uma OSCIP sem fins lucrativos. Somos protetores de animais abandonados e vítimas de maus-tratos. Lutamos para que os mais de 30 milhões de animais de rua tenham uma vida com respeito e amor.",
+            "estado": "SP",
+            "instagram": "instagram.com/amparanimal",
+            "telefone": "-",
+            "email": "contato@amparanimal.org.br",
+            "img": "./../assets/ampara.png"
+        },{
+            "nome": "Cão sem dono",
+            "descricao": "O Cão Sem Dono é uma ONG (Organização Não Governamental), sem fins lucrativos, e que nasceu de um grande sonho do seu atual presidente: tirar o maior número possível de animais das ruas, dar tratamento adequado e integrá-los a famílias que lhes deem amor, carinho e uma vida digna.",
+            "estado": "SP",
+            "instagram": "instagram.com/caosemdono.oficial",
+            "telefone": "-",
+            "email": "clinica@caosemdono.com.br",
+            "img": "./../assets/cao sem dono2.png"
+        },{
+            "nome": "Vamos Frajolar",
+            "descricao": "A Vamos Frajolar abriga mais de 69 bichanos em sua sede e cuida de mais de 120 animais em famílias vulneráveis, para quem é oferecida assistência para o não abandono dos animais, até que a família se reestruture.",
+            "estado": "SP",
+            "instagram": "instagram.com/vamosfrajolar",
+            "telefone": "(12) 99208-2577",
+            "email": "info@vamosfrajolar.org",
+            "img": "./../assets/frajolar.png"
+
+        },{
+            "nome": "ProAnima – Associação Protetora dos Animais",
+            "descricao": "Constituída em 2003, a ProAnima é uma organização da sociedade civil de caráter socioambientalista, mantida com trabalho voluntário e cujos objetivos estratégicos são concretizados por meio de ações organizadas em quatro eixos: Ativismo, Política Pública, Educação e Proteção.",
+            "estado": "DF",
+            "instagram": "instagram.com/proanimadf",
+            "telefone": "(61) 3226-6621",
+            "email": "proanima@proanima.org.br",
+            "img": "./../assets/proanima.png"
+        },{
+            "nome": "RockBicho",
+            "descricao": "Somos a Rockbicho.org Associação de Proteção Animal (ex-SOS Bichos), uma organização não governamental, sem fins lucrativos, que atua com o objetivo de promover a guarda responsável e a defesa dos direitos dos animais. Nossa missão e o amor pelos animais nos motivam dia a dia, a trabalhar para tornar a adoção uma experiência única e transformadora para animais, pessoas e de melhorias para a cidade.",
+            "estado": "MG",
+            "instagram": "instagram.com/rockbicho",
+            "telefone":"(31) 2123-1600",
+            "email": "contato@rockbicho.org.",
+            "img": "./../assets/rock.png"
+        },{
+            "nome": "Associação Focinhos de Luz",
+            "descricao": "A Associação Focinhos de Luz é uma organização sem fins lucrativos que luta pela reintrodução de animais abandonados à sociedade, criada em 2010. Construída por apaixonados pela causa animal e inconformados com o abandono recorrente, a nossa casa de passagem abriga em torno de 100 animais, que passam por cuidados até estarem aptos a adoção, onde podem finalmente encontrar um lar definitivo e amoroso.",
+            "estado": "RJ",
+            "instagram": "instagram.com/focinhosdeluz",
+            "telefone": "-",
+            "email": "contato@focinhosdeluz.com",
+            "img": "./../assets/focinho de luz.png"
+        }
+    ]
+}

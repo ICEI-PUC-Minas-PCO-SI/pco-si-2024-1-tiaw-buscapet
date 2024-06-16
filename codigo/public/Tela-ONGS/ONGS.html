@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ongs</title>
+
+    <link rel="stylesheet" href="/Tela-ONGS/style.css">
+    <link rel="stylesheet" href="/Tela-ONGS/style2.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <header>
+        <img src="./../assets/Logo.png" alt="logo" srcset="">
+        
+        <nav>
+            <input type="checkbox" id="menuToggle">
+
+            <label for="menuToggle" class="menu-icon">
+                <i class="material-icons">menu</i>
+                <i class="large material-icons">cancel</i>
+            </label>
+           
+            <ul>
+                <li><a href="./../index.html">Início</a></li>
+                <li><a href="ONGS.html">Adotar</a></li>
+                <li><a href="#">ONGS</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="bem-vindo">
+
+            <div id="fundo-trans">
+
+                <h1 id="tit-inicio">ONGS-SOS Vida Animal</h1>
+        
+                <h3>Não abandone aquele que nunca vai abandonar você.</h3>
+            </div>
+
+        </article>
+<!--  -->
+        <article id="secao-busca">
+
+            <h1 id="tit-pesquisa">Conheça alguns dos nossos parceiros !!!</h1>
+    
+            <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar ONGS" onkeyup="pesquisar()">
+
+            <button type="submit" onclick="pesquisar()">
+                
+                <i class="material-icons">search</i>
+            </button>
+        </article>
+       
+        <article id="ongs">
+
+        </article>
+    </main>
+   
+    <aside id="parallax">
+
+        <h2 id="tit-paralax">Conheça essas maravilhas</h2>
+
+    </aside>
+
+    <footer>
+        <div id="contatos">
+            <ul>
+                <li>
+                    <a href=""><i class="bi bi-instagram"></i> Instagram</a>
+                </li>
+                <li>
+                    <a href=""><i class="bi bi-twitter"></i> Twitter</a>
+                </li>
+                <li>
+                    <a href=""><i class="bi bi-whatsapp"></i> Whatsapp</a>
+                </li>
+                <li>
+                    <a href=""><i class="bi bi-envelope-at"></i> E-mail</a>
+                </li>
+            </ul>
+        </div>
+        <img src="./../assets/logo-footer.png" alt="logo" srcset="">
+        <p>&copy BuscaPet</p>
+      
+    </footer>
+
+    <script src="scrpit.js"></script>
+   
+</body>
+</html>
