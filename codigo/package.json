@@ -1,0 +1,16 @@
+{
+  "name": "BuscaPet",
+  "version": "1.0.0",
+  "description": "Site BuscaPet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Anielle, Breno, Deborah, Ingrid, João Felipe, Rodrigo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "json-server": "^0.17.4"
+  }
+}
