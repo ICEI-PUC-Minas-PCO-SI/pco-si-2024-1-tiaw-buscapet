@@ -41,7 +41,7 @@ window.onload = () => {
         imprimeOngs()
     })
     .catch(error => {
-        alert('Erro ao obter dados do servidor: ' +error.message);
+        alert('Erro ao obter dados do servidor: ' + error.message);
     })
 }
 
