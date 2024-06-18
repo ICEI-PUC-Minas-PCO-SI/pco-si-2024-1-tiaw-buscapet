@@ -1,6 +1,5 @@
 {
     "ongs": [
-
         {
             "nome": "AMPARA Animal",
             "descricao": "O Instituto Ampara Animal é uma OSCIP sem fins lucrativos. Somos protetores de animais abandonados e vítimas de maus-tratos. Lutamos para que os mais de 30 milhões de animais de rua tenham uma vida com respeito e amor.",
@@ -50,6 +49,65 @@
             "telefone": "-",
             "email": "contato@focinhosdeluz.com",
             "img": "./../assets/focinho de luz.png"
+        }
+    ],
+    "carouselData": [
+        {
+            "title": "Encontre aqui o seu melhor amigo"
+        },
+        {
+            "slides": [
+                {
+                    "index": 1,
+                    "imageSrc": "assets/animal1.jpg",
+                    "details": {
+                        "nome": "Pedrinho",
+                        "raca": "Gatinho de Rua",
+                        "personalidade": "Gosta de brincar e dormir, muito sociável e carinhoso",
+                        "ondeAchar": "Disponível na tela de Adoções"
+                    }
+                },
+                {
+                    "index": 2,
+                    "imageSrc": "assets/animal2.jpg",
+                    "details": {
+                      "nome": "Viserion, Drogon, Rhegal",
+                      "raca": "Vira-Lata (dragõeszinhos)",
+                      "personalidade": "Três irmãozinhos que adoram correr para todo lado, são muito unidos e amigáveis e sempre com uma FOME DE DRAGÃO",
+                      "ondeAchar": "Disponível na tela de Adoções"
+                    }
+                },
+                {
+                    "index": 3,
+                    "imageSrc": "assets/animal3.jpg",
+                    "details": {
+                        "nome": "Taylor Swift",
+                        "raca": "Vira-Lata com Peaggle",
+                        "personalidade": "Uma cachorrinha muito alegre que adora gastar sua energia deitada no sol, calma e silênciosa                             ela faz seus Show para os outros pets do abrigo",
+                        "ondeAchar": "Disponível na tela de Adoções"
+                      }
+                }
+        ]
+
+        },
+        {
+            "thumbnails": [
+                {
+                    "index": 1,
+                    "imageSrc": "assets/animal1.jpg",
+                    "altText": "Imagem 1"
+                },
+                {
+                    "index": 2,
+                    "imageSrc": "assets/animal2.jpg",
+                    "altText": "Imagem 2"
+                },
+                {
+                    "index": 3,
+                    "imageSrc": "assets/animal3.jpg",
+                    "altText": "Imagem 3"
+                }
+            ]
         }
     ]
 }

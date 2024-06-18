@@ -1,0 +1,458 @@
+html, body{
+
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;   
+}
+
+/* --------------- NAV COMEÇA AQUI --------------------*/
+header{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #3f3f3f;
+  padding: 10px 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.392);
+  position: relative;
+  z-index: 3;
+}
+
+header > img{
+
+  max-width: 100%;
+  display: block;
+}
+
+header nav ul{
+
+  display: flex;
+
+}
+
+header nav ul li{
+
+  margin-left: 5px;
+  list-style-type: none;
+  padding: 10px 15px;
+  padding-top: 20px;
+}
+
+header nav ul li a{
+
+  color:#FBF5B7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover{
+
+  color:#FF661B;
+  padding: 0px 20px;
+  font-size: 1.3em;
+}
+
+header > nav #menuToggle{
+
+  display:none;
+}
+
+header > nav .menu-icon{
+
+  display: none;
+}
+
+/* --------------- NAV TERMINA AQUI --------------------*/
+
+main > article#inicio{
+  
+    display: flex;
+    flex-wrap: wrap;
+    background: url(./../assets/fundo-nav.png) no-repeat;
+    background-position: left center;
+    background-size: cover;
+    height: 928px;
+    width: 98.93vw;
+    position: relative;
+    z-index: 2;
+
+}
+main > article#inicio > div#mini-text{
+
+    margin: 40px 40px;
+    width: 55%;
+    height: 40%;
+    padding: 30px;
+}
+
+main > article#inicio > div#mini-text > h1{
+
+    color:#FF661B;
+    margin: 0px;
+    font-size: 3.5em;
+    font-weight:bolder;
+}
+
+main > article#inicio > div#mini-text > h3{
+
+    color:#008745;
+    font-weight: 600;
+    width: 100%;
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+main > section{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+main > section > div#objetivo > h2{
+    color:#008745;
+    font-weight: 600;
+    padding: 20px;
+    width: 100%;
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-weight:bolder;
+    }
+/*--------------------------Efeito Parallax 1 Início----------------------------------------------------*/
+div#parallax1 {
+background-image: url('./../assets/parallax1.png');
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 50vh;
+margin-bottom: 200px;
+margin-top: 200px;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+div#parallax1 > h2{
+    color:#FF661B;
+    font-weight: 650;
+    padding-left: 70px;
+    padding-top: 110px;
+    width: 100%;
+    font-size: 1.5em;
+    margin-top: 10px;
+
+    }
+/*--------------------------Efeito Parallax 1 Fim----------------------------------------------------*/
+
+/*----------------Carrosel Início-------------------------*/
+
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.carousel h2{
+  color: #008745;
+  justify-content: center; 
+  display: flex;
+  font-weight:bolder;
+  padding: 20px;
+  font-size: 24px;
+
+}
+
+.slides img {
+  width: 100%;
+  display: none;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center; 
+}    
+
+.thumbnails img {
+  width: 100px;
+  height: 60px;
+  cursor: pointer;
+  opacity: 0.6;
+  margin: 0 5px;
+  position: relative;
+  padding-top: 5px;
+
+}
+
+.thumbnails img:hover {
+  opacity: 3;
+}
+
+.thumbnails img:hover::after {
+  content: "Clique para ampliar"; /* Texto a ser exibido */
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); /* Move o texto para o centro da miniatura */
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: white; 
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  font-size: 12px; 
+  opacity: 1; 
+  transition: opacity 0.3s ease; 
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 24px;
+}
+.carousel .slides .text-transp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(246, 243, 243, 0.5);
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.carousel .slides .text-transp:hover {
+    opacity: 1;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+/*----------------Carrosel Fim -----------------------------*/
+/*--------------------------Efeito Parallax 2 Início----------------------------------------------------*/
+
+    div#parallax2 {
+        background-image: url('./../assets/parallax2.png');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 50vh;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        padding-top: 100px;
+    }
+
+
+    div#parallax2 > div.botao-redondo{
+        width: 120px;
+        height: 120px; 
+        border-radius: 50%; 
+        background-color: #FF661B;
+        color: black; 
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-weight:bolder;
+        margin: 0 auto;
+
+      }
+
+
+
+    div#parallax2 > div.botao-redondo , p#parallax2{
+        color: black; 
+        font-size: 28px;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      div#parallax2 a{
+        text-decoration: none;
+        color: black;
+
+      }
+
+      div#parallax2 a:hover{
+        color: #008745;
+
+      }
+/*--------------------------Efeito Parallax 2 Fim----------------------------------------------------*/
+
+/*-------------------------------------Maus Tratos Início ---------------------------------------------*/
+section#maus-tratos{
+  background-color: #3f3f3f;
+  padding: 10px ;
+
+}
+
+section#maus-tratos > h1 {
+  color:  #FF661B;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+div.denuncie{
+padding-left: 30px;
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+height: 480px;
+}
+
+div#text-conteudo{
+  padding-right: 50px;
+  width:50%
+
+}
+
+div.denuncie > div#text-conteudo p.text {
+color:  #B4CD93;
+text-align: justify;
+padding: 20px;
+
+}
+
+div.denuncie > div#text-conteudo p.info {
+color:  #B4CD93;
+margin: 10px;
+text-align: justify;
+font-weight: bolder;
+}
+
+div.denuncie > .img{
+  background: url('./../assets/animal-denuncie.png') no-repeat;
+  width: 700px;
+  height: 700px;
+  padding-left: 20px;
+
+}
+
+/*-------------------------------------Maus Tratos Fim ------------------------------------------------*/
+
+
+/*--------------------------Efeito Parallax 3 Início----------------------------------------------------*/
+
+div#parallax3 {
+  background-image: url('./../assets/parallax3.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vh;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  padding-top: 100px;
+}
+
+
+div#parallax3 > div.botao-redondo{
+  width: 120px;
+  height: 120px; 
+  border-radius: 50%; 
+  background-color: #FF661B;
+  color: black; 
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  font-weight:bolder;
+  margin: auto;
+
+}
+
+div#parallax3 > div.botao-redondo , p#parallax3{
+  color: black; 
+  font-size: 28px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+div#parallax3 a{
+  text-decoration: none;
+  color: black;
+
+}
+
+div#parallax3 a:hover{
+  color: #008745;
+
+}
+/*--------------------------Efeito Parallax 3 Fim----------------------------------------------------*/
+
+
+
+
+/* --------------- FOOTER COMEÇA AQUI --------------------*/
+
+footer {
+  background-image: url(./../assets/footer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 300px;
+  height: 93vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div#contatos ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  justify-content: center; /* Centraliza os itens dentro da lista */
+}
+
+footer div#contatos ul li {
+  text-align: center;
+  margin: 0 15px;
+  list-style-type: none;
+  padding: 10px 15px;
+}
+
+footer div#contatos ul li a, footer p {
+  font-size: 1.3em;
+  color: #FBF5B7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer div#contatos ul li a:hover {
+  color: #FF661B;
+}
+
+footer > img {
+  max-width: 180px; 
+  display: block;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+
+/* --------------- FOOTER TERMINA AQUI --------------------*/

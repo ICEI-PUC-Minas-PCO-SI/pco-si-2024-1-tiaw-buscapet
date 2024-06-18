@@ -1,0 +1,728 @@
+@media screen and (max-width:600px) {
+
+    /*---------------Header Responsividade------------*/
+    header {
+
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px
+    }
+
+    header>nav .menu-icon {
+
+        display: block;
+        color: #FF661B;
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        line-height: 60px;
+        z-index: 999;
+    }
+
+    header>nav .menu-icon {
+
+        font-size: 1.7em;
+    }
+
+    header nav ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: #e4ffc1c0;
+        overflow: hidden;
+
+        transition: height 0.3s;
+    }
+
+    header nav ul li {
+
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    header nav ul li a {
+
+        display: block;
+        text-align: center;
+        width: 100%;
+        color: #3f3f3f;
+        font-weight: bolder;
+    }
+
+    header nav ul li a:hover {
+
+        background-color: #3f3f3f;
+        box-shadow: 0px 0px 2px 2px black;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+
+        display: block;
+    }
+
+    #menuToggle:not(:checked)~label i:nth-child(2) {
+
+        display: none;
+    }
+
+    #menuToggle:checked~label i:first-child {
+
+        display: none;
+    }
+
+    #menuToggle:not(:checked)~label i:first-child {
+
+        display: block;
+    }
+
+    #menuToggle:checked~ul {
+        height: 100%;
+    }
+
+    /*---------------Header Responsividade------------*/
+
+    /*---------------Main Responsividade-----------------*/
+
+    main>article#inicio {
+        position: relative;
+        display: flex;
+        top: 80px;
+        margin-right: 0px;
+        height: 61vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    main>article#inicio>div#mini-text>h1 {
+        font-size: 2.2em;
+        width: 250px;
+
+    }
+
+    main>article#inicio>div#mini-text>h3 {
+        font-size: 0.8em;
+        width: 340px;
+        padding: 20px;
+        background: linear-gradient(129deg, rgba(255, 255, 255, 0.37), rgba(255, 255, 255, 0.241));
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border: 2px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+
+    }
+
+    main>div#parallax1 {
+        height: 30vh;
+        max-width: 100%;
+        background-size: cover;
+        background-position: center center;
+
+    }
+
+    div#parallax1>h2 {
+        font-size: 1.3em;
+        margin-top: 0;
+        padding-top: 76px;
+    }
+
+    main>div#parallax2 {
+        height: 30vh;
+        background-image: url(./../assets/parallax2.1.png);
+        background-size: cover;
+        background-position: right center;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#parallax2>div.botao-redondo {
+        padding-top: 10px;
+    }
+
+    div#text-conteudo {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    div.denuncie {
+        height: 130vh;
+    }
+
+    div.denuncie>div#text-conteudo p.text {
+        padding-left: 0;
+    }
+
+    div.denuncie>div#text-conteudo p.info {
+        margin: 0;
+        padding-bottom: 0;
+
+    }
+
+    div.denuncie>.img {
+        background-size: contain;
+        margin-top: 40px;
+    }
+
+    main>div#parallax3 {
+        height: 30vh;
+        background-image: url(./../assets/parallax3.1.png );
+        background-size: cover;
+        background-position: center center;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div#parallax3>div.botao-redondo {
+        padding-top: 10px;
+    }
+
+
+    /*---------------Main Responsividade-----------------*/
+
+    /*-----------------Footer Responsividade-------------------*/
+
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        margin-bottom: 0px;
+        padding: 0px;
+        height: 50vh;
+    }
+
+    footer div#contatos {
+
+        padding-top: 40px;
+    }
+
+    footer div#contatos>ul {
+
+        padding-top: 0px;
+        margin: 0px;
+        margin-right: 70px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li {
+        padding-top: 15px;
+
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 0.8em;
+        margin-bottom: 0px;
+
+    }
+
+    footer>img {
+
+        max-width: 30%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    footer>p {
+
+        padding-top: 0px;
+    }
+
+}
+
+/*-----------------Footer Responsividade-------------------*/
+
+
+@media screen and (min-width:601px) and (max-width:768px) {
+
+    header {
+
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    header>nav .menu-icon {
+
+        display: block;
+        color: #FF661B;
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        line-height: 60px;
+        z-index: 999;
+    }
+
+    header>nav .menu-icon {
+
+        font-size: 1.7em;
+    }
+
+    header nav ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: #e4ffc1c0;
+        overflow: hidden;
+
+        transition: height 0.3s;
+    }
+
+    header nav ul li {
+
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    header nav ul li a {
+
+        display: block;
+        text-align: center;
+        width: 100%;
+        color: #3f3f3f;
+        font-weight: bolder;
+    }
+
+    header nav ul li a:hover {
+
+        background-color: #3f3f3f;
+        box-shadow: 0px 0px 2px 2px black;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+
+        display: block;
+    }
+
+    #menuToggle:not(:checked)~label i:nth-child(2) {
+
+        display: none;
+    }
+
+    #menuToggle:checked~label i:first-child {
+
+        display: none;
+    }
+
+    #menuToggle:not(:checked)~label i:first-child {
+
+        display: block;
+    }
+
+    #menuToggle:checked~ul {
+
+        height: 100%;
+    }
+
+    /*-------------------main------------------*/
+    main>article#inicio {
+        position: relative;
+        display: flex;
+        top: 80px;
+        margin-right: 0px;
+        height: 69vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+
+    main>article#inicio>div#mini-text>h1 {
+        font-size: 3.2em;
+        width: 360px;
+
+    }
+
+    main>article#inicio>div#mini-text>h3 {
+        font-size: 1.0em;
+        width: 520px;
+        padding: 20px;
+        background: linear-gradient(129deg, rgba(255, 255, 255, 0.37), rgba(255, 255, 255, 0.241));
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border: 2px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+    }
+
+    div#text-conteudo {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    div.denuncie {
+        height: 130vh;
+    }
+
+    div.denuncie>div#text-conteudo p.text {
+        padding-left: 0;
+    }
+
+    div.denuncie>div#text-conteudo p.info {
+        margin: 0;
+        padding-bottom: 0;
+
+    }
+
+    div.denuncie>.img {
+        background-size: contain;
+        margin-top: 40px;
+    }
+
+    /*-------------------main------------------*/
+
+
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 400px;
+    }
+
+    footer div#contatos>ul {
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 120px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 1.2em;
+
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:900px) {
+
+    header {
+
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px
+    }
+
+    /*-------------------Main---------------*/
+    main>article#inicio {
+        position: relative;
+        display: flex;
+        top: 80px;
+        margin-right: 0px;
+        height: 76vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+
+    main>article#inicio>div#mini-text>h1 {
+        font-size: 3.2em;
+        width: 360px;
+
+    }
+
+    main>article#inicio>div#mini-text>h3 {
+        font-size: 1.0em;
+        width: 550px;
+        padding: 20px;
+        background: linear-gradient(129deg, rgba(255, 255, 255, 0.401), rgba(255, 255, 255, 0.241));
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        border: 2px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(6px);
+        -webkit-backdrop-filter: blur(6px);
+    }
+
+    div.denuncie {
+        height: 75vh;
+    }
+
+    div.denuncie>div#text-conteudo p.text {
+        padding-left: 0;
+    }
+
+    div.denuncie>div#text-conteudo p.info {
+        margin: 0;
+        padding-bottom: 0;
+
+    }
+
+    div.denuncie>.img {
+        width: 400px;
+        background-size: contain;
+        margin-top: 40px;
+        align-content: center;
+    }
+
+    /*-------------------Main----------------*/
+
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 400px
+    }
+
+    footer div#contatos>ul {
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 80px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 1em;
+        padding-top: 0px;
+
+    }
+
+    footer>img {
+
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        max-height: 60%;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width: 1000px) {
+
+    header {
+
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px
+    }
+
+    /*-----------Main------------*/
+    main>article#inicio {
+        position: relative;
+        display: flex;
+        top: 80px;
+        margin-right: 0px;
+        height: 95vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+    main>article#inicio>div#mini-text>h1 {
+        font-size: 3.2em;
+        width: 360px;
+
+    }
+
+    main>article#inicio>div#mini-text>h3 {
+        font-size: 1.0em;
+        width: 550px;
+        padding: 20px;
+        background: linear-gradient(129deg, rgba(255, 255, 255, 0.401), rgba(255, 255, 255, 0.241));
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 2px solid rgba(255, 255, 255, 0.18);
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+    }
+
+    div.denuncie {
+        height: 75vh;
+    }
+
+    div.denuncie>div#text-conteudo p.text {
+        padding-left: 0;
+    }
+
+    div.denuncie>div#text-conteudo p.info {
+        margin: 0;
+        padding-bottom: 0;
+
+    }
+
+    div.denuncie>.img {
+        width: 410px;
+        background-size: contain;
+        margin-top: 40px;
+        align-content: center;
+    }
+    /*-----------Main-------------*/
+
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 450px;
+    }
+
+    footer div#contatos>ul {
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 120px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 1.2em;
+
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1366px) {
+
+    /*----------------Main----------------*/
+    main>article#inicio {
+        position: relative;
+        display: flex;
+        top: 0px;
+        margin-right: 0px;
+        height: 112vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+    main>article#inicio>div#mini-text>h1 {
+        font-size: 3.2em;
+        width: 360px;
+
+    }
+
+    main>article#inicio>div#mini-text>h3 {
+        font-size: 1.0em;
+        width: 550px;
+        padding: 20px;
+    }
+
+    div.denuncie {
+        height: 70vh;
+    }
+
+    div.denuncie>div#text-conteudo p.text {
+        padding-left: 0;
+    }
+
+    div.denuncie>div#text-conteudo p.info {
+        margin: 0;
+        padding-bottom: 0;
+
+    }
+
+    div.denuncie>.img {
+        width: 465px;
+        background-size: contain;
+        margin-top: 40px;
+        align-content: center;
+    }
+    /*----------------Main----------------*/
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 90vh;
+    }
+
+    footer div#contatos>ul {
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 120px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 1.2em;
+
+    }
+}
+@media screen and (min-width:1367px) and (max-width:1466px) {
+    /*----------------Main----------------*/
+    main>article#inicio {
+        position: relative;
+        display: flex;
+        top: 0px;
+        margin-right: 0px;
+        height: 133vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+
+    }
+    main>article#inicio>div#mini-text>h1 {
+        font-size: 3.2em;
+        width: 360px;
+
+    }
+
+    main>article#inicio>div#mini-text>h3 {
+        font-size: 1.0em;
+        width: 550px;
+        padding: 20px;
+    }
+
+    div.denuncie {
+        height: 70vh;
+    }
+
+    div.denuncie>div#text-conteudo p.text {
+        padding-left: 0;
+    }
+
+    div.denuncie>div#text-conteudo p.info {
+        margin: 0;
+        padding-bottom: 0;
+
+    }
+
+    div.denuncie>.img {
+        width: 580px;
+        background-size: contain;
+        margin-top: 40px;
+        align-content: center;
+    }
+    /*----------------Main----------------*/
+}
+
