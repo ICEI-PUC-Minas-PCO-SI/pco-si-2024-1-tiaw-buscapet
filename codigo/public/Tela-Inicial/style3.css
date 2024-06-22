@@ -1,0 +1,166 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    z-index:999;
+  }
+  
+  .popup-conteudo {
+    background: #b4cd93;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+  
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .botao-fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    border: none;
+  }
+  
+  .popup-inner-content {
+    flex: 1;
+  }
+  
+  h1 {
+    color: #E55812;
+    padding: 10px 10px;
+    margin: 0;
+  }
+  
+  h4,
+  h3,
+  p {
+    padding: 0 10px;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0 10px 10px 10px;
+    margin: 0;
+  }
+  
+  ul>li.li-ajuda, li.subLi-ajuda {
+    position: relative;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  
+  ul>li.li-ajuda::before, li.subLi-ajuda::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  
+  ul ul {
+    padding-left: 15px;
+  }
+  
+  ul ul li.li-ajuda, li.subLi-ajuda {
+    list-style-type: disc;
+    margin-left: 15px;
+  }
+  
+  ul ul li.li-ajuda::before, li.subLi-ajuda::before {
+    content: none;
+  }
+  
+  b {
+    color: white;
+  }
+  
+  .fundo-laranja {
+    background-color: #ff9f1c;
+    padding: 10px;
+    margin: 0 -10px -10px -10px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .orange-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .orange-content .text-content {
+    flex: 1;
+  }
+  
+  .fundo-laranja p {
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .fundo-laranja h3,
+  .fundo-laranja b {
+    color: #437A5F;
+    margin: 0;
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  .side-image {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .side-image-right {
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .botao-doacao {
+    background-color: #437A5F;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  .botao-doacao:hover {
+    background-color: #2F5941;
+  }
+  
+  .popup.show {
+    visibility: visible;
+  }

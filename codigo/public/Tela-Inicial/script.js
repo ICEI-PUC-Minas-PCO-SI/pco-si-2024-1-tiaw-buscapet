@@ -10,12 +10,66 @@ document.addEventListener('DOMContentLoaded', function() {
     carouselData = data
     Funcionar();
   })
-  //.catch(error => {alert ('Erro ao carregar os dados do carrossel' + error.message)})
+  
+  /************************************* Script POP-UP*************************************************/
+
+  fetch('/pop-upItens')
+  .then(response => response.json())
+  .then(data => {
+    
+    document.getElementById('popup-titulo').textContent = data[0].titulo;
+    document.getElementById('popup-subtitulo').textContent = data[0].subtitulo;
+    document.getElementById('popup-imagem').src = data[0].imageSrc;
+    document.getElementById('popup-ajuda-titulo').textContent = data[0].tituloAjuda;
+
+    const ajudaLista = document.getElementById('popup-lista-ajuda');
+
+    console.log(data[0])
+    data[0].ajudaItens.forEach(ajudaItem => {
+  
+      const li = document.createElement('li');
+      li.classList.add("li-ajuda");
+      
+      const b = document.createElement('b');
+      
+      b.textContent = ajudaItem.titulo;
+      li.appendChild(b);
+      
+      const subLista = document.createElement('ul');
+      
+      ajudaItem.itens.forEach(subItem => {
+        
+        const subLi = document.createElement('li');
+        subLi.classList.add("subLi-ajuda");
+        
+        subLi.style.color = '#E55812';
+        subLi.textContent = subItem;
+        
+        subLista.appendChild(subLi);
+      });
+    
+      li.appendChild(subLista);
+      ajudaLista.appendChild(li);
+    });
+
+    document.getElementById('popup-botao-doacao').textContent = data[0].textoBotaoDoacao;
+    document.getElementById('popup-local-doacao-titulo').textContent = data[0].doacaoLocalTitulo;
+    document.getElementById('popup-local-doacao').textContent = data[0].doacaoLocal;
+  
+    document.getElementById('popup-contato-titulo').textContent = data[0].contatoTitulo;
+    document.getElementById('popup-contato-informacoes').textContent = data[0].contatoInformacoes[0];
+    document.getElementById('popup-contato-telefone').textContent = data[0].contatoInformacoes[1];
+
+    document.getElementById("popup").classList.add("show");
+  })
+
+
+  document.getElementById("botao-fechar").addEventListener("click", function() {
+    document.getElementById("popup").classList.remove("show");
+  });
 })
 
 function Funcionar(){
-
-   console.log(Array.from(carouselData[1].slides))
 
   //Array.prototype.slice.call(slides)[slideIndex -1].
   Array.from(carouselData[1].slides).forEach((slide, index) => {
@@ -66,19 +120,19 @@ showSlides(slideIndex);
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
-  }
+}
 
   // Função para definir o slide atual
   function currentSlide(n) {
     showSlides(slideIndex = n);
-  }
+}
 
   // Função para mostrar os slides e atualizar as miniaturas
   function showSlides(n) {
+    
     const slides = document.getElementsByClassName("teste");
     const imagens = document.getElementsByClassName("teste2")
     const thumbnails = thumbnailsContainer.getElementsByTagName("img");
-
 
     if (n > slides.length) {
       slideIndex = 1;

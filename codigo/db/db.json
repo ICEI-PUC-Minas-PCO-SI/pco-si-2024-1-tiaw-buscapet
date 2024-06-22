@@ -109,5 +109,45 @@
                 }
             ]
         }
+    ],
+    "pop-upItens": [
+    
+        {
+            "titulo": "S.O.S CHUVAS",
+            "subtitulo": "Animais em Perigo Precisam de sua Ajuda",
+            "imageSrc": "assets/patinha com mão 1.png",
+            "tituloAjuda": "Como você pode ajudar:",
+            "ajudaItens": [
+                {
+                    "titulo": "Doações financeiras:",
+                    "itens":[
+                                "Contribua com qualquer quantia.",
+                                "Doe online em \"vakinha\"."
+                            ]
+                },{
+                    
+                    "titulo": "Doação de Suprimentos:",
+                    "itens":[
+                              "Alimentos para cães e gatos.",
+                              "Cobertores e toalhas."
+                            ] 
+                },{
+                    
+                    "titulo":   "Voluntariado:",
+                    "itens":[
+                                "Ajude na coleta e distribuição de doações.",
+                                "Ofereça abrigo temporário para animais desalojados."
+                            ]
+                }
+            ],
+            "textoBotaoDoacao": "Doe Agora",
+            "doacaoLocalTitulo": "Onde entregar sua doação:",
+            "doacaoLocal": "Puc Minas - Contagem",
+            "contatoTitulo": "Contato:",
+            "contatoInformacoes": [
+                "Para mais informações, ligue:",
+                "Telefone: (31) 3319-4444"
+            ]
+        }
     ]
 }
