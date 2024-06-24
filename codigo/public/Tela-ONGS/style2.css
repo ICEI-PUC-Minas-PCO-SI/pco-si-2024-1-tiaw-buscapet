@@ -1,11 +1,23 @@
 @media screen and (max-width:600px) {
+
+    *{
+        margin:0;
+        padding: 0;
+    }
     
     header{
 
         position: fixed;
         top:0px;
         width:100%;
-        margin:0px
+        margin:0px;
+        padding: 10px 0px;
+        height: 13vh;
+    }
+
+    header > img{
+
+        max-width: 90%;
     }
 
     header > nav .menu-icon{
@@ -38,7 +50,7 @@
         height: 0%;
         background-color: #e4ffc1c0;
         overflow: hidden;
-
+        padding: 0;
         transition: height 0.3s;
     }
 
@@ -93,10 +105,15 @@
 
         position: relative;
         display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
         top:80px;
-        margin-right: 0px;
-        height: 59vw;
-        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 59vh;
+
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
@@ -105,29 +122,32 @@
 
     main > article#bem-vindo > div#fundo-trans{
 
-        margin:0 auto;
+        margin: 0;
         margin-top: 50px;
         width: 75%;
-        height: 65%;
+        height: 25vh;
         padding-top:20px ;
+       
     }
 
     main > article#bem-vindo > div#fundo-trans > h1{
      
-        font-size: 1.4em;
-        width:150px
+        font-size: 2em;
+        width:200px
     }
 
     main > article#bem-vindo > div#fundo-trans > h3{
 
-        font-size: 0.8em;
+        font-size: 1em;
         width: 75%;
 
     }
 
     main > article#secao-busca{
 
-        height: 400px;
+      
+        height: 35vh;
+
     }
 
     main > article#secao-busca > h1{
@@ -139,21 +159,27 @@
     main > article#secao-busca > input#pesquisar{
 
         width: 55vw;
+        height: 30px;
     }
 
     main > article#ongs{
 
         margin: 0px;
         padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     main > article#ongs > div.ong {
 
         display: block;
-        margin: 0 auto;
         padding: 0px;
         bottom: 50px;
         position: relative;
+        margin: 0;
+        width: 80vw;
     }
 
     main > article#ongs > div.ong > img{
@@ -178,7 +204,9 @@
 
         margin: 0 auto;
         padding: auto;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+       
         
     }
 
@@ -195,7 +223,7 @@
     aside#parallax > h2{
 
         padding: 70px;
-        
+        font-size: 1.5em;
     }
 
     footer{
@@ -214,23 +242,24 @@
     footer div#contatos > ul{
 
         padding-top: 0px;
-        margin: 0px;
-        margin-right: 70px;
+        margin: 0px; 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
+        margin-right: 15px;
     }
 
     footer div#contatos ul li{
         padding-top: 15px;
-
+        margin-right: 10px;
     }
-
     
     footer div#contatos ul li a, footer p{
 
         font-size: 0.8em;       
         margin-bottom: 0px;
-       
-       
+         
     }
 
     footer > img{
@@ -254,6 +283,9 @@
         top:0px;
         width: 100%;
         margin: 0px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-left: 0;
 
     }
 
@@ -265,7 +297,7 @@
         height:inherit;
         position: absolute;
         top:30px;
-        right: 30px;
+        right: 120px;
         line-height: 60px;
         z-index: 999;
     }
@@ -287,6 +319,8 @@
         height: 0%;
         background-color: #e4ffc1c0;
         overflow: hidden;
+        padding: 0;
+        margin-bottom: 0;
 
         transition: height 0.3s;
     }
@@ -375,7 +409,7 @@
 
     main > article#secao-busca{
 
-        height: 400px;
+        height: 300px;
     }
 
     main > article#secao-busca > h1{
@@ -391,14 +425,22 @@
 
     main > article#ongs{
 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
         margin:0px;
         padding:0px
     }
 
     main > article#ongs > div.ong{
 
-        display: block;
-        margin:0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
         padding:0px;
         bottom:50px;
         position: relative;
@@ -416,9 +458,8 @@
 
     main > article#ongs > div.ong > div.info-ong > a button{
 
-        margin: 0 auto;
-        padding:auto;
-        margin-bottom: 40px;
+        margin: 50px 0;
+       
     }
 
     aside#parallax{
@@ -431,7 +472,7 @@
 
     aside#parallax > h2{
 
-        padding: 90px;
+        padding: 70px;
     }
 
     footer{
@@ -445,9 +486,8 @@
     footer div#contatos > ul{
 
         margin: 0px;
-        margin-right: 75px;
         padding-top: 120px;
-        justify-content: center;
+       
     }
 
     footer div#contatos ul li a, footer p{
@@ -464,7 +504,8 @@
         position:fixed;
         top:0px;
         width:100%;
-        margin:0px
+        margin:0px;
+        padding-left: 0;
     }
 
     main > article#bem-vindo{
@@ -483,10 +524,9 @@
     main > article#bem-vindo > div#fundo-trans{
 
         margin: 0 auto;
-        margin-top: 50px;
         width: 75%;
-        height: 60%;
-        padding-top: 50px;
+        height: 40%;
+        padding-top: 40px;
     }
 
     main > article#bem-vindo  > div#fundo-trans > h1{
@@ -503,7 +543,7 @@
 
     main > article#secao-busca {
 
-        height: 450px;
+        height: 360px;
     }
     main > article#secao-busca > h1{
 
@@ -528,11 +568,13 @@
         padding: 0px;
         bottom:50px;
         position: relative;
+        margin-top: 50px;
     }
 
     main > article#ongs > div.ong > img{
 
         display: none;
+        
     }
 
     main > article#ongs > div.ong > div.info-ong{
@@ -542,9 +584,10 @@
 
     main > article#ongs > div.ong > div.info-ong > a button{
 
-        margin: 0 auto;
+        margin: 40px auto;
         padding: auto;
-        margin-bottom: 40px;
+        margin-bottom: 100px;
+        
     }
 
     aside#parallax{
@@ -572,9 +615,8 @@
     footer div#contatos > ul{
 
         margin: 0px;
-        margin-right: 75px;
         padding-top: 80px;
-        justify-content: center;
+       margin-left: 40px;
     }
 
     footer div#contatos ul li a, footer p{
@@ -599,7 +641,8 @@
         position: fixed;
         top:0px;
         width:100%;
-        margin:0px
+        margin:0px;
+        padding-left: 0;
 
     }
 
@@ -621,7 +664,7 @@
         margin: 0 auto;
         margin-top: 120px;
         width: 75%;
-        height:320px;
+        height:280px;
         padding-top: 50px;
     }
 
@@ -632,7 +675,7 @@
 
     main > article#bem-vindo > div#fundo-trans > h3{
 
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     main > article#secao-busca{
@@ -663,6 +706,7 @@
         padding: 0px;
         bottom:50px;
         position: relative;
+        margin-top: 100px;
     }
 
     main > article#ongs > div.ong > img{
@@ -671,14 +715,18 @@
     }
 
     main > article#ongs > div.ong > div.info-ong{
-        text-align: center;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     main > article#ongs > div.ong > div.info-ong > a button{
 
-        margin: 0 auto;
-        padding: auto;
-        margin-bottom: 40px;
+        margin-left: 0;
+        margin-top: 40px;
+
     }
 
     aside#parallax{
@@ -705,8 +753,8 @@
     footer div#contatos > ul{
 
         margin: 0px;
-        margin-right: 75px;
         padding-top: 120px;
+        margin-left: 40px;
         justify-content: center;
     }
 
@@ -774,9 +822,9 @@
     main > article#ongs > div.ong > div.info-ong > a button{
 
      
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 40px;
-        margin-left: 220px;
+       
    
     }
 
