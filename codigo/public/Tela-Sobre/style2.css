@@ -1,0 +1,1072 @@
+@media screen and (max-width:600px) {
+
+    /*---------------Header Responsividade------------*/
+    header {
+
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px
+    }
+
+    header>nav .menu-icon {
+
+        display: block;
+        color: #FF661B;
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        line-height: 60px;
+        z-index: 999;
+    }
+
+    header>nav .menu-icon {
+
+        font-size: 1.7em;
+    }
+
+    header nav ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: #e4ffc1c0;
+        overflow: hidden;
+
+        transition: height 0.3s;
+    }
+
+    header nav ul li {
+
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    header nav ul li a {
+
+        display: block;
+        text-align: center;
+        width: 100%;
+        color: #3f3f3f;
+        font-weight: bolder;
+    }
+
+    header nav ul li a:hover {
+
+        background-color: #3f3f3f;
+        box-shadow: 0px 0px 2px 2px black;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+
+        display: block;
+    }
+
+    #menuToggle:not(:checked)~label i:nth-child(2) {
+
+        display: none;
+    }
+
+    #menuToggle:checked~label i:first-child {
+
+        display: none;
+    }
+
+    #menuToggle:not(:checked)~label i:first-child {
+
+        display: block;
+    }
+
+    #menuToggle:checked~ul {
+        height: 100%;
+    }
+
+    /*---------------Header Responsividade------------*/
+
+    /*---------------Main Responsividade-----------------*/
+    main > article#titulo{
+        margin-top:100px;
+        height: 600px;
+
+    }
+    main > article#titulo> div#frase > img{
+        width:300px;
+
+    }
+    main > article#titulo >div#logo> img{
+        width:500px;
+
+    }
+    article#desenvolvedores > div#img > div > img{
+        width: 100px;
+        height: 130px;
+    }
+    article#desenvolvedores > div#img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 60vw;
+        background-color: transparent;
+        margin: 0 auto;
+        border:2px solid #FF661B ;
+        margin-bottom: 40px;
+    }
+    article#desenvolvedores > div#img > div{
+        padding: 50px;
+    }
+    article#desenvolvedores > div#img > div >p{
+        text-align: center;
+        color: #D9F6B2;
+        text-transform: uppercase;
+        width: 50px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+    article#desenvolvedores{
+       height:2000px;
+    }
+    article#objetivo > h3{
+        text-align: center;
+        margin-top:30px;
+
+    }
+    article#objetivo > p{
+        width:250px;
+        margin-left:170px;
+    }
+    /*-----------------------------------------parallax----------------------------------*/
+    .parallax {
+        height: 45vh;
+
+    }
+    .parallax >p{
+        padding-right:0;
+        font-size: 23px;
+        width: 80%;
+
+
+    }
+    /*----------------------------------------fim parallax-------------------------------*/
+    /*---------------------------------------comentarios---------------------*/
+    article#comentarios{
+        width: 100%;
+    }
+    article#comentarios > img{
+        display:none;
+    }
+    div#imagem{
+        width:500px;
+    }
+    article#comentarios > div#imagem > div{
+       width:440px;
+    }
+    article#comentarios > div#imagem> div> form > textarea{
+      width: 350px;
+    }
+  article#comentarios > div#imagem> div> form > button{
+      margin-left:74px;
+
+  }
+  article#comentarios >div#imagem> div > h3#tituloc{
+    text-align: center;
+    padding-right:25px;
+  }
+   .delete{
+    margin-top:0;
+    }
+  #editar button{
+      margin-top:0;
+
+  }
+    main > p#colaboradores{
+      margin-left:50px;
+      width:500px;
+      font-size: 25px;
+    }
+/*-------------------------parallax 2--------------------------*/
+    .parallax2 {
+       height:20vh;
+    }
+/*------------------------- fim parallax 2--------------------------*/
+/*-----------------------------tab----------------------------------*/
+    .tab-btn{
+        width: 95px;
+        height: 80px;
+        font-size:10px;
+    }
+    .infos{
+        margin-left:79px;
+        width: 80%; 
+        height:200px;
+        padding: 10px;
+
+    }
+    /*---------------Main Responsividade-----------------*/
+
+    /*-----------------Footer Responsividade-------------------*/
+
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        margin-bottom: 0px;
+        padding: 0px;
+        height: 50vh;
+    }
+
+    footer div#contatos {
+
+        padding-top: 40px;
+    }
+
+    footer div#contatos>ul {
+
+        padding-top: 0px;
+        margin: 0px;
+        margin-right: 70px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li {
+        padding-top: 15px;
+
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 0.8em;
+        margin-bottom: 0px;
+
+    }
+
+    footer>img {
+
+        max-width: 30%;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    footer>p {
+
+        padding-top: 0px;
+    }
+
+}
+
+/*-----------------Footer Responsividade-------------------*/
+
+
+@media screen and (min-width:601px) and (max-width:768px) {
+
+    header {
+
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    header>nav .menu-icon {
+
+        display: block;
+        color: #FF661B;
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        line-height: 60px;
+        z-index: 999;
+    }
+
+    header>nav .menu-icon {
+
+        font-size: 1.7em;
+    }
+
+    header nav ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        position: fixed;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: #e4ffc1c0;
+        overflow: hidden;
+
+        transition: height 0.3s;
+    }
+
+    header nav ul li {
+
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    header nav ul li a {
+
+        display: block;
+        text-align: center;
+        width: 100%;
+        color: #3f3f3f;
+        font-weight: bolder;
+    }
+
+    header nav ul li a:hover {
+
+        background-color: #3f3f3f;
+        box-shadow: 0px 0px 2px 2px black;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+
+        display: block;
+    }
+
+    #menuToggle:not(:checked)~label i:nth-child(2) {
+
+        display: none;
+    }
+
+    #menuToggle:checked~label i:first-child {
+
+        display: none;
+    }
+
+    #menuToggle:not(:checked)~label i:first-child {
+
+        display: block;
+    }
+
+    #menuToggle:checked~ul {
+
+        height: 100%;
+    }
+
+    /*-------------------main------------------*/
+    main > article#titulo{
+        margin-top:100px;
+        height: 600px;
+
+    }
+    main > article#titulo> div#frase > img{
+        width:300px;
+
+    }
+    main > article#titulo >div#logo> img{
+        width:500px;
+
+    }
+    article#desenvolvedores > div#img > div > img{
+        width: 100px;
+        height: 130px;
+    }
+    article#desenvolvedores > div#img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 60vw;
+        background-color: transparent;
+        margin: 0 auto;
+        border:2px solid #FF661B ;
+        margin-bottom: 40px;
+    }
+    article#desenvolvedores > div#img > div{
+        padding: 50px;
+    }
+    article#desenvolvedores > div#img > div >p{
+        text-align: center;
+        color: #D9F6B2;
+        text-transform: uppercase;
+        width: 50px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+    article#desenvolvedores{
+       height:1250px;
+    }
+    article#objetivo > h3{
+        text-align: center;
+        margin-top:30px;
+
+    }
+    article#objetivo > p{
+        width:550px;
+        margin-left:20px;
+    }
+
+    /*-------------------main------------------*/
+    /*-----------------------------------------parallax----------------------------------*/
+    .parallax {
+        height: 45vh;
+
+    }
+    .parallax >p{
+        margin-right:30px;
+        padding-right:0;
+        font-size: 27px;
+        width: 80%;
+
+
+    }
+    /*----------------------------------------fim parallax-------------------------------*/
+     /*---------------------------comentarios---------------*/
+    article#comentarios{
+        width: 100%;
+    }
+    article#comentarios > img{
+        display:none;
+    }
+    div#imagem{
+        width:500px;
+    }
+    article#comentarios > div#imagem > div{
+       width:440px;
+    }
+    article#comentarios > div#imagem> div> form > textarea{
+      width: 350px;
+    }
+    article#comentarios > div#imagem> div> form > button{
+      margin-left:76px;
+
+    }
+    article#comentarios >div#imagem> div > h3#tituloc{
+    text-align: center;
+    padding-right:25px;
+    }
+    .delete{
+    margin-top:0;
+    }
+    #editar button{
+      margin-top:0;
+
+    }
+    main > p#colaboradores{
+      margin-left:150px;
+      width:500px;
+      font-size: 25px;
+    }
+    /*-------------------------parallax 2--------------------------*/
+        .parallax2 {
+           height:20vh;
+        }
+    /*------------------------- fim parallax 2--------------------------*/
+    /*-----------------------------tab----------------------------------*/
+    .tab-btn{
+        width: 143px;
+        height: 80px;
+        font-size:15px;
+    }
+    .infos{
+        margin-left:30px;
+        width: 80%; 
+        height:200px;
+        padding: 10px;
+
+    }
+    /*------------------------fim tab----------------------------------*/
+
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 400px;
+    }
+
+    footer div#contatos>ul {
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 120px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 1.2em;
+
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:900px) {
+
+    header {
+
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px
+    }
+    /*-------------------main------------------*/
+    main > article#titulo{
+        margin-top:130px;
+        height: 600px;
+
+    }
+    main > article#titulo> div#frase > img{
+        width:300px;
+
+    }
+    main > article#titulo >div#logo> img{
+        width:500px;
+
+    }
+    article#desenvolvedores > div#img > div > img{
+        width: 100px;
+        height: 130px;
+    }
+    article#desenvolvedores > div#img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 60vw;
+        background-color: transparent;
+        margin: 0 auto;
+        border:2px solid #FF661B ;
+        margin-bottom: 40px;
+    }
+    article#desenvolvedores > div#img > div{
+        padding: 50px;
+    }
+    article#desenvolvedores > div#img > div >p{
+        text-align: center;
+        color: #D9F6B2;
+        text-transform: uppercase;
+        width: 50px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+    article#desenvolvedores{
+       height:1200px;
+    }
+    article#objetivo > h3{
+        text-align: center;
+        margin-top:30px;
+
+    }
+    article#objetivo > p{
+        width:600px;
+        margin-left:80px;
+    }
+
+    /*-------------------main------------------*/
+     /*---------------------------comentarios---------------*/
+        article#comentarios{
+            width: 100%;
+        }
+        article#comentarios > img{
+            display:none;
+        }
+        div#imagem{
+            width:700px;
+        }
+        article#comentarios > div#imagem > div{
+           width:640px;
+        }
+        article#comentarios > div#imagem> div> form > textarea{
+          width: 480px;
+        }
+      article#comentarios > div#imagem> div> form > button{
+          margin-left:150px;
+
+      }
+      article#comentarios >div#imagem> div > h3#tituloc{
+        text-align: center;
+        margin-left:78px;
+      }
+       .delete{
+        margin-top:0;
+        }
+      #editar button{
+          margin-top:0;
+
+      }
+        main > p#colaboradores{
+          margin-left:130px;
+          width:500px;
+          font-size: 25px;
+        }
+    /*-------------------------parallax 2--------------------------*/
+        .parallax2 {
+           height:20vh;
+        }
+    /*------------------------- fim parallax 2--------------------------*/
+    /*-----------------------------tab----------------------------------*/
+        .tab-btn{
+            width: 144px;
+            height: 80px;
+            font-size:16px;
+        }
+        .infos{
+            width: 80%; 
+            height:270px;
+            padding: 10px;
+
+        }
+    /*------------------------fim tab----------------------------------*/
+
+    /*-------------------Main----------------*/
+
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 400px
+    }
+
+    footer div#contatos>ul {
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 80px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 1em;
+        padding-top: 0px;
+
+    }
+
+    footer>img {
+
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        max-height: 60%;
+    }
+}
+
+@media screen and (min-width:901px) and (max-width: 1000px) {
+
+    header {
+
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        margin: 0px
+    }
+    /*-------------------main------------------*/
+    main > article#titulo{
+        margin-top:130px;
+        height: 600px;
+
+    }
+    main > article#titulo> div#frase > img{
+        width:300px;
+
+    }
+    main > article#titulo >div#logo> img{
+        width:500px;
+
+    }
+    article#desenvolvedores > div#img > div > img{
+        width: 100px;
+        height: 130px;
+    }
+    article#desenvolvedores > div#img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 60vw;
+        background-color: transparent;
+        margin: 0 auto;
+        border:2px solid #FF661B ;
+        margin-bottom: 40px;
+    }
+    article#desenvolvedores > div#img > div{
+        padding: 50px;
+    }
+    article#desenvolvedores > div#img > div >p{
+        text-align: center;
+        color: #D9F6B2;
+        text-transform: uppercase;
+        width: 50px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+    article#desenvolvedores{
+       height:1200px;
+    }
+    article#objetivo > h3{
+        text-align: center;
+        margin-top:30px;
+
+    }
+    article#objetivo > p{
+        width:600px;
+        margin-left:80px;
+    }
+
+    /*-------------------main------------------*/
+     /*---------------------------comentarios---------------*/
+        article#comentarios{
+            width: 100%;
+        }
+        article#comentarios > img{
+            display:none;
+        }
+        div#imagem{
+            width:700px;
+        }
+        article#comentarios > div#imagem > div{
+           width:640px;
+        }
+        article#comentarios > div#imagem> div> form > textarea{
+          width: 480px;
+        }
+      article#comentarios > div#imagem> div> form > button{
+          margin-left:150px;
+
+      }
+      article#comentarios >div#imagem> div > h3#tituloc{
+        text-align: center;
+        margin-left:78px;
+      }
+       .delete{
+        margin-top:0;
+        }
+      #editar button{
+          margin-top:0;
+
+      }
+        main > p#colaboradores{
+          margin-left:230px;
+          width:500px;
+          font-size: 25px;
+        }
+    /*-------------------------parallax 2--------------------------*/
+        .parallax2 {
+           height:40vh;
+        }
+    /*------------------------- fim parallax 2--------------------------*/
+    /*-----------------------------tab----------------------------------*/
+        .tab-btn{
+            width: 170px;
+            height: 80px;
+            font-size:16px;
+        }
+        .infos{
+            width: 80%; 
+            height:270px;
+            padding: 10px;
+
+        }
+    /*------------------------fim tab----------------------------------*/
+    /*-----------Main-------------*/
+
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 450px;
+    }
+
+    footer div#contatos>ul {
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 120px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 1.2em;
+
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1366px) {
+
+    /*----------------Main----------------*/
+    /*-------------------main------------------*/
+    main > article#titulo{
+        height: 800px;
+
+    }
+    main > article#titulo> div#frase > img{
+        width:300px;
+
+    }
+    main > article#titulo >div#logo> img{
+        width:500px;
+
+    }
+    article#desenvolvedores > div#img > div > img{
+        width: 150px;
+        height: 200px;
+    }
+    article#desenvolvedores > div#img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80vw;
+        height:80vw;
+        background-color: transparent;
+        margin: 0 auto;
+        border:2px solid #FF661B ;
+        margin-bottom: 40px;
+    }
+    article#desenvolvedores > div#img > div{
+        padding: 50px;
+    }
+    article#desenvolvedores > div#img > div >p{
+        text-align: center;
+        color: #D9F6B2;
+        text-transform: uppercase;
+        width: 50px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+    article#desenvolvedores{
+       height:1200px;
+    }
+    article#objetivo > h3{
+        text-align: center;
+        margin-top:30px;
+        margin-left: 50px;
+
+    }
+    article#objetivo > p{
+        width:600px;
+        margin-left:220px;
+    }
+
+    /*-------------------main------------------*/
+    /*-----------------------------------------parallax----------------------------------*/
+    .parallax {
+        height: 45vh;
+
+    }
+    .parallax >p{
+        padding-right:10px;
+        font-size: 23px;
+        width: 80%;
+
+
+    }
+     /*---------------------------comentarios---------------*/
+        article#comentarios{
+            width: 100%;
+        }
+        article#comentarios > img{
+           
+        }
+        div#imagem{
+            width:700px;
+        }
+        article#comentarios > div#imagem > div{
+           width:640px;
+        }
+        article#comentarios > div#imagem> div> form > textarea{
+          width: 480px;
+        }
+      article#comentarios > div#imagem> div> form > button{
+          margin-left:150px;
+
+      }
+      article#comentarios >div#imagem> div > h3#tituloc{
+        text-align: center;
+        margin-left:78px;
+      }
+       .delete{
+        margin-top:0;
+        }
+      #editar button{
+          margin-top:0;
+
+      }
+        main > p#colaboradores{
+          margin-left:230px;
+          width:500px;
+          font-size: 25px;
+        }
+    /*-------------------------parallax 2--------------------------*/
+        .parallax2 {
+           height:40vh;
+        }
+    /*------------------------- fim parallax 2--------------------------*/
+    /*-----------------------------tab----------------------------------*/
+        .tab-btn{
+            width: 190px;
+            height: 80px;
+            font-size:16px;
+        }
+        .infos{
+            width: 80%; 
+            height:310px;
+            padding: 40px;
+
+        }
+    /*------------------------fim tab----------------------------------*/
+    /*----------------Main----------------*/
+    footer {
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 80vh;
+    }
+
+    footer div#contatos>ul {
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 120px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a,
+    footer p {
+
+        font-size: 1.2em;
+
+    }
+}
+@media screen and (min-width:1367px) and (max-width:1466px) {
+    /*----------------Main----------------*/
+    /*-------------------main------------------*/
+    main > article#titulo{
+        height: 800px;
+
+    }
+    main > article#titulo> div#frase > img{
+        width:300px;
+
+    }
+    main > article#titulo >div#logo> img{
+        width:500px;
+
+    }
+    article#desenvolvedores > div#img > div > img{
+        width: 170px;
+        height: 230px;
+    }
+    article#desenvolvedores > div#img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 60vw;
+        height:80vw;
+        background-color: transparent;
+        margin: 0 auto;
+        border:2px solid #FF661B ;
+        margin-bottom: 40px;
+    }
+    article#desenvolvedores > div#img > div{
+        padding: 50px;
+    }
+    article#desenvolvedores > div#img > div >p{
+        text-align: center;
+        color: #D9F6B2;
+        text-transform: uppercase;
+        width: 50px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+    article#desenvolvedores{
+       height:1500px;
+    }
+    article#objetivo > h3{
+        text-align: center;
+        margin-top:30px;
+        margin-left: 50px;
+
+    }
+    article#objetivo > p{
+        width:900px;
+        margin-left:250px;
+    }
+
+    /*-------------------main------------------*/
+    /*-----------------------------------------parallax----------------------------------*/
+    .parallax {
+        height: 45vh;
+
+    }
+    .parallax >p{
+        margin-bottom: 100px;
+        padding-right:25px;
+        font-size: 30px;
+        width: 80%;
+
+
+    }
+     /*---------------------------comentarios---------------*/
+        article#comentarios{
+            width: 100%;
+        }
+        article#comentarios > img{
+            display:flex;
+            height:785px;
+        }
+        div#imagem{
+            width:700px;
+        }
+        article#comentarios > div#imagem > div{
+           width:640px;
+        }
+        article#comentarios > div#imagem> div> form > textarea{
+          width: 480px;
+        }
+      article#comentarios > div#imagem> div> form > button{
+          margin-left:150px;
+
+      }
+      article#comentarios >div#imagem> div > h3#tituloc{
+        text-align: center;
+        margin-left:78px;
+      }
+        main > p#colaboradores{
+          align-content:center;
+          margin-left:450px;
+          width:500px;
+          font-size: 25px;
+        }
+    /*-------------------------parallax 2--------------------------*/
+        .parallax2 {
+           height:40vh;
+        }
+    /*------------------------- fim parallax 2--------------------------*/
+    /*-----------------------------tab----------------------------------*/
+        .tab-btn{
+            width: 263px;
+            height: 80px;
+            font-size:16px;
+        }
+        .infos{
+          margin-left:80px;
+            width: 80%; 
+            height:410px;
+            padding: 100px;
+            padding-left:50px;,
+
+
+        }
+    /*------------------------fim tab----------------------------------*/
+    /*----------------Main----------------*/
+}
+

@@ -1,0 +1,562 @@
+html, body{
+
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;   
+}
+/*------------------nav começa aqui----------------------*/
+header{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #3f3f3f;
+    padding: 10px 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.392);
+    position: relative;
+    z-index: 3;
+}
+
+header > img{
+
+    max-width: 100%;
+    display: block;
+}
+
+header nav ul{
+
+    display: flex;
+
+}
+
+header nav ul li{
+
+    margin-left: 5px;
+    list-style-type: none;
+    padding: 10px 15px;
+    padding-top: 20px;
+}
+
+header nav ul li a{
+
+    color:#FBF5B7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+
+    color:#FF661B;
+    padding: 0px 20px;
+    font-size: 1.3em;
+}
+
+header > nav #menuToggle{
+
+    display:none;
+}
+
+header > nav .menu-icon{
+
+    display: none;
+}
+/*-------------------------------------------------PARALLAX-----------------------------------------------------*/
+.parallax {
+    background-image: url(./../assets/parallax.jpeg);
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    box-shadow: inset 6px 6px 8px 5px black;
+    padding: 150px 0; 
+    margin-bottom: 100px;
+    height: 50vh;
+}
+.parallax >p{
+    font-size: 1.9em;
+    color: #FFE500;
+    float: right;
+    margin-top: 20px;
+    padding-right: 250px;
+    font-weight: bold;
+    word-break: break-all;
+    margin-bottom: 20px;
+    text-align: right;
+    width: 700px;
+}
+/*-----------------------------nav termina aqui-----------------------------------*/
+/*-----------------------------main começa aqui----------------------------------*/
+main > article#titulo{
+    display: block;
+    flex-wrap: wrap;
+    background: url(./../assets/footer2.png) no-repeat;
+    background-size: cover;
+    height: 810px;
+    width: 98.93vw;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+main > article#titulo >div#logo> img{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+
+}
+main > article#titulo> div#frase > img{
+    display: block;
+    float: right;
+
+}
+main > article#titulo >div#logo{
+   padding-top: 80px;
+}
+article#desenvolvedores > div#img > div > img{
+    width: 150px;
+    height: 200px;
+}
+article#desenvolvedores > div#img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 60vw;
+    background-color: transparent;
+    margin: 0 auto;
+    border:2px solid #FF661B ;
+    margin-bottom: 40px;
+}
+article#desenvolvedores > div#img > div{
+    padding: 50px;
+}
+article#desenvolvedores > div#img > div >p{
+    text-align: center;
+    color: #D9F6B2;
+    text-transform: uppercase;
+    width: 50px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+article#desenvolvedores{
+    background-color: #437A5F;
+    height: 1050px;
+    margin-top: 0px;
+    padding-top: 150px;
+    position: relative;
+    bottom: 100px;
+}
+article#desenvolvedores > h3{
+    text-align: center;
+    color: #FFF26A;
+    padding-bottom: 50px;
+    font-size: 2.4em;
+}
+article#objetivo > h3{
+    text-align: center;
+    color: #E55812;
+    font-size: 2.4em;
+    padding-bottom: 80px;
+}
+article#objetivo > p{
+    text-align: center;
+    font-size: 1.0em;
+    margin-left: 430px;
+    margin-right: 430px;
+}
+article#objetivo{
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+main> p#titulocomen{
+    color: #437A5F;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+/*---------------------------------------comentarios---------------------*/
+article#comentarios{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    flex-direction:row;
+
+}
+article#comentarios > img{
+
+    width:47.09vw;
+    margin: 0;
+    padding: 0;
+    height:107vh;
+}
+article#comentarios > div#imagem > div{
+    width: 49vw;
+    padding: 0px;
+    padding-top:60px;
+    margin: 0px;
+    background:linear-gradient(135deg, rgba(255, 255, 255, 0.874), rgba(255, 255, 255, 0.833));
+    border-radius: 10px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+}
+div#imagem{
+    display: inline;
+    background: url(./../assets/formsbaixo.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 40px 30px;
+
+}
+article#comentarios >div#imagem> div > h3#tituloc{
+    color:#FFB800;
+    padding-bottom: 50px;
+    font-size: 2.4em;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-right: 200px;
+}
+article#comentarios >div#imagem > div > form > label{
+    color: #E55812;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+}
+article#comentarios > div > .item > div#cabecalho> h2{
+    color: #E55812;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+article#comentarios > div > .item > div#cabecalho > h3{
+    color: #437A5F;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+article#comentarios > div > .item >div#cabecalho> p{
+    text-align: justify;
+    width: 65vw;
+    padding-top: 30px;
+}
+article#comentarios > div > .item{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    cursor: pointer;
+}
+article#comentarios > div > .item >div#cabecalho{
+    padding-right: 30px;
+
+}
+
+form{
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+
+}
+input[type="text"]{
+        width: 350px;
+        padding: 7px;
+        margin-bottom: 30px;
+        border: 2px solid #437A5F;
+        border-radius: 10px;
+        box-sizing: border-box;
+        height: 30px;
+        background-color: transparent;
+    }
+article#comentarios > div#imagem> div> form > textarea{
+    border-color: #437A5F;
+    background-color: transparent;
+    border-width: 3px;
+}
+article#comentarios > div#imagem> div> form > button{
+    background-color: #437A5F;
+    margin-top:30px;
+    margin-left: 220px;
+    width: 180px;
+    height: 40px;
+    border: 2px solid #437A5F;
+    color: #FFE500;
+    border-radius: 10px;
+}
+article#comentarios>div#imagem > div > input#comentario{
+    height: 120px;
+    font-size: 2rem;
+}
+article#comentarios > div#imagem > div > button#add{
+    width: 50px;
+    cursor: pointer;
+    background-color:#437A5F;
+    color: #FFE500;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #437A5F;
+}
+
+.delete{
+    background: transparent;
+    border: none;
+    font-size: 2em;
+    color: red;
+    position: absolute;
+    right: 80px;
+    margin-top: 130px;
+    padding-top: 0;
+}
+.icone{
+    flex: 20%;
+    font-size: 2rem;
+    position: absolute;
+    right: 170px;
+    margin-top: 130px;
+}
+
+.nome{
+    flex: 55%;
+
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.bi-check-circle{
+    color:green;
+}
+main >article#comentarios> div#area{
+    width: 100vw;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+main > article#comentarios >#area > h2{
+    color: #E55812;
+}    
+main > article#comentarios> div#area > h3{
+    color: #437A5F;
+}
+main >article#comentarios> h3{
+    color: #437A5F;
+
+}
+#editar button{
+    background: transparent;
+    border: none;
+    font-size: 2em;
+    color: #04AF5B;
+    position: absolute;
+    right: 150px;
+    margin-top: 130px;
+
+}
+main > article#comentarios > div#erro{
+    width: 100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:50px;
+}
+main > article#comentarios > div#erro > p{
+    font-size: 2em;
+    color: red;
+    font-weight: bolder;
+}
+/*----------------------------fim dos comentarios---------------------------------*/
+/*---------------------------------------------parallax-----------------------------*/
+.parallax2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./../assets/parallax2.jpeg);
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    box-shadow: inset 6px 6px 8px 5px black;
+    padding: 200px 0; 
+    margin-bottom: 100px;
+    height: 60vh;
+}
+main > p#colaboradores{
+    color: #E55812;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 550px;
+    margin-left: 550px;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+/*-------------------------------------botao parallax-----------------------------------------*/
+article.parallax2 > div.botaoOngs{
+
+    width: 120px;
+    height: 120px; 
+    border-radius: 50%; 
+    background-color: #FF661B;
+    color: black; 
+    font-size: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bolder;
+
+}
+
+article.parallax2 > div.botaoOngs > p#parallax2{
+
+    color: black; 
+    font-size: 28px;
+    padding-top:0px;
+    height:40px;
+    padding:0;
+    margin:0;
+
+}
+article.parallax2  a{
+    text-decoration: none;
+    color: black;
+}
+
+article.parallax2  a:hover{
+    color: #008745;
+
+}
+
+/*--------------------------------------------footer--------------------------------------------*/
+footer{
+
+    background-image: url(./../assets/footer.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+    height: 93vh;
+    text-align: center;
+}
+
+footer div#contatos ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    margin-left:350px;
+    height:40%;
+
+}
+
+footer div#contatos ul li{
+
+    text-align: center;
+    margin-left: 70px;
+    list-style-type: none;
+    padding: 10ps 15px;
+
+}
+
+footer div#contatos ul li a, footer p{
+
+    font-size: 1.3em;
+    color:#FBF5B7;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+footer div#contatos ul li a:hover{
+
+    color:#FF661B
+}
+
+footer > img{
+
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+/*----------------------tag-------------------*/
+.content{
+    display: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #3f3f3f;
+    justify-content: center;
+    min-height: 50vh;
+}
+.content.show{
+    display:flex;
+}
+.content> img{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+.infos{
+    width: 80%; 
+    max-width: 800px; 
+    padding: 100px 0; 
+    margin: 70px auto; 
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.327), rgba(255, 255, 255, 0.295));
+    border-radius: 5px;
+    padding-left: 50px; 
+    padding-bottom: 150px;
+    position: absolute;
+    left: 0px; 
+    right: 590px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.titulo{
+    color: #FFC700;
+}
+.subtitulo{
+    color: #BCFF64;
+}
+.tab-buttons{
+    width: 100%;
+    border: none;
+    color: #020617;
+    background-color: #3f3f3f;
+    border-radius: 8px 8px 0px 0px;
+    font-weight: 500;
+    padding: 8px;
+    cursor: pointer;
+}
+.tab-btn{
+    width: 297px;
+    height: 60px;
+    text-align: center;
+    background-color: #437A5F;
+    border: black; 
+    color: #FBF5B7;
+    padding: 25px;
+    line-height: 10px;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 25px; 
+    margin: 1px 0px; 
+    cursor: pointer; 
+    border-radius: 3px;
+    margin-top: 50px;
+    transition: transform 0.3s ease;
+}
+.tab-btn:hover{
+    background-color: #F19A3E;
+    transform: scale(1.3);
+}
