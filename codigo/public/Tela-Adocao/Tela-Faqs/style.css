@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;   
+}
+
+header{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #3f3f3f;
+    padding: 10px 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.392);
+    position: relative;
+    z-index: 3;
+}
+
+header > img{
+
+    max-width: 100%;
+    display: block;
+}
+
+header nav ul{
+
+    display: flex;
+
+}
+
+header nav ul li{
+
+    margin-left: 5px;
+    list-style-type: none;
+    padding: 10px 15px;
+    padding-top: 20px;
+}
+
+header nav ul li a{
+
+    color:#FBF5B7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+
+    color:#FF661B;
+    padding: 0px 20px;
+    font-size: 1.3em;
+}
+
+header > nav #menuToggle{
+
+    display:none;
+}
+
+header > nav .menu-icon{
+
+    display: none;
+}
+
+article#conteudosuperior{
+  background: url(./../assets/fotoconteudosuperior.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 850px;
+} 
+
+article#conteudosuperior > h1{
+  color: #FF9900;
+  font-weight: bolder;
+  font-size: 2.5em;
+  text-align: justify;    
+  padding-top: 420px;
+  padding-left: 700px;
+}
+
+.accordion-body{
+  margin-top: 150px;
+}
+
+
+div.accordion-body > h1{
+  color: #E55812;
+  text-align: center;
+}
+
+.accordion {
+  width: 840px;
+  margin: 60px auto;
+  color: black;
+  border: 2px solid #FFB800;
+  padding: 40px 40px;
+}
+
+.accordion .container {
+  position: relative;
+  margin: 8px 8px;
+}
+
+.accordion .label {
+  position: relative;
+  padding: 8px 0;
+  font-size: 20px;
+  color: #437A5F;
+  font-weight: bolder;
+  cursor: pointer;
+  
+}
+
+.accordion .label::before {
+  content: '+';
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  font-size: 20px;
+  transform: translateY(-50%);
+}
+
+.accordion .content {
+  position: relative;
+  background: white;
+  height: 0;
+  font-size: 1.1em;
+  line-height: 25px;
+  text-align: justify;
+  width: 749px;
+  text-indent: 5%;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+}
+
+.accordion hr {
+  width: 100;
+  margin-left: 0;
+  border: 1px solid grey;
+}
+
+.accordion .container.active .content {
+  height: 150px;
+}
+
+.accordion .container.active .label::before {
+  content: '-';
+  font-size: 20px;
+}
+
+aside#conteudomeio{
+  background: url(./../assets/fotoconteudomeio.png);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vh;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+aside#conteudomeio > h2{
+  color: #E4FFC1;
+  font-weight: bolder;
+  font-size: 2.5em;
+  text-align: center;    
+}
+
+article#conteudoinferior{
+
+  background: url(./../assets/fotoconteudoinferior.png);
+  background-position: center center;
+  background-size: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+}
+
+article#conteudoinferior > h1{
+
+  color: #FFF592;
+  font-weight: bolder;
+  right: 230px;  
+  padding-top: 30px;
+  position: absolute;
+  top: 160px;
+  font-size: 2.3em;
+
+}
+
+article#conteudoinferior #textoConteudoInferior{
+
+  background:linear-gradient(135deg, rgba(255,255,255,0.887), rgba(255,255,255,0.4));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.18);
+  width: 400px;
+  padding: 30px;
+  font-size: 1em;
+  text-align: justify; 
+  position: absolute;
+  right: 200px;
+  top: 260px;
+
+
+}
+
+article#conteudoinferior #textoConteudoInferior > p#texto1ConteudoInferior{
+
+  color: #437A5F;
+  text-indent: 25px;
+  line-height: 25px;
+  margin-bottom: 30px;
+
+}
+
+article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior{
+  color: #C88219;
+  line-height: 20px;
+
+}
+
+article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior > span{
+  font-weight: bold;
+
+}
+
+.containerCard{  
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-wrap: wrap;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  margin-top: 150px;
+  flex-direction: column;
+}
+
+.containerCard > h1{
+  color: #437A5F;
+  font-size: 2.5em;
+
+}
+
+.containerCard #cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.containerCard #cards .card{ 
+
+  position: relative;
+  width: 300px;
+  height: 460px;
+  margin: 30px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 10px rgb(148, 147, 104);
+  border-radius:15px;
+  background: #FBF5B7;
+  overflow: hidden;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerCard #cards .card img{
+  width: 300px;
+  height: 225px;
+  position: absolute;
+  top:0; 
+
+}
+
+.containerCard #cards .card .content{
+  position: absolute;
+  top: 230px;
+  padding: 25px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+.containerCard #cards .card .content h3{
+  font-size: 1.8em;
+  color: #F15D14;
+  z-index: 1;
+  padding-bottom: 20px;
+}
+
+.containerCard #cards .card .content p{
+  font-size: 1em;
+  color: #437A5F;
+  font-weight: 300;
+}
+
+footer{
+
+  background-image: url(./../assets/footer.png);;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-top: 300px;
+  height: 93vh;
+  text-align: center;
+}
+
+footer div#contatos ul {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 150px;
+  height:40%;
+}
+
+footer div#contatos ul li{
+  text-align: center;
+  margin-left: 35px;
+  list-style-type: none;
+  padding: 10ps 15px;
+}
+
+footer div#contatos ul li a, footer p{
+  font-size: 1.3em;
+  color:#FBF5B7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer div#contatos ul li a:hover{
+  color:#FF661B
+}
+
+footer > img{
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}

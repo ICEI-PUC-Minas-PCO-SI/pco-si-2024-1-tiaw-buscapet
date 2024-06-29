@@ -1,0 +1,1426 @@
+@media screen and (max-width:600px){
+
+    header{
+
+      position: fixed;
+      top:0px;
+      width:100%;
+      margin:0px
+    }
+
+    header > nav .menu-icon{
+
+      display: block;
+      color:#FF661B;
+      width:50px;
+      height: inherit;
+      position: absolute;
+      top:30px;
+      right:120px;
+      line-height: 60px;
+      z-index: 999;
+    }    
+
+    header > nav .menu-icon{
+
+      font-size: 1.7em;
+    }
+
+    header nav ul{
+
+      display: flex;
+      flex-wrap: wrap;
+      position: fixed;
+      align-content: center;
+      top:0px;
+      left:0px;
+      width: 100%;
+      height: 0%;
+      background-color: #e4ffc1c0;
+      overflow: hidden;
+
+      transition: height 0.3s;
+    }
+
+    header nav ul li{
+
+      display: block;
+      width: 100%;
+      margin-left: 0px;
+      margin-bottom: 20px;
+    }
+
+    header nav ul li a{
+
+      display: block;
+      text-align: center;
+      width: 100%;
+      color: #3f3f3f;
+      font-weight: bolder;
+    }
+
+    header nav ul li a:hover{
+
+      background-color: #3f3f3f;
+      box-shadow: 0px 0px 2px 2px black;
+    }
+
+    #menuToggle:checked ~ label i:nth-child(2){
+
+      display: block;
+    }
+
+    #menuToggle:not(:checked) ~ label i:nth-child(2){
+
+      display: none;
+    }
+
+    #menuToggle:checked ~ label i:first-child{
+
+      display: none;
+    }
+
+    #menuToggle:not(:checked) ~ label i:first-child{
+
+      display: block;
+    }
+
+    #menuToggle:checked ~ ul{
+      height: 100%;
+    }
+
+    article#conteudosuperior{
+      background: url(./../assets/fotoconteudosuperior.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 300px;
+    } 
+
+    article#conteudosuperior > h1{
+      color: #FF9900;
+      font-weight: bolder;
+      font-size: 0.8em;
+      text-align: justify;    
+      padding-top: 150px;
+      padding-left: 250px;
+    }
+
+    .accordion-body{
+      margin-top: 70px;
+    }
+
+
+    div.accordion-body > h1{
+      color: #E55812;
+      font-size: 1em;
+      text-align: center;
+    }
+
+    .accordion {
+      width: 390px;
+      margin: 50px auto;
+      color: black;
+      border: 2px solid #FFB800;
+      padding: 20px 20px;
+    }
+
+    .accordion .container {
+      position: relative;
+      margin: 4px 4x;
+    }
+  .accordion .content {
+    width: 300px;
+  }
+
+    
+    .accordion .label {
+      position: relative;
+      padding-left: 0;
+      font-size: 13px;
+      color: #437A5F;
+      font-weight: bolder;
+      cursor: pointer;
+    }
+
+    .accordion .label::before {
+      content: '+';
+      color: black;
+      position: absolute;
+      top: 50%;
+      right: -5px;
+      font-size: 13px;
+      transform: translateY(-50%);
+    }
+
+    .accordion .content {
+      position: relative;
+      background: white;
+      height: 0px;
+      font-size: 0.8em;
+      line-height: 26px;
+      text-align: justify;
+      width: 340px;
+      text-indent: 10%;
+      overflow: hidden;
+      transition: 0.5s;
+      padding-top: 20px;
+      }
+
+    .accordion hr {
+      width: 100;
+      margin-left: 0;
+      border: 1px solid grey;
+    }
+
+    .accordion .container.active .content {
+      height: 230px;
+    }
+
+    .accordion .container.active .label::before {
+      content: '-';
+      font-size: 15px;
+    }
+
+    aside#conteudomeio{
+      background: url(./../assets/fotoconteudomeio.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      height: 25vh;
+      box-shadow: inset 1px 1px 4px 2px black;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    aside#conteudomeio > h2{
+      color: #E4FFC1;
+      font-weight: bolder;
+      font-size: 1.1em;
+      text-align: center;    
+    }
+
+    .containerCard{  
+
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      flex-wrap: wrap;
+      z-index: 1;
+      margin: 0;
+      padding: 0;
+      margin-top: 100px;
+      flex-direction: column;
+    }
+
+    .containerCard > h1{
+      color: #437A5F;
+      font-size: 1.1em;
+
+    }
+
+    .containerCard #cards{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 100px;
+    }
+
+    article#conteudoinferior{
+
+      background: url(./../assets/fotoconteudoinferior.png);
+      background-position: center top;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 50vh;
+      width: 96vw;
+      position: center;
+      padding-top: 100px
+
+    }
+
+    article#conteudoinferior > h1{
+
+      color: #FFF592;
+      font-weight: bolder;
+      right: 60px;  
+      padding-top: 2px;
+      position: absolute;
+      top: 40px;
+      font-size: 0.9em;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior{
+
+      background:linear-gradient(135deg, rgba(255,255,255,0.887), rgba(255,255,255,0.4));
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.18);
+      width: 300px;
+      height: 11vh;
+      padding: 10px;
+      font-size: 1em;
+      text-align: justify; 
+      position: absolute;
+      right: 45px;
+      top: 70px;
+
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior > p#texto1ConteudoInferior{
+
+      color: #437A5F;
+      font-size: 0.6em;
+      text-indent: 25px;
+      line-height: 15px;
+      margin-bottom: 7px;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior{
+      color: #C88219;
+      line-height: 10px;
+      font-size: 0.6em;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior > span{
+      font-weight: bold;
+
+    }
+
+    footer{
+
+      margin: 0px;
+      margin-top: 200px;
+      margin-bottom: 0px;
+      padding: 0px;
+      height: 50vh;
+    }
+
+    footer div#contatos{
+
+      padding-top: 50px;
+    }
+    footer div#contatos > ul{
+
+      padding-top: 0px;
+      margin: 0px;
+      margin-right: 70px;
+      justify-content: center;
+    }
+
+    footer div#contatos ul li{
+      padding-top: 15px;
+
+    }    
+
+
+    footer div#contatos ul li a, footer p{
+
+      font-size: 0.8em;       
+      margin-bottom: 0px;
+
+
+    }
+
+    footer > img{
+
+      max-width: 40%;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+
+    footer > p{
+
+      padding-top:0px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+
+    header{
+
+        position: fixed;
+        top:0px;
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    header > nav .menu-icon{
+
+        display: block;
+        color:#FF661B;
+        width:50px;
+        height:inherit;
+        position: absolute;
+        top:30px;
+        right: 30px;
+        line-height: 60px;
+        z-index: 999;
+    }
+
+    header > nav .menu-icon{
+
+        font-size: 1.7em;
+    }
+
+    header nav ul{
+
+        display:flex;
+        flex-wrap:wrap;
+        position: fixed;
+        align-content: center;
+        top:0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: #e4ffc1c0;
+        overflow: hidden;
+
+        transition: height 0.3s;
+    }
+
+    header nav ul li{
+
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    header  nav ul li a{
+
+        display: block;
+        text-align: center;
+        width: 100%;
+        color:#3f3f3f;
+        font-weight: bolder;
+    }
+
+    header nav ul li a:hover{
+
+        background-color: #3f3f3f;
+        box-shadow: 0px 0px 2px 2px black;
+    }
+
+    #menuToggle:checked ~ label i:nth-child(2){
+
+        display: block;
+    }
+
+    #menuToggle:not(:checked) ~ label i:nth-child(2){
+
+        display: none;
+    }
+
+    #menuToggle:checked ~ label i:first-child{
+
+        display: none;
+    }
+
+    #menuToggle:not(:checked) ~ label i:first-child{
+
+        display: block;
+    }
+
+    #menuToggle:checked ~ ul{
+
+        height: 100%;
+    }
+
+    article#conteudosuperior{
+          background: url(./../assets/fotoconteudosuperior.png);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 400px;
+        } 
+
+        article#conteudosuperior > h1{
+          color: #FF9900;
+          font-weight: bolder;
+          font-size: 1em;
+          text-align: justify;    
+          padding-top: 180px;
+          padding-left: 300px;
+        }
+
+        .accordion-body{
+          margin-top: 70px;
+        }
+
+
+        div.accordion-body > h1{
+          color: #E55812;
+          font-size: 1.1em;
+          text-align: center;
+        }
+
+        .accordion {
+          width: 390px;
+          margin: 50px auto;
+          color: black;
+          border: 2px solid #FFB800;
+          padding: 35px 35px;
+        }
+
+        .accordion .container {
+          position: relative;
+          margin: 6px 6x;
+        }
+
+        .accordion .label {
+          position: relative;
+          padding: 8px 0;
+          font-size: 14px;
+          color: #437A5F;
+          font-weight: bolder;
+          cursor: pointer;
+        }
+
+        .accordion .label::before {
+          content: '+';
+          color: black;
+          position: absolute;
+          top: 50%;
+          right: -5px;
+          font-size: 13px;
+          transform: translateY(-50%);
+        }
+
+        .accordion .content {
+          position: relative;
+          background: white;
+          height: 0px;
+          font-size: 0.8em;
+          line-height: 26px;
+          text-align: justify;
+          width: 340px;
+          text-indent: 10%;
+          overflow: hidden;
+          transition: 0.5s;
+          padding-top: 20px;
+          }
+
+        .accordion hr {
+          width: 100;
+          margin-left: 0;
+          border: 1px solid grey;
+        }
+
+        .accordion .container.active .content {
+          height: 250px;
+        }
+
+        .accordion .container.active .label::before {
+          content: '-';
+          font-size: 15px;
+        }
+
+        aside#conteudomeio{
+          background: url(./../assets/fotoconteudomeio.png);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          height: 35vh;
+          box-shadow: inset 2px 2px 6px 4px black;
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          align-items: center;
+          margin-bottom: 10px;
+        }
+
+        aside#conteudomeio > h2{
+          color: #E4FFC1;
+          font-weight: bolder;
+          font-size: 1.5em;
+          text-align: center;    
+        }
+
+        .containerCard{  
+
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          flex-wrap: wrap;
+          z-index: 1;
+          margin: 0;
+          padding: 0;
+          margin-top: 100px;
+          flex-direction: column;
+        }
+
+        .containerCard > h1{
+          color: #437A5F;
+          font-size: 1.5em;
+
+        }
+
+        .containerCard #cards{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          margin-top: 40px;
+        }
+
+        article#conteudoinferior{
+
+          background: url(./../assets/fotoconteudoinferior.png);
+          background-position: center top;
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 50vh;
+          width: 96vw;
+          position: center;
+          padding-top: 100px
+
+        }
+
+        article#conteudoinferior > h1{
+
+          color: #FFF592;
+          font-weight: bolder;
+          right: 60px;  
+          padding-top: 2px;
+          position: absolute;
+          top: 40px;
+          font-size: 1em;
+
+        }
+
+        article#conteudoinferior #textoConteudoInferior{
+
+          background:linear-gradient(135deg, rgba(255,255,255,0.887), rgba(255,255,255,0.4));
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+          border-radius: 10px;
+          border: 1px solid rgba(255,255,255,0.18);
+          width: 300px;
+          height: 11vh;
+          padding: 10px;
+          font-size: 1em;
+          text-align: justify; 
+          position: absolute;
+          right: 30px;
+          top: 70px;
+
+
+        }
+
+        article#conteudoinferior #textoConteudoInferior > p#texto1ConteudoInferior{
+
+          color: #437A5F;
+          font-size: 0.6em;
+          text-indent: 25px;
+          line-height: 15px;
+          margin-bottom: 7px;
+
+        }
+
+        article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior{
+          color: #C88219;
+          line-height: 10px;
+          font-size: 0.6em;
+
+        }
+
+        article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior > span{
+          font-weight: bold;
+
+        }
+
+    footer{
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 400px;
+    }
+
+    footer div#contatos > ul{
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 120px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a, footer p{
+
+        font-size: 1.2em;       
+
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:900px) {
+
+    header{
+
+    position:fixed;
+    top:0px;
+    width:100%;
+    margin:0px
+    }
+
+    article#conteudosuperior{
+          background: url(./../assets/fotoconteudosuperior.png);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 470px;
+        } 
+
+        article#conteudosuperior > h1{
+          color: #FF9900;
+          font-weight: bolder;
+          font-size: 1.3em;
+          text-align: justify;    
+          padding-top: 240px;
+          padding-left: 380px;
+        }
+
+        .accordion-body{
+          margin-top: 70px;
+        }
+
+
+        div.accordion-body > h1{
+          color: #E55812;
+          font-size: 1.2em;
+          text-align: center;
+        }
+
+        .accordion {
+          width: 490px;
+          margin: 100px auto;
+          color: black;
+          border: 2px solid #FFB800;
+          padding: 35px 35px;
+        }
+
+        .accordion .container {
+          position: relative;
+          margin: 6px 6x;
+        }
+
+        .accordion .label {
+          position: relative;
+          padding: 8px 0;
+          font-size: 14px;
+          color: #437A5F;
+          font-weight: bolder;
+          cursor: pointer;
+        }
+
+        .accordion .label::before {
+          content: '+';
+          color: black;
+          position: absolute;
+          top: 50%;
+          right: -5px;
+          font-size: 13px;
+          transform: translateY(-50%);
+        }
+
+        .accordion .content {
+          position: relative;
+          background: white;
+          height: 0px;
+          font-size: 0.9em;
+          line-height: 26px;
+          text-align: justify;
+          width: 420px;
+          text-indent: 10%;
+          overflow: hidden;
+          transition: 0.5s;
+          padding-top: 20px;
+          }
+
+        .accordion hr {
+          width: 100;
+          margin-left: 0;
+          border: 1px solid grey;
+        }
+
+        .accordion .container.active .content {
+          height: 180px;
+        }
+
+        .accordion .container.active .label::before {
+          content: '-';
+          font-size: 15px;
+        }
+
+        aside#conteudomeio{
+          background: url(./../assets/fotoconteudomeio.png);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          height: 35vh;
+          box-shadow: inset 2px 2px 6px 4px black;
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          align-items: center;
+          margin-bottom: 10px;
+        }
+
+        aside#conteudomeio > h2{
+          color: #E4FFC1;
+          font-weight: bolder;
+          font-size: 1.5em;
+          text-align: center;    
+        }
+
+        .containerCard{  
+
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          flex-wrap: wrap;
+          z-index: 1;
+          margin: 0;
+          padding: 0;
+          margin-top: 100px;
+          flex-direction: column;
+        }
+
+        .containerCard > h1{
+          color: #437A5F;
+          font-size: 1.5em;
+
+        }
+
+        .containerCard #cards{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          margin-top: 40px;
+        }
+
+        article#conteudoinferior{
+
+          background: url(assets/fotoconteudoinferior.png);
+          background-position: center top;
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 50vh;
+          width: 10vw;
+          position: center;
+          padding-top: 100px
+
+        }
+
+        article#conteudoinferior > h1{
+
+          color: #FFF592;
+          font-weight: bolder;
+          right: 110px;  
+          padding-top: 2px;
+          position: absolute;
+          top: 50px;
+          font-size: 1.2em;
+
+        }
+
+        article#conteudoinferior #textoConteudoInferior{
+
+          background:linear-gradient(135deg, rgba(255,255,255,0.887), rgba(255,255,255,0.4));
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+          border-radius: 10px;
+          border: 1px solid rgba(255,255,255,0.18);
+          width: 290px;
+          height: 18vh;
+          padding: 10px;
+          font-size: 1em;
+          text-align: justify; 
+          position: absolute;
+          right: 40px;
+          top: 85px;
+
+
+        }
+
+        article#conteudoinferior #textoConteudoInferior > p#texto1ConteudoInferior{
+
+          color: #437A5F;
+          font-size: 0.7em;
+          text-indent: 25px;
+          line-height: 15px;
+          margin-bottom: 7px;
+
+        }
+
+        article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior{
+          color: #C88219;
+          line-height: 16px;
+          font-size: 0.7em;
+
+        }
+
+        article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior > span{
+          font-weight: bold;
+
+        }
+
+    footer{
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 400px
+    }
+
+    footer div#contatos > ul{
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 80px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a, footer p{
+
+        font-size: 1em;      
+        padding-top: 0px; 
+
+    }
+
+    footer > img{
+
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        max-height: 60%;
+    }
+
+
+}
+
+@media screen and (min-width:901px) and (max-width: 1000px) {
+
+    header{
+
+        position: fixed;
+        top:0px;
+        width:100%;
+        margin:0px
+
+    }
+
+    article#conteudosuperior{
+
+        background: url(./../assets/fotoconteudosuperior.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 540px;
+    } 
+
+    article#conteudosuperior > h1{
+        color: #FF9900;
+        font-weight: bolder;
+        font-size: 1.5em;
+        text-align: justify;    
+        padding-top: 280px;
+        padding-left: 450px;
+    }
+
+    .accordion-body{
+        margin-top: 70px;
+    }
+
+
+    div.accordion-body > h1{
+        color: #E55812;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .accordion {
+        width: 600px;
+        margin: 100px auto;
+        color: black;
+        border: 2px solid #FFB800;
+        padding: 35px 35px;
+    }
+
+    .accordion .container {
+        position: relative;
+        margin: 6px 6x;
+    }
+
+    .accordion .label {
+        position: relative;
+        padding: 8px 0;
+        font-size: 16px;
+        color: #437A5F;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    .accordion .label::before {
+        content: '+';
+        color: black;
+        position: absolute;
+        top: 50%;
+        right: -5px;
+        font-size: 16px;
+        transform: translateY(-50%);
+    }
+
+    .accordion .content {
+        position: relative;
+        background: white;
+        height: 0px;
+        font-size: 0.9em;
+        line-height: 26px;
+        text-align: justify;
+        width: 550px;
+        text-indent: 10%;
+        overflow: hidden;
+        transition: 0.5s;
+        padding-top: 20px;
+    }
+
+    .accordion hr {
+        width: 100;
+        margin-left: 0;
+        border: 1px solid grey;
+    }
+
+    .accordion .container.active .content {
+        height: 180px;
+    }
+
+    .accordion .container.active .label::before {
+        content: '-';
+        font-size: 16px;
+    }
+
+    aside#conteudomeio{
+        background: url(./../assets/fotoconteudomeio.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 40vh;
+        box-shadow: inset 2px 2px 6px 4px black;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    aside#conteudomeio > h2{
+        color: #E4FFC1;
+        font-weight: bolder;
+        font-size: 1.7em;
+        text-align: center;    
+    }
+
+    .containerCard{  
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        flex-wrap: wrap;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .containerCard > h1{
+        color: #437A5F;
+        font-size: 1.5em;
+
+    }
+
+    .containerCard #cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    article#conteudoinferior{
+
+        background: url(./../assets/fotoconteudoinferior.png);
+        background-position: center top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 50vh;
+        width: 97vw;
+        position: center;
+        padding-top: 100px
+
+    }
+
+    article#conteudoinferior > h1{
+
+        color: #FFF592;
+        font-weight: bolder;
+        right: 110px;  
+        padding-top: 2px;
+        position: absolute;
+        top: 70px;
+        font-size: 1.4em;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior{
+
+        background:linear-gradient(135deg, rgba(255,255,255,0.887), rgba(255,255,255,0.4));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+        border-radius: 10px;
+        border: 1px solid rgba(255,255,255,0.18);
+        width: 300px;
+        height: 19vh;
+        padding: 10px;
+        font-size: 1em;
+        text-align: justify; 
+        position: absolute;
+        right: 70px;
+        top: 120px;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior > p#texto1ConteudoInferior{
+
+        color: #437A5F;
+        font-size: 0.9em;
+        text-indent: 25px;
+        line-height: 15px;
+        margin-bottom: 7px;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior{
+        color: #C88219;
+        line-height: 16px;
+        font-size: 0.9em;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior > span{
+        font-weight: bold;
+
+    }
+
+    footer{
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 400px
+    }
+
+    footer div#contatos > ul{
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 80px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a, footer p{
+
+        font-size: 1em;      
+        padding-top: 0px; 
+
+    }
+
+        footer > img{
+
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        max-height: 60%;
+    }
+
+
+}
+
+@media screen and (min-width:1001px) and (max-width:1365px){
+
+    header{
+
+        position: fixed;
+        top:0px;
+        width:100%;
+        margin:0px
+
+    }
+
+    article#conteudosuperior{
+
+        background: url(./../assets/fotoconteudosuperior.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 800px;
+    } 
+
+    article#conteudosuperior > h1{
+        color: #FF9900;
+        font-weight: bolder;
+        font-size: 1.6em;
+        text-align: justify;    
+        padding-top: 400px;
+        padding-left: 500px;
+    }
+
+    .accordion-body{
+        margin-top: 70px;
+    }
+
+
+    div.accordion-body > h1{
+        color: #E55812;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .accordion {
+        width: 650px;
+        margin: 100px auto;
+        color: black;
+        border: 2px solid #FFB800;
+        padding: 35px 35px;
+    }
+
+    .accordion .container {
+        position: relative;
+        margin: 6px 6x;
+    }
+
+    .accordion .label {
+        position: relative;
+        padding: 8px 0;
+        font-size: 16px;
+        color: #437A5F;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    .accordion .label::before {
+        content: '+';
+        color: black;
+        position: absolute;
+        top: 50%;
+        right: -5px;
+        font-size: 16px;
+        transform: translateY(-50%);
+    }
+
+    .accordion .content {
+        position: relative;
+        background: white;
+        height: 0px;
+        font-size: 0.9em;
+        line-height: 26px;
+        text-align: justify;
+        width: 600px;
+        text-indent: 10%;
+        overflow: hidden;
+        transition: 0.5s;
+        padding-top: 20px;
+    }
+
+    .accordion hr {
+        width: 100;
+        margin-left: 0;
+        border: 1px solid grey;
+    }
+
+    .accordion .container.active .content {
+        height: 180px;
+    }
+
+    .accordion .container.active .label::before {
+        content: '-';
+        font-size: 16px;
+    }
+
+    aside#conteudomeio{
+        background: url(./../assets/fotoconteudomeio.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 40vh;
+        box-shadow: inset 2px 2px 6px 4px black;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    aside#conteudomeio > h2{
+        color: #E4FFC1;
+        font-weight: bolder;
+        font-size: 1.7em;
+        text-align: center;    
+    }
+
+    .containerCard{  
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        flex-wrap: wrap;
+        z-index: 1;
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .containerCard > h1{
+        color: #437A5F;
+        font-size: 1.5em;
+
+    }
+
+    .containerCard #cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    article#conteudoinferior{
+
+        background: url(./../assets/fotoconteudoinferior.png);
+        background-position: center top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 50vh;
+        width: 97vw;
+        position: center;
+        padding-top: 100px
+
+    }
+
+    article#conteudoinferior > h1{
+
+        color: #FFF592;
+        font-weight: bolder;
+        right: 110px;  
+        padding-top: 2px;
+        position: absolute;
+        top: 70px;
+        font-size: 1.4em;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior{
+
+        background:linear-gradient(135deg, rgba(255,255,255,0.887), rgba(255,255,255,0.4));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+        border-radius: 10px;
+        border: 1px solid rgba(255,255,255,0.18);
+        width: 300px;
+        height: 19vh;
+        padding: 10px;
+        font-size: 1em;
+        text-align: justify; 
+        position: absolute;
+        right: 70px;
+        top: 120px;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior > p#texto1ConteudoInferior{
+
+        color: #437A5F;
+        font-size: 0.9em;
+        text-indent: 25px;
+        line-height: 15px;
+        margin-bottom: 7px;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior{
+        color: #C88219;
+        line-height: 16px;
+        font-size: 0.9em;
+
+    }
+
+    article#conteudoinferior #textoConteudoInferior > p#texto2ConteudoInferior > span{
+        font-weight: bold;
+
+    }
+
+
+
+
+
+    footer{
+
+        margin: 0px;
+        margin-top: 200px;
+        padding: 0px;
+        height: 100vh;
+    }
+
+    footer div#contatos > ul{
+
+        margin: 0px;
+        margin-right: 75px;
+        padding-top: 120px;
+        justify-content: center;
+    }
+
+    footer div#contatos ul li a, footer p{
+
+        font-size: 1.2em;       
+
+    }
+}
+@media screen and (min-width:1365px){
+  article#conteudosuperior{
+    height: 126vh;
+  }
+}
