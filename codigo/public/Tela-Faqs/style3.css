@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;   
+}
+
+/* Estiliza o container principal */
+.container-1 {
+    display: flex;
+    gap: 20px; 
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estiliza seções do main */
+section#dados-2 {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+section > div#objetivo > h2#dados-2 {
+    color: #008745;
+    font-weight: 600;
+    padding: 20px;
+    width: 100%;
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+/* Estiliza a seção de dados */
+section#dados {
+    background-color: #3F3F3F;
+    padding: 30px;
+}
+
+section#dados > h1#dados-1 {
+    color: #FFF488;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section > .est {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+    padding: 10px;
+}
+
+section > .est > div {
+    width: 60%;
+    text-align: center;
+}
+
+section > .est > div > h2 {
+    color: #E4FFC1;
+    margin: 10px 10px;
+}
+
+section > .est > #block-1 > #dado-1,
+section > .est > #block-2 > #dado-2,
+section > .est > #block-3 > #dado-3,
+section > .est > #block-4 > #dado-4 {
+    border: 2px solid #00FF82;
+    padding: 10px;
+    color: #E4FFC1;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Estiliza gráfico de progresso */
+.graf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill {
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.graf > h3 {
+    margin-top: 8px;
+    color: #437A5F;
+    text-align: center;
+}
+
+.outer {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+#number1, #number2, #number3, #number4 {
+    font-weight: 600;
+    color: #555;
+}
+
+.graf, circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
