@@ -49,5 +49,3 @@ const tabClicked = (tab) => {
 
     contentToShow.classList.add('show');
 }
-
-imprimir();
