@@ -3,7 +3,6 @@ body {
 
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
     height: 100%;
 }
 
@@ -119,9 +118,7 @@ height: 103.3vh;
 
 }
 
-
 main>article#bem-vindo>div#fundo-trans {
-
 
     text-align: center;
     background-color: rgba(255, 255, 255, 0.6);
@@ -132,8 +129,6 @@ main>article#bem-vindo>div#fundo-trans {
     position: absolute;
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.607);
     margin-top: 120px;
-
-
 }
 
 main>article#bem-vindo>div#fundo-trans>h2 {
@@ -154,11 +149,7 @@ div.title {
     text-align: center;
     margin: 120px;
 
-
 }
-
-
-
 
 main>article#bem-vindo>div#fundo-trans {
 
@@ -209,8 +200,6 @@ div.nave {
 
 margin-left: 600px;
 
-
-
 }
 
 div.nave > button > i{
@@ -220,7 +209,6 @@ font-weight: bolder;
 font-size: 2.5em;
 
 }
-
 
 div.gallery-wrapper{
 
@@ -280,7 +268,6 @@ article#adocao> div > div#secao1>div#pets {
 article#adocao> div > div#secao1>div#pets>img {
 
     width: 350px;
-    ;
 
 }
 
@@ -299,17 +286,26 @@ article#adocao>div > div#secao1>div#pets>div.informacoes>h4 {
     font-weight: bold;
 }
 
-article#adocao>div > div#secao1>div#pets>div.informacoes>button {
+article#adocao > div > div#secao1 > div#pets > div.informacoes > button {
 
-    color: #FFE500;
-    background-color: #437A5F;
+    background: linear-gradient(to right, #008443, #004120);
+    color:#FFE500;
     font-weight: bold;
     width: 175px;
     margin: 20px 0px 20px 100px;
-    border-radius: 5%;
-    padding: 7px 10px;
-    border: none;
+    height: 45px; 
+    border: 0;
+    outline: none;
+    border-radius: 30px;
     font-size: 1em;
+    box-shadow: 5px 5px 20px rgba(116, 116, 116, 0.282);
+    transition-duration: background 5s;
+}
+
+article#adocao > div > div#secao1 > div#pets > div.informacoes > button:hover{
+
+    background: linear-gradient(to right, #FFE500, #FF661B);
+    color:#3f3f3f
 }
 
 /*Pet em destaque*/
@@ -369,19 +365,28 @@ article#adocao>div > div#secaodestaque>div#pets>div.informacoes>h4 {
     margin-bottom: 25px;
 }
 
-article#adocao>div > div#secaodestaque>div#pets>div.informacoes>button {
+article#adocao > div > div#secaodestaque > div#pets > div.informacoes > button {
 
-    color: #FFE500;
-    background-color: #437A5F;
+    background: linear-gradient(to right, #008443, #004120);
+    color:#FFE500;
     font-weight: bold;
     width: 175px;
     margin: 0 auto;
-    border-radius: 5%;
-    padding: 7px 10px;
-    border: none;
+    height: 45px; 
+    border: 0;
+    outline: none;
+    border-radius: 30px;
     font-size: 1em;
     margin-top: 25px;
     margin-bottom: 25px;
+    box-shadow: 5px 5px 20px rgba(116, 116, 116, 0.282);
+    transition-duration: background 5s;
+}
+
+article#adocao > div > div#secaodestaque > div#pets > div.informacoes > button:hover{
+
+    background: linear-gradient(to right, #FFE500, #FF661B);
+    color:#3f3f3f
 }
 
 /*Carrossel*/
@@ -401,8 +406,6 @@ article#adocao>div > div#secao2>div#pets {
     padding: 200px;
     padding-bottom: 0px;
     margin-bottom: 0px;
-
-
 }
 
 article#adocao>div > div#secao2>div#pets>img {
@@ -426,17 +429,26 @@ article#adocao>div > div#secao2>div#pets>div.informacoes>h4 {
     font-weight: bold;
 }
 
-article#adocao>div > div#secao2>div#pets>div.informacoes>button {
+article#adocao >div > div#secao2 > div#pets > div.informacoes > button {
 
-    color: #FFE500;
-    background-color: #437A5F;
+    background: linear-gradient(to right, #008443, #004120);
+    color:#FFE500;
     font-weight: bold;
     width: 175px;
     margin: 20px 0px 20px 100px;
-    border-radius: 5%;
-    padding: 7px 10px;
-    border: none;
+    height: 45px; 
+    border: 0;
+    outline: none;
+    border-radius: 30px;
     font-size: 1em;
+    box-shadow: 5px 5px 20px rgba(116, 116, 116, 0.282);
+    transition-duration: background 5s;
+}
+
+article#adocao >div > div#secao2 > div#pets > div.informacoes > button:hover{
+
+    background: linear-gradient(to right, #FFE500, #FF661B);
+    color:#3f3f3f
 }
 
 div > div#nave>.arrow-left, div > div#nave> .arrow-right {
@@ -457,7 +469,6 @@ div > div#nave>.arrow-left, div > div#nave> .arrow-right {
 
 }
 
-
 div > div#nave> .arrow-right {
 
     top: 0;
@@ -466,8 +477,6 @@ div > div#nave> .arrow-right {
     background: linear-gradient(right, black 200%);
 
 }
-
-
 
 div#ongs {
     background-image: url('./../assets/ongs\ part\ 2.png');
@@ -498,8 +507,6 @@ div#ongs>div.botao-redondo {
 
 }
 
-
-
 div#ongs>div.botao-redondo,
 p#ongs {
     color: black;
@@ -519,7 +526,6 @@ div#ongs a:hover {
     color: #008745;
 
 }
-
 
 /*Footer*/
 

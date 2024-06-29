@@ -488,5 +488,100 @@
       "quantidade": 300000,
       "formato": "mil"
     }
+  ],
+  "quiz":[
+
+      {
+          "questoes": [
+
+              {
+
+                  "pergunta":"Qual é a sua cor favorita?",
+                  "opcoes": [
+
+                      {"descricao":"Preto","img":"./../assets/preto.png", "pontos":1,"marcada":false},
+                      {"descricao":"Azul", "img":"./../assets/azul.png", "pontos":2,"marcada":false},
+                      {"descricao":"Vermelho","img":"./../assets/vermelho.png", "pontos":3,"marcada":false},
+                      {"descricao":"Verde","img":"./../assets/verde.png", "pontos":4,"marcada":false}
+                  ]
+              },{
+                  "pergunta":"Qual é a sua estação favorita?",
+                  "opcoes":[
+
+                      {"descricao":"Primavera","img":"./../assets/primavera.png", "pontos":1,"marcada":false},
+                      {"descricao":"Verão","img":"./../assets/verao.png", "pontos":2,"marcada":false},
+                      {"descricao":"Outono","img":"./../assets/outono.png", "pontos":3,"marcada":false},
+                      {"descricao":"Inverno","img":"./../assets/inverno.png", "pontos":4,"marcada":false}
+                  ]
+              },{
+                  "pergunta":"Como você passa seu tempo livre?",
+                  "opcoes":[
+
+                      {"descricao":"Fazendo atividades ao ar livre","img":"./../assets/exercicios.png", "pontos":1,
+                      "marcada":false},
+
+                      {"descricao":"Relaxando com um bom livro.","img":"./../assets/leitura.png", "pontos":2,"marcada":false},
+
+                      {"descricao":"Maratonando uma série","img":"./../assets/series.png", "pontos":3,"marcada":false},
+
+                      {"descricao":"Saindo para fazer compras","img":"./../assets/compras.png", "pontos":4,"marcada":false}
+                  ]
+              },{
+                  "pergunta":"Qual dos seguintes termos melhor descreve você?",
+                  "opcoes":[
+
+                      {"descricao":"Extrovertido(a)","img":"./../assets/extrovertido2.png", "pontos":1,
+                      "marcada":false},
+
+                      {"descricao":"Introvertido(a)","img":"./../assets/introvertido.png", "pontos":2,"marcada":false},
+
+                      {"descricao":"Meio Extrovertido(a)","img":"./../assets/extrovertido.png", "pontos":3,"marcada":false},
+
+                      {"descricao":"Meio Introvertido(a)","img":"./../assets/introvertido2.png", "pontos":4,"marcada":false}
+                  ]
+              },{
+                  "pergunta":"O que você prefere em um pet?",
+                  "opcoes":[
+
+                      {"descricao":"Um companheiro leal","img":"./../assets/leal.png", "pontos":1,
+                      "marcada":false},
+
+                      {"descricao":"Um animal independente","img":"./../assets/independente.png", "pontos":2,"marcada":false},
+
+                      {"descricao":"Um pet que sempre quer passear","img":"./../assets/passear.png", "pontos":3,"marcada":false},
+
+                      {"descricao":"um bichinho mais calmo","img":"./../assets/calmo.png", "pontos":4,"marcada":false}
+                  ]
+              },{
+                  "pergunta":"Como você lida com pelos de animais pela casa?",
+                  "opcoes":[
+
+                      {"descricao":"Eu aceito e limpo sem problemas.","img":"./../assets/aceito.png", "pontos":1,
+                      "marcada":false},
+
+                      {"descricao":"Eu prefiro menos pelos pela casa.","img":"./../assets/pouco.png", "pontos":2,"marcada":false},
+
+                      {"descricao":"Detesto, não gosto nem um pouco","img":"./../assets/detesto.png", "pontos":3,"marcada":false},
+
+                      {"descricao":"Não lido, pois tenho alergia","img":"./../assets/alergia.png", "pontos":4,"marcada":false}
+                  ]
+              }
+          ]
+      },{
+          "resultado":[
+
+              {
+
+                  "animais": "Gatos",
+                  "img":"./../assets/cats.png",
+                  "descricao":"São brincalhões, muito independentes, curiosos e conseguem ser teimosos, mas são também extremamente amigáveis e afetivos: um dos gestos mais carinhosos dos gatos é a famosa turrinha, que dão entre si e aos seus donos. Outro sinal de afeição é o não menos famoso ronronar."
+              },{
+
+                  "animais": "Cachorros",
+                  "img":"./../assets/dogs.png",
+                  "descricao":"Adotar um cachorro é ganhar um amigo fiel para a vida toda. Esses anjinhos de quatro patas trazem alegria e amor incondicional, sempre prontos para nos fazer sorrir com suas travessuras e carinhos. Dê uma chance a um cachorro adotado e descubra como ele pode transformar sua vida com amor e lealdade infinitos."
+              }
+          ]
+      }
   ]
 }

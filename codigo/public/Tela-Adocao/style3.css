@@ -1,0 +1,650 @@
+*{
+    margin:0;
+    padding:0;
+   
+  }
+  
+  main > article{
+  
+    text-align: center;
+  }
+  
+  main > article > h2{
+  
+    color:#FF9900;
+    padding-top: 20px;
+    font-size: 2em;
+  }
+  
+  main > article > h1{
+  
+    color:#008443;
+    font-size: 2.1em;
+  
+  }
+  
+  main > article > p{
+  
+  
+    text-align:left;
+    padding: 90px 0;
+    width: 50vw;
+    margin-left: 200px;
+    line-height: 25px;
+  
+  }
+  main > article > div#background {
+  
+    background: url(./../assets/back-quiz.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+  }
+  main > article > div#background > div#quiz{
+  
+    height: 100vh;
+    padding: 30px 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main > article > div#background > div#quiz > div.questoes{
+  
+    background:linear-gradient(135deg, rgba(255, 255, 255, 0.734), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 7px;
+    width: 50vw;
+    height: 100vh;
+  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    margin-right: 250px;
+  
+  }
+  
+  main > article > div#background > div#quiz > div.questoes > div#pergunta{
+  
+    grid-column: 1 / 3;
+    background-color: #008443;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFE500;
+    height: 80px;
+    font-size: 1.1em;
+  }
+  
+  main > article > div#background > div#quiz > div.questoes > div.opcoes{
+  
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    background-color: #3F3F3F;;
+    color:#FFE500;
+    font-weight: bold;
+    border-radius: 7px 7px 0px 0px;
+  
+  }
+  
+  main > article > div#background > div#quiz > div.questoes > div.opcoes > img{
+  
+    width: 100%;
+    height: 80%;
+    border-radius: 7px 7px 0px 0px;
+  
+  }
+  
+  main > article > div#background > div#quiz > div.questoes > div.opcoes > p{
+  
+    padding: 0;
+    padding-top: 10px;
+  
+  }
+  
+  main > article > div#background > div#botoes{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 250px;
+    padding-bottom: 40px;
+  
+  }
+  
+  main > article > div#background > div#botoes > button{
+  
+      margin-left: 10px;
+      background: linear-gradient(to right, #008443, #004120);
+      color:#FFE500;
+      font-size:1em;
+      width: 170px;
+      height: 45px; 
+      font-weight: bold;
+      border: 0;
+      outline: none;
+      border-radius: 30px;
+      font-size: 1em;
+      box-shadow: 5px 5px 20px rgba(116, 116, 116, 0.282);
+      transition-duration: background 5s;
+  }
+  
+  main > article > div#background > div#botoes > button:hover{
+  
+      background: linear-gradient(to right, #FFE500, #FF661B);
+      color:#3f3f3f
+  }
+  
+  main > article > div#background > div#botoes > button#back{
+    display:none;
+  }
+  
+  .desativa{
+  
+    pointer-events: none;
+  }
+  
+  .desbota{
+  
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  
+  .nitido{
+  
+    opacity: 1;
+    pointer-events: none;
+  }
+  
+  
+  main > article > div#background > div#quiz > div#resultado{
+  
+    background:linear-gradient(135deg, rgba(255, 255, 255, 0.587), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 50vw;
+    height: 100vh;
+    padding: 20px ;
+    padding-bottom: 100px;
+    border-radius:7px;
+    margin-right: 250px;      
+  }
+  
+  main > article > div#background > div#quiz div#resultado > h1{
+  
+    background-color: #008443;
+    color:#FFE500;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2.4em;
+  }
+  
+  main > article > div#background > div#quiz div#resultado > img{
+  
+    width: 100%;
+    max-height: 50%;
+  }
+  
+  main > article > div#background > div#quiz div#resultado > p{
+  
+    text-align: justify;
+    line-height: 25px;
+    padding: 30px 40px;
+    color:#3F3F3F;
+  }
+  
+  main > article > div#background > div#quiz div#resultado > button{
+  
+      background: linear-gradient(to right, #008443, #004120);
+      color:#FFE500;
+      height: 55px;
+      width: 200px;
+      border: 0;
+      outline: none;
+      border-radius: 30px;
+      font-size: 1.1em;
+      font-weight:bold;
+      box-shadow: 5px 5px 20px rgba(116, 116, 116, 0.282);
+      transition-duration: background 5s;
+      
+  
+  }
+  
+  main > article > div#background > div#quiz div#resultado > button:hover{
+  
+      background: linear-gradient(to right, #FFE500, #FF661B);
+      color:#3f3f3f
+  }
+  
+  main > article > div#background > div#erro{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-right:250px;
+    margin-bottom:30px;
+    color:#FF661B;
+    font-weight:bold;
+    font-size:2em;
+  }
+  
+  @media screen and (max-width:600px) {
+  
+    main > article > h2{
+  
+        font-size: 1.3em;
+    }
+  
+    main > article > h1{
+  
+        font-size: 1.4em;
+    }
+  
+    main > article > p{
+  
+        font-size: 0.9em;
+        padding: 50px;
+        padding-right: 0px;
+        margin-left: 0;
+        width: 80%;
+        text-align: justify;
+    }
+  
+    main > article > div#background > div#quiz{
+  
+        width:90vw;
+        height: 100vh;   
+        padding-top: 0px;
+        margin-top: 0px;    
+    }
+  
+    main > article > div#background > div#quiz > div.questoes{
+  
+        width:80vw;
+        height: 80vh;
+        margin-right: 0;
+        margin-left: 35px;
+        margin-top: 0px;   
+        padding-bottom: 30px; 
+    }
+  
+    main > article > div#background > div#quiz > div.questoes > div#pergunta{
+  
+        font-size: 0.9em;
+    }
+  
+    main > article > div#background > div#quiz > div.questoes > div.opcoes{
+  
+        height: 30vh;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 15px;
+  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes > div.opcoes > p{
+  
+        font-size: 0.9em;
+        padding: 5px 5px 5px 5px;
+  
+    }
+  
+    main > article > div#background > div#botoes{
+  
+        margin-right: 0px;
+  
+    }
+  
+    main > article > div#background > div#quiz > div#resultado{
+  
+        width: 80vw;
+        height: 80vh;
+        padding: 20px ;
+        padding-bottom: 100px;
+        margin: 90px 0px 0px 35px;
+    }
+  
+    main > article > div#background > div#quiz div#resultado > h1{
+  
+        height: 60px;
+        font-size: 1.7em;
+    }
+  
+    main > article > div#background > div#quiz div#resultado > p{
+  
+        font-size: 1em;
+        padding: 20px 5px;
+  
+    }
+  
+    main > article > div#background > div#quiz div#resultado > button{
+  
+        margin-top: 0px;
+        font-size: 1em;
+  
+    }
+  
+    main > article > div#background > div#erro{
+  
+        margin-right:0px;
+        font-size: 1.7em;
+  
+    }
+  }
+  
+  @media screen and (min-width:601px) and (max-width:768px){
+  
+    main > article > p{
+  
+        font-size: 1em;
+        padding: 50px;
+        padding-right: 0px;
+        margin-left: 0;
+        width: 85%;
+        text-align: justify;
+  
+    }
+  
+    main > article > div#background {
+  
+        margin:0px;
+        padding: 0;
+    }
+  
+    main > article > div#background > div#quiz{
+  
+        width:90vw;
+        height:100vh;   
+        padding: 0px;
+        margin:0px auto;  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes{
+  
+        width:80vw;
+        margin:0px auto;  
+        padding-bottom: 30px; 
+  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes > div.opcoes{
+  
+        height: 30vh;
+        padding-bottom: 15px;
+  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes > div.opcoes > p{
+  
+        font-size: 0.9em;
+        padding: 10px 5px;
+  
+    }
+  
+    main > article > div#background > div#botoes{
+  
+        margin-right: 0;
+        margin-top: 0;
+    }
+  
+    main > article > div#background > div#erro{
+  
+        margin-right:0px;
+        font-size: 1.7em;
+  
+    }
+  
+    main > article > div#background > div#quiz > div#resultado{
+  
+        width: 80vw;
+        height: 80vh;
+        padding: 20px ;
+        padding-bottom: 100px;
+        margin: 0px auto;
+        margin-top: 80px;
+    }
+  
+    main > article > div#background > div#quiz div#resultado > h1{
+  
+        height: 60px;
+        font-size: 2em;
+    }
+  
+    main > article > div#background > div#quiz div#resultado > p{
+  
+        font-size: 1em;
+        padding: 20px 5px;
+  
+    }
+  
+    main > article > div#background > div#quiz div#resultado > button{
+  
+        margin-top: 20px;
+        font-size: 1em;
+  
+    }
+  }
+  
+  @media screen and (min-width:769px) and (max-width:900px) {
+  
+    main > article > p{
+  
+        font-size: 1em;
+        padding: 50px;
+        padding-right: 0px;
+        margin-left: 0;
+        width: 85%;
+        text-align: justify;
+  
+    }
+  
+    main > article > div#background {
+  
+        margin:0px;
+        padding: 0;
+    }
+  
+    main > article > div#background > div#quiz{
+  
+        width:90vw;
+        height:100vh;   
+        padding: 0px;
+        margin:0px auto;  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes{
+  
+        width:80vw;
+        margin:0px auto;  
+        padding-bottom: 30px; 
+  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes > div.opcoes{
+  
+        height: 30vh;
+        padding-bottom: 15px;
+  
+    }
+  
+    main > article > div#background > div#botoes{
+  
+        margin-right: 0;
+        margin-top: 0;
+    }
+  
+    main > article > div#background > div#erro{
+  
+        margin-right:0px;
+        font-size: 1.7em;
+  
+    }
+  
+    main > article > div#background > div#quiz > div#resultado{
+  
+        width: 80vw;
+        height: 80vh;
+        padding: 20px ;
+        padding-bottom: 100px;
+        margin: 0px auto;
+        margin-top: 80px;
+    }
+  
+    main > article > div#background > div#quiz div#resultado > p{
+  
+        font-size: 1em;
+        padding: 20px 5px;
+  
+    }
+  
+  }
+  
+  @media screen and (min-width:901px) and (max-width:1000px) {
+  
+    main > article > p{
+  
+        font-size: 1em;
+        padding: 50px;
+        padding-right: 0px;
+        margin-left: 0;
+        width: 85%;
+        text-align: justify;
+  
+    }
+  
+    main > article > div#background {
+  
+        margin:0px;
+        padding: 0;
+    }
+  
+    main > article > div#background > div#quiz{
+  
+        width:90vw;
+        height:100vh;   
+        padding: 0px;
+        margin:0px auto;  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes{
+  
+        width:80vw;
+        margin:0px auto;  
+        padding-bottom: 30px; 
+  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes > div.opcoes{
+  
+        height: 30vh;
+        padding-bottom: 15px;
+  
+    }
+  
+    main > article > div#background > div#botoes{
+  
+        margin-right: 0;
+        margin-top: 0;
+    }
+  
+    main > article > div#background > div#erro{
+  
+        margin-right:0px;
+        font-size: 1.7em;
+  
+    }
+  
+    main > article > div#background > div#quiz > div#resultado{
+  
+        width: 80vw;
+        height: 80vh;
+        padding: 20px ;
+        padding-bottom: 100px;
+        margin: 0px auto;
+        margin-top: 80px;
+    }
+  
+    main > article > div#background > div#quiz div#resultado > p{
+  
+        font-size: 1.1em;
+        padding: 20px 5px;
+  
+    }
+  }
+  
+  @media screen and (min-width:1001px) and (max-width:1365px){
+  
+    main > article > p{
+  
+        font-size: 1em;
+        padding: 50px;
+        padding-right: 0px;
+        margin-left:50px;
+        width: 75%;
+        text-align: justify;
+  
+    }
+  
+    main > article > div#background {
+  
+        margin:0px;
+        padding: 0;
+    }
+  
+    main > article > div#background > div#quiz{
+  
+        width:90vw;
+        height:100vh;   
+        padding: 0px;
+        margin:0px auto;  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes{
+  
+        width:60vw;
+        padding-bottom: 30px; 
+  
+    }
+  
+    main > article > div#background > div#quiz > div.questoes > div.opcoes{
+  
+        height: 30vh;
+        padding-bottom: 10px;
+  
+    }
+  
+    main > article > div#background > div#quiz > div#resultado{
+  
+        width: 60vw;
+        height: 80vh;
+        padding: 20px ;
+        padding-bottom: 100px;
+        margin-top: 80px;
+    }
+  
+    main > article > div#background > div#quiz div#resultado > p{
+  
+        font-size: 1em;
+        padding: 20px 5px;
+  
+    }
+  
+    div#erro{
+  
+        width: 60vw;
+        margin-left:100px;
+        font-size: 1.7em;
+  
+    }
+  }
