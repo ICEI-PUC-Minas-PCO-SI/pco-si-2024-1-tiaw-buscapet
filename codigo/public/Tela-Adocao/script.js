@@ -1,10 +1,10 @@
-const requestURL = "https://62f225f9-6c7c-4c01-8f7d-42f8b60e7989-00-27qftabnr2mym.worf.replit.dev/db/db.json/animais";
+const requestURL = "http://localhost:3000/db/db.json/animais";
 const request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType ="json";
 request.send();
 
-let db = JSON.parse(localStorage.getItem('dados'));
+let db = JSON.parse(localStorage.getItem('dados_animais'));
 
 request.onload = function () {
 
@@ -22,8 +22,7 @@ request.onload = function () {
 
 function salvaDados(dados){
 
-    localStorage.setItem('dados' , JSON.stringify(dados))
-
+    localStorage.setItem('dados_animais' , JSON.stringify(dados))
 }
 
 const controls = document.querySelectorAll('.control');
@@ -83,8 +82,10 @@ function pets() {
     let k = 0;
     let coracao = "";
 
-    for (let i=0 ; i < 3 ; i++)  {
+    
 
+    for (let i=0 ; i < 3 ; i++)  {
+      console.log(db[k])
         let secao = 1;
 
         str += ` <div class="item ${current}">
