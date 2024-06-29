@@ -1,441 +1,492 @@
 {
-    "ongs": [
-      {
-        "nome": "AMPARA Animal",
-        "descricao": "O Instituto Ampara Animal é uma OSCIP sem fins lucrativos. Somos protetores de animais abandonados e vítimas de maus-tratos. Lutamos para que os mais de 30 milhões de animais de rua tenham uma vida com respeito e amor.",
-        "estado": "SP",
-        "instagram": "instagram.com/amparanimal",
-        "telefone": "-",
-        "email": "contato@amparanimal.org.br",
-        "img": "./../assets/ampara.png"
-      },
-      {
-        "nome": "Cão sem dono",
-        "descricao": "O Cão Sem Dono é uma ONG (Organização Não Governamental), sem fins lucrativos, e que nasceu de um grande sonho do seu atual presidente: tirar o maior número possível de animais das ruas, dar tratamento adequado e integrá-los a famílias que lhes deem amor, carinho e uma vida digna.",
-        "estado": "SP",
-        "instagram": "instagram.com/caosemdono.oficial",
-        "telefone": "-",
-        "email": "clinica@caosemdono.com.br",
-        "img": "./../assets/cao sem dono2.png"
-      },
-      {
-        "nome": "Vamos Frajolar",
-        "descricao": "A Vamos Frajolar abriga mais de 69 bichanos em sua sede e cuida de mais de 120 animais em famílias vulneráveis, para quem é oferecida assistência para o não abandono dos animais, até que a família se reestruture.",
-        "estado": "SP",
-        "instagram": "instagram.com/vamosfrajolar",
-        "telefone": "(12) 99208-2577",
-        "email": "info@vamosfrajolar.org",
-        "img": "./../assets/frajolar.png"
-      },
-      {
-        "nome": "ProAnima – Associação Protetora dos Animais",
-        "descricao": "Constituída em 2003, a ProAnima é uma organização da sociedade civil de caráter socioambientalista, mantida com trabalho voluntário e cujos objetivos estratégicos são concretizados por meio de ações organizadas em quatro eixos: Ativismo, Política Pública, Educação e Proteção.",
-        "estado": "DF",
-        "instagram": "instagram.com/proanimadf",
-        "telefone": "(61) 3226-6621",
-        "email": "proanima@proanima.org.br",
-        "img": "./../assets/proanima.png"
-      },
-      {
-        "nome": "RockBicho",
-        "descricao": "Somos a Rockbicho.org Associação de Proteção Animal (ex-SOS Bichos), uma organização não governamental, sem fins lucrativos, que atua com o objetivo de promover a guarda responsável e a defesa dos direitos dos animais. Nossa missão e o amor pelos animais nos motivam dia a dia, a trabalhar para tornar a adoção uma experiência única e transformadora para animais, pessoas e de melhorias para a cidade.",
-        "estado": "MG",
-        "instagram": "instagram.com/rockbicho",
-        "telefone": "(31) 2123-1600",
-        "email": "contato@rockbicho.org.",
-        "img": "./../assets/rock.png"
-      },
-      {
-        "nome": "Associação Focinhos de Luz",
-        "descricao": "A Associação Focinhos de Luz é uma organização sem fins lucrativos que luta pela reintrodução de animais abandonados à sociedade, criada em 2010. Construída por apaixonados pela causa animal e inconformados com o abandono recorrente, a nossa casa de passagem abriga em torno de 100 animais, que passam por cuidados até estarem aptos a adoção, onde podem finalmente encontrar um lar definitivo e amoroso.",
-        "estado": "RJ",
-        "instagram": "instagram.com/focinhosdeluz",
-        "telefone": "-",
-        "email": "contato@focinhosdeluz.com",
-        "img": "./../assets/focinho de luz.png"
-      }
-    ],
-    "carouselData": [
-      {
-        "title": "Encontre aqui o seu melhor amigo"
-      },
-      {
-        "slides": [
-          {
-            "index": 1,
-            "imageSrc": "assets/animal1.jpg",
-            "details": {
-              "nome": "Pedrinho",
-              "raca": "Gatinho de Rua",
-              "personalidade": "Gosta de brincar e dormir, muito sociável e carinhoso",
-              "ondeAchar": "Disponível na tela de Adoções"
-            }
-          },
-          {
-            "index": 2,
-            "imageSrc": "assets/animal2.jpg",
-            "details": {
-              "nome": "Viserion, Drogon, Rhegal",
-              "raca": "Vira-Lata (dragõeszinhos)",
-              "personalidade": "Três irmãozinhos que adoram correr para todo lado, são muito unidos e amigáveis e sempre com uma FOME DE DRAGÃO",
-              "ondeAchar": "Disponível na tela de Adoções"
-            }
-          },
-          {
-            "index": 3,
-            "imageSrc": "assets/animal3.jpg",
-            "details": {
-              "nome": "Taylor Swift",
-              "raca": "Vira-Lata com Peaggle",
-              "personalidade": "Uma cachorrinha muito alegre que adora gastar sua energia deitada no sol, calma e silênciosa                             ela faz seus Show para os outros pets do abrigo",
-              "ondeAchar": "Disponível na tela de Adoções"
-            }
+  "ongs": [
+    {
+      "nome": "AMPARA Animal",
+      "descricao": "O Instituto Ampara Animal é uma OSCIP sem fins lucrativos. Somos protetores de animais abandonados e vítimas de maus-tratos. Lutamos para que os mais de 30 milhões de animais de rua tenham uma vida com respeito e amor.",
+      "estado": "SP",
+      "instagram": "instagram.com/amparanimal",
+      "telefone": "-",
+      "email": "contato@amparanimal.org.br",
+      "img": "./../assets/ampara.png"
+    },
+    {
+      "nome": "Cão sem dono",
+      "descricao": "O Cão Sem Dono é uma ONG (Organização Não Governamental), sem fins lucrativos, e que nasceu de um grande sonho do seu atual presidente: tirar o maior número possível de animais das ruas, dar tratamento adequado e integrá-los a famílias que lhes deem amor, carinho e uma vida digna.",
+      "estado": "SP",
+      "instagram": "instagram.com/caosemdono.oficial",
+      "telefone": "-",
+      "email": "clinica@caosemdono.com.br",
+      "img": "./../assets/cao sem dono2.png"
+    },
+    {
+      "nome": "Vamos Frajolar",
+      "descricao": "A Vamos Frajolar abriga mais de 69 bichanos em sua sede e cuida de mais de 120 animais em famílias vulneráveis, para quem é oferecida assistência para o não abandono dos animais, até que a família se reestruture.",
+      "estado": "SP",
+      "instagram": "instagram.com/vamosfrajolar",
+      "telefone": "(12) 99208-2577",
+      "email": "info@vamosfrajolar.org",
+      "img": "./../assets/frajolar.png"
+    },
+    {
+      "nome": "ProAnima – Associação Protetora dos Animais",
+      "descricao": "Constituída em 2003, a ProAnima é uma organização da sociedade civil de caráter socioambientalista, mantida com trabalho voluntário e cujos objetivos estratégicos são concretizados por meio de ações organizadas em quatro eixos: Ativismo, Política Pública, Educação e Proteção.",
+      "estado": "DF",
+      "instagram": "instagram.com/proanimadf",
+      "telefone": "(61) 3226-6621",
+      "email": "proanima@proanima.org.br",
+      "img": "./../assets/proanima.png"
+    },
+    {
+      "nome": "RockBicho",
+      "descricao": "Somos a Rockbicho.org Associação de Proteção Animal (ex-SOS Bichos), uma organização não governamental, sem fins lucrativos, que atua com o objetivo de promover a guarda responsável e a defesa dos direitos dos animais. Nossa missão e o amor pelos animais nos motivam dia a dia, a trabalhar para tornar a adoção uma experiência única e transformadora para animais, pessoas e de melhorias para a cidade.",
+      "estado": "MG",
+      "instagram": "instagram.com/rockbicho",
+      "telefone": "(31) 2123-1600",
+      "email": "contato@rockbicho.org.",
+      "img": "./../assets/rock.png"
+    },
+    {
+      "nome": "Associação Focinhos de Luz",
+      "descricao": "A Associação Focinhos de Luz é uma organização sem fins lucrativos que luta pela reintrodução de animais abandonados à sociedade, criada em 2010. Construída por apaixonados pela causa animal e inconformados com o abandono recorrente, a nossa casa de passagem abriga em torno de 100 animais, que passam por cuidados até estarem aptos a adoção, onde podem finalmente encontrar um lar definitivo e amoroso.",
+      "estado": "RJ",
+      "instagram": "instagram.com/focinhosdeluz",
+      "telefone": "-",
+      "email": "contato@focinhosdeluz.com",
+      "img": "./../assets/focinho de luz.png"
+    }
+  ],
+  "carouselData": [
+    {
+      "title": "Encontre aqui o seu melhor amigo"
+    },
+    {
+      "slides": [
+        {
+          "index": 1,
+          "imageSrc": "assets/animal1.jpg",
+          "details": {
+            "nome": "Pedrinho",
+            "raca": "Gatinho de Rua",
+            "personalidade": "Gosta de brincar e dormir, muito sociável e carinhoso",
+            "ondeAchar": "Disponível na tela de Adoções"
           }
-        ]
-      },
-      {
-        "thumbnails": [
-          {
-            "index": 1,
-            "imageSrc": "assets/animal1.jpg",
-            "altText": "Imagem 1"
-          },
-          {
-            "index": 2,
-            "imageSrc": "assets/animal2.jpg",
-            "altText": "Imagem 2"
-          },
-          {
-            "index": 3,
-            "imageSrc": "assets/animal3.jpg",
-            "altText": "Imagem 3"
+        },
+        {
+          "index": 2,
+          "imageSrc": "assets/animal2.jpg",
+          "details": {
+            "nome": "Viserion, Drogon, Rhegal",
+            "raca": "Vira-Lata (dragõeszinhos)",
+            "personalidade": "Três irmãozinhos que adoram correr para todo lado, são muito unidos e amigáveis e sempre com uma FOME DE DRAGÃO",
+            "ondeAchar": "Disponível na tela de Adoções"
           }
-        ]
-      }
-    ],
-    "pop-upItens": [
-      {
-        "titulo": "S.O.S CHUVAS",
-        "subtitulo": "Animais em Perigo Precisam de sua Ajuda",
-        "imageSrc": "assets/patinha com mão 1.png",
-        "tituloAjuda": "Como você pode ajudar:",
-        "ajudaItens": [
-          {
-            "titulo": "Doações financeiras:",
-            "itens": [
-              "Contribua com qualquer quantia.",
-              "Doe online em \"vakinha\"."
-            ]
-          },
-          {
-            "titulo": "Doação de Suprimentos:",
-            "itens": [
-              "Alimentos para cães e gatos.",
-              "Cobertores e toalhas."
-            ]
-          },
-          {
-            "titulo": "Voluntariado:",
-            "itens": [
-              "Ajude na coleta e distribuição de doações.",
-              "Ofereça abrigo temporário para animais desalojados."
-            ]
+        },
+        {
+          "index": 3,
+          "imageSrc": "assets/animal3.jpg",
+          "details": {
+            "nome": "Taylor Swift",
+            "raca": "Vira-Lata com Peaggle",
+            "personalidade": "Uma cachorrinha muito alegre que adora gastar sua energia deitada no sol, calma e silênciosa                             ela faz seus Show para os outros pets do abrigo",
+            "ondeAchar": "Disponível na tela de Adoções"
           }
-        ],
-        "textoBotaoDoacao": "Doe Agora",
-        "doacaoLocalTitulo": "Onde entregar sua doação:",
-        "doacaoLocal": "Puc Minas - Contagem",
-        "contatoTitulo": "Contato:",
-        "contatoInformacoes": [
-          "Para mais informações, ligue:",
-          "Telefone: (31) 3319-4444"
-        ]
-      }
-    ],
-    "comentarios": [
-      {
-        "id": 1,
-        "nome": "Elena",
-        "ocupacao": "Professora",
-        "comentario": "Site ótimo, me ajudou a encontrar um grande parceirinho para a vida."
-      },
-      {
-        "id": 2,
-        "nome": "Veronica",
-        "ocupacao": "Medica",
-        "comentario": "Gostei muito do site, o apoio das ongs é de grande importância na adoção para quem vai ter o seu primeiro pet. "
-      },
-      {
-        "id": 3,
-        "nome": "Edson",
-        "ocupacao": "Arquiteto",
-        "comentario": "Gostei muito das dicas que o site possui e do apoio de ongs, adotei meu pet com uma ong parceira."
-      }
-    ],
-    "Tabs": [
-      {
-        "Titulo": "Gatos",
-        "Subtitulo": "Companheirismo do pet",
-        "Texto": "Uma das características mais marcantes dos gatos como companheiros é sua capacidade de fornecer conforto emocional. Muitos proprietários relatam que a simples presença de seu  gato pode acalmar a ansiedade e o estresse, e aconchegar-se a um  gato ronronante pode ser incrivelmente reconfortante.",
-        "img": "./../assets/gato-fofo-dormindo-dentro-de-casa 1.jpeg"
-      },
-      {
-        "Titulo": "Cachorros",
-        "Subtitulo": "Dicas para introduzir outro cachorrinho no seu lar",
-        "Texto": "Se possível, leve um paninho com o cheiro do novo integrante e deixe perto da comida e na caminha do cão mais velho de casa. Assim ele vai se acostumando ao cheiro e associando com coisas boas.",
-        "img": "./../assets/animais.jpg"
-      },
-      {
-        "Titulo": "Pets",
-        "Subtitulo": "Podem fazer exercícios?",
-        "Texto": "Sair com o seu pet para passear é um dever do tutor. A caminhada traz benefícios físicos e mentais. Os cães gastam energia acumulada, se exercitam, além de prevenir a obesidade e outras doenças.",
-        "img": "./../assets/cachorro certo.jpg"
-      },
-      {
-        "Titulo": "Alimentação",
-        "Subtitulo": "Qual seria a dieta de um pet?",
-        "Texto": "A alimentação é um pilar fundamental para a saúde do pet. A ração e a marca precisam ser escolhidas com cuidado e devem atender todas as necessidades nutricionais.Também precisamos ter cuidado com a obesidade dos pets, controlando a quantidade da refeição. ",
-        "img": "./../assets/cachorro-fofo.jpg"
-      },
-      {
-        "Titulo": "Veterinário",
-        "Subtitulo": "Quando levar seu pet?",
-        "Texto": "É de extrema importância que voce leve seu pet desde filhote para fazer checkups e tomar as vacinas. A vacina é a unica forma de proteger seu animalzinho, não podemos esquecer que também é importante levar o seu pet mesmo se for idoso em consulta regularmente.",
-        "img": "./../assets/pets-no-mato-1605715705944_v2_900x506.jpg"
-      }
-    ],
-    "accordion": {
-      "title": "Algumas das perguntas mais frequentes",
-      "items": [
-        {
-          "label": "Como funciona o processo de adoção?",
-          "content": "Na maioria das ongs, para formalizar a adoção é necessário ter mais de 21 anos, apresentar a cédula de identidade, CPF, o comprovante de residência. Além disso, é preciso assinar o termo de responsabilidade, participar de entrevista e em algumas instituições também é necessário custear um chip de localização do animal."
-        },
-        {
-          "label": "Qual a diferença entre comprar e adotar um pet?",
-          "content": "Ao adotar um cão ou gato em vez de comprar, você está contribuindo para que menos pets vivam nas ruas ou passem a vida toda à espera de uma família que os acolham."
-        },
-        {
-          "label": "Quais os benefícios de adotar um pet adulto?",
-          "content": "O tutor sabe que não terá surpresa no futuro, já que o seu tamanho está definido. Além disso, o pet adulto tem seus traços e personalidade determinados, e o tutor terá uma ótima noção de como ele irá se comportar no dia a dia. Assim como o pet pode aprender tanto quanto um filhote."
-        },
-        {
-          "label": "Quais são os cuidados que eu devo ter ao adotar um pet deficiente?",
-          "content": "Procure estimular esses sentidos. Como nossa voz é uma forma importante de estabelecer vínculo com os cães, faça bastante carinho para compensar a ausência dela. Para pets com dificuldade de locomoção, é preciso estar ciente que dependerão mais de seus tutores."
-        },
-        {
-          "label": "Quais as dificuldades de se adotar um pet idoso ou deficiente?",
-          "content": "Adotar um pet idoso ou deficiente pode ser desafiador devido à necessidade de cuidados médicos contínuos, como medicamentos diários e frequentes visitas ao veterinário, o que pode ser caro. Eles podem exigir um ambiente adaptado, com rampas e áreas de descanso acessíveis, e podem ter problemas de mobilidade e doenças crônicas que exigem atenção constante. A adaptação pode ser mais lenta e emocionalmente desafiadora, dada a possibilidade de uma vida mais curta."
-        },
-        {
-          "label": "Quais os benefícios e os cuidados ao adotar um pet idoso?",
-          "content": "Adotar um pet idoso é gratificante, pois eles são mais tranquilos e comportados. Pets mais velhos costumam ser mais afetuosos e gratos. É essencial fazer uma avaliação completa de saúde antes da adoção e garantir uma dieta adequada e visitas regulares ao veterinário. O ambiente deve ser adaptado para facilitar o conforto do pet. Eles ainda precisam de exercícios leves e estímulos mentais."
         }
       ]
     },
-    "cards": [
+    {
+      "thumbnails": [
+        {
+          "index": 1,
+          "imageSrc": "assets/animal1.jpg",
+          "altText": "Imagem 1"
+        },
+        {
+          "index": 2,
+          "imageSrc": "assets/animal2.jpg",
+          "altText": "Imagem 2"
+        },
+        {
+          "index": 3,
+          "imageSrc": "assets/animal3.jpg",
+          "altText": "Imagem 3"
+        }
+      ]
+    }
+  ],
+  "pop-upItens": [
+    {
+      "titulo": "S.O.S CHUVAS",
+      "subtitulo": "Animais em Perigo Precisam de sua Ajuda",
+      "imageSrc": "assets/patinha com mão 1.png",
+      "tituloAjuda": "Como você pode ajudar:",
+      "ajudaItens": [
+        {
+          "titulo": "Doações financeiras:",
+          "itens": [
+            "Contribua com qualquer quantia.",
+            "Doe online em \"vakinha\"."
+          ]
+        },
+        {
+          "titulo": "Doação de Suprimentos:",
+          "itens": [
+            "Alimentos para cães e gatos.",
+            "Cobertores e toalhas."
+          ]
+        },
+        {
+          "titulo": "Voluntariado:",
+          "itens": [
+            "Ajude na coleta e distribuição de doações.",
+            "Ofereça abrigo temporário para animais desalojados."
+          ]
+        }
+      ],
+      "textoBotaoDoacao": "Doe Agora",
+      "doacaoLocalTitulo": "Onde entregar sua doação:",
+      "doacaoLocal": "Puc Minas - Contagem",
+      "contatoTitulo": "Contato:",
+      "contatoInformacoes": [
+        "Para mais informações, ligue:",
+        "Telefone: (31) 3319-4444"
+      ]
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 1,
+      "nome": "Elena",
+      "ocupacao": "Professora",
+      "comentario": "Site ótimo, me ajudou a encontrar um grande parceirinho para a vida."
+    },
+    {
+      "id": 2,
+      "nome": "Veronica",
+      "ocupacao": "Medica",
+      "comentario": "Gostei muito do site, o apoio das ongs é de grande importância na adoção para quem vai ter o seu primeiro pet. "
+    },
+    {
+      "id": 3,
+      "nome": "Edson",
+      "ocupacao": "Arquiteto",
+      "comentario": "Gostei muito das dicas que o site possui e do apoio de ongs, adotei meu pet com uma ong parceira."
+    }
+  ],
+  "Tabs": [
+    {
+      "Titulo": "Gatos",
+      "Subtitulo": "Companheirismo do pet",
+      "Texto": "Uma das características mais marcantes dos gatos como companheiros é sua capacidade de fornecer conforto emocional. Muitos proprietários relatam que a simples presença de seu  gato pode acalmar a ansiedade e o estresse, e aconchegar-se a um  gato ronronante pode ser incrivelmente reconfortante.",
+      "img": "./../assets/gato-fofo-dormindo-dentro-de-casa 1.jpeg"
+    },
+    {
+      "Titulo": "Cachorros",
+      "Subtitulo": "Dicas para introduzir outro cachorrinho no seu lar",
+      "Texto": "Se possível, leve um paninho com o cheiro do novo integrante e deixe perto da comida e na caminha do cão mais velho de casa. Assim ele vai se acostumando ao cheiro e associando com coisas boas.",
+      "img": "./../assets/animais.jpg"
+    },
+    {
+      "Titulo": "Pets",
+      "Subtitulo": "Podem fazer exercícios?",
+      "Texto": "Sair com o seu pet para passear é um dever do tutor. A caminhada traz benefícios físicos e mentais. Os cães gastam energia acumulada, se exercitam, além de prevenir a obesidade e outras doenças.",
+      "img": "./../assets/cachorro certo.jpg"
+    },
+    {
+      "Titulo": "Alimentação",
+      "Subtitulo": "Qual seria a dieta de um pet?",
+      "Texto": "A alimentação é um pilar fundamental para a saúde do pet. A ração e a marca precisam ser escolhidas com cuidado e devem atender todas as necessidades nutricionais.Também precisamos ter cuidado com a obesidade dos pets, controlando a quantidade da refeição. ",
+      "img": "./../assets/cachorro-fofo.jpg"
+    },
+    {
+      "Titulo": "Veterinário",
+      "Subtitulo": "Quando levar seu pet?",
+      "Texto": "É de extrema importância que voce leve seu pet desde filhote para fazer checkups e tomar as vacinas. A vacina é a unica forma de proteger seu animalzinho, não podemos esquecer que também é importante levar o seu pet mesmo se for idoso em consulta regularmente.",
+      "img": "./../assets/pets-no-mato-1605715705944_v2_900x506.jpg"
+    }
+  ],
+  "accordion": {
+    "title": "Algumas das perguntas mais frequentes",
+    "items": [
       {
-        "image": "./../assets/Dica 1.png",
-        "title": "Higiene",
-        "content": "Sempre se atente para higienização das patas após passeios externos, escovação dos dentes, limpeza das orelhas, corte de unhas e o banho quinzenalmente."
+        "label": "Como funciona o processo de adoção?",
+        "content": "Na maioria das ongs, para formalizar a adoção é necessário ter mais de 21 anos, apresentar a cédula de identidade, CPF, o comprovante de residência. Além disso, é preciso assinar o termo de responsabilidade, participar de entrevista e em algumas instituições também é necessário custear um chip de localização do animal."
       },
       {
-        "image": "./../assets/Dica 2.png",
-        "title": "Alimentação",
-        "content": "Além da ração, uma dica legal é introduzir na alimentação do seu pet: cenoura, maçã e banana que são ricas em vitaminas e muito nutritivas."
+        "label": "Qual a diferença entre comprar e adotar um pet?",
+        "content": "Ao adotar um cão ou gato em vez de comprar, você está contribuindo para que menos pets vivam nas ruas ou passem a vida toda à espera de uma família que os acolham."
       },
       {
-        "image": "./../assets/Dica 3.png",
-        "title": "Brinquedos",
-        "content": "Os pets amam brinquedos, algumas ótimas opções são: bichos de pelúcia antialérgicos, bolas de silicone resistentes e ossos naturais bovinos."
+        "label": "Quais os benefícios de adotar um pet adulto?",
+        "content": "O tutor sabe que não terá surpresa no futuro, já que o seu tamanho está definido. Além disso, o pet adulto tem seus traços e personalidade determinados, e o tutor terá uma ótima noção de como ele irá se comportar no dia a dia. Assim como o pet pode aprender tanto quanto um filhote."
       },
       {
-        "image": "./../assets/Dica 4.png",
-        "title": "Vacinas",
-        "content": "Antes dos passeios externos, lembre-se de vacinar seu pet antes contra a gripe canina, giárdia, antirrábica e leishmaniose, além da raiva."
+        "label": "Quais são os cuidados que eu devo ter ao adotar um pet deficiente?",
+        "content": "Procure estimular esses sentidos. Como nossa voz é uma forma importante de estabelecer vínculo com os cães, faça bastante carinho para compensar a ausência dela. Para pets com dificuldade de locomoção, é preciso estar ciente que dependerão mais de seus tutores."
       },
       {
-        "image": "./../assets/Dica 5.png",
-        "title": "Exercícios",
-        "content": "O seu pet precisa estar em movimento! Além dos passeios, pode fazer parte da rotina: natação canina, canicross, agility, e claro, as brincadeiras com a participação do tutor."
+        "label": "Quais as dificuldades de se adotar um pet idoso ou deficiente?",
+        "content": "Adotar um pet idoso ou deficiente pode ser desafiador devido à necessidade de cuidados médicos contínuos, como medicamentos diários e frequentes visitas ao veterinário, o que pode ser caro. Eles podem exigir um ambiente adaptado, com rampas e áreas de descanso acessíveis, e podem ter problemas de mobilidade e doenças crônicas que exigem atenção constante. A adaptação pode ser mais lenta e emocionalmente desafiadora, dada a possibilidade de uma vida mais curta."
       },
       {
-        "image": "./../assets/Dica 6.png",
-        "title": "Adaptação",
-        "content": "Se existe um outro pet na sua residência atualmente, a dica é introduzir o novo pet aos poucos, de forma gradual ir aumentando o contato entre os bichos, principalmente quando falamos de espécies diferentes."
+        "label": "Quais os benefícios e os cuidados ao adotar um pet idoso?",
+        "content": "Adotar um pet idoso é gratificante, pois eles são mais tranquilos e comportados. Pets mais velhos costumam ser mais afetuosos e gratos. É essencial fazer uma avaliação completa de saúde antes da adoção e garantir uma dieta adequada e visitas regulares ao veterinário. O ambiente deve ser adaptado para facilitar o conforto do pet. Eles ainda precisam de exercícios leves e estímulos mentais."
       }
-    ],
-    "animais": [
-      {
-        "id": 1,
-        "image": "./../assets/menininha 3.png",
-        "name": "menininha 3",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 325,
-        "clicado": false
-      },
-      {
-        "id": 2,
-        "image": "./../assets/oxum.png",
-        "name": "Oxum",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 337,
-        "clicado": false
-      },
-      {
-        "id": 3,
-        "image": "./../assets/juju.png",
-        "name": "Juju",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 2004,
-        "clicado": false
-      },
-      {
-        "id": 4,
-        "image": "./../assets/Blade.png",
-        "name": "Blade",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 295,
-        "clicado": false
-      },
-      {
-        "id": 5,
-        "image": "./../assets/Mocha.png",
-        "name": "Mocha",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 284,
-        "clicado": false
-      },
-      {
-        "id": 6,
-        "image": "./../assets/gato 13.png",
-        "name": "luisinho",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 276,
-        "clicado": false
-      },
-      {
-        "id": 7,
-        "image": "./../assets/dog 5 1.png",
-        "name": "fofinha",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 273,
-        "clicado": false
-      },
-      {
-        "id": 8,
-        "image": "./../assets/image 14.png",
-        "name": "floquinho",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 1999,
-        "clicado": false
-      },
-      {
-        "id": 9,
-        "image": "./../assets/gato2 1.png",
-        "name": "Sol",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 250,
-        "clicado": false
-      },
-      {
-        "id": 10,
-        "image": "./../assets/gato 5 1.png",
-        "name": "Linda",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 250,
-        "clicado": false
-      },
-      {
-        "id": 11,
-        "image": "./../assets/Rectangle 18.png",
-        "name": "Adora",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 248,
-        "clicado": false
-      },
-      {
-        "id": 12,
-        "image": "./../assets/Rectangle 20.png",
-        "name": "Aninha",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 232,
-        "clicado": false
-      },
-      {
-        "id": 13,
-        "image": "./../assets/Rectangle 26.png",
-        "name": "Eric",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 1910,
-        "clicado": false
-      },
-      {
-        "id": 14,
-        "image": "./../assets/Penelope.png",
-        "name": "Penelope",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 221,
-        "clicado": false
-      },
-      {
-        "id": 15,
-        "image": "./../assets/Francisco.png",
-        "name": "Francisco",
-        "descriotion": "O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos,subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos",
-        "like": 199,
-        "clicado": false
-      }
-    ],
-    "cadastrados": [
-      {
-        "id": 1,
-        "nome": "Anielle Carla",
-        "email": "Ani@Gmail.com",
-        "senha": "123",
-        "tipo": "Pessoa"
-      },
-      {
-        "nome": "Ingrid",
-        "email": "Ingrid@gmail.com",
-        "senha": "456",
-        "tipo": "ONG",
-        "id": 2
-      },
-      {
-        "nome": "João Felipe",
-        "email": "Jãozinho@gmail.com",
-        "senha": "789",
-        "tipo": "pessoa",
-        "id": 3
-      },
-      {
-        "nome": "cer",
-        "email": "refer",
-        "senha": "refer",
-        "tipo": "ONG",
-        "id": 4
-      },
-      {
-        "nome": "rr",
-        "email": "ryty",
-        "senha": "ryrt",
-        "tipo": "ONG",
-        "id": 6
-      },
-      {
-        "nome": "Deborah",
-        "email": "Debs@gmai.com",
-        "senha": "1011",
-        "tipo": "ONG",
-        "id": 7
-      }
-    ],
-    "logado": {
+    ]
+  },
+  "cards": [
+    {
+      "image": "./../assets/Dica 1.png",
+      "title": "Higiene",
+      "content": "Sempre se atente para higienização das patas após passeios externos, escovação dos dentes, limpeza das orelhas, corte de unhas e o banho quinzenalmente."
+    },
+    {
+      "image": "./../assets/Dica 2.png",
+      "title": "Alimentação",
+      "content": "Além da ração, uma dica legal é introduzir na alimentação do seu pet: cenoura, maçã e banana que são ricas em vitaminas e muito nutritivas."
+    },
+    {
+      "image": "./../assets/Dica 3.png",
+      "title": "Brinquedos",
+      "content": "Os pets amam brinquedos, algumas ótimas opções são: bichos de pelúcia antialérgicos, bolas de silicone resistentes e ossos naturais bovinos."
+    },
+    {
+      "image": "./../assets/Dica 4.png",
+      "title": "Vacinas",
+      "content": "Antes dos passeios externos, lembre-se de vacinar seu pet antes contra a gripe canina, giárdia, antirrábica e leishmaniose, além da raiva."
+    },
+    {
+      "image": "./../assets/Dica 5.png",
+      "title": "Exercícios",
+      "content": "O seu pet precisa estar em movimento! Além dos passeios, pode fazer parte da rotina: natação canina, canicross, agility, e claro, as brincadeiras com a participação do tutor."
+    },
+    {
+      "image": "./../assets/Dica 6.png",
+      "title": "Adaptação",
+      "content": "Se existe um outro pet na sua residência atualmente, a dica é introduzir o novo pet aos poucos, de forma gradual ir aumentando o contato entre os bichos, principalmente quando falamos de espécies diferentes."
+    }
+  ],
+  "animais": [
+    {
+      "id": 1,
+      "image": "./../assets/fiel.png",
+      "name": "Fiel",
+      "descriotion": "Resgatado de maus-tratos, apanhava muito do seu antigo tutor. Fiel é um adulto que acha que ainda é bebê, muito lindo e cheio de energia boa! Ele tem por volta de 9 anos, é de porte grande, e há muito tempo aguarda pela família que todo pet merece ter!",
+      "like": 325,
+      "clicado": false
+    },
+    {
+      "id": 2,
+      "image": "./../assets/belinha.png",
+      "name": "Belinha",
+      "descriotion": "Belinha é uma cachorrinha bem ativa que adora brincar. Ela é muito dócil, gosta de colo e se dá bem com crianças. Ela é porte médio e tem 4 anos. Se quiser encher sua casa de alegria é a companhia perfeita!",
+      "like": 337,
+      "clicado": false
+    },
+    {
+      "id": 3,
+      "image": "./../assets/kié.png",
+      "name": "Kié",
+      "descriotion": "Kié é um machinho de 6 anos muito carinhoso. Também gosta de outros gatinhos.",
+      "like": 2004,
+      "clicado": false
+    },
+    {
+      "id": 4,
+      "image": "./../assets/Blade.png",
+      "name": "Peto ",
+      "descriotion": "Peto é um machinho de 6 anos que é mais “na dele”. Não gosta de colo e costuma ficar embaixo do sofá.",
+      "like": 295,
+      "clicado": false
+    },
+    {
+      "id": 5,
+      "image": "./../assets/Mocha.png",
+      "name": "Mocha",
+      "descriotion": "Conheça Mocha, um adorável gatinho cinza com olhos brilhantes e personalidade encantadora. Mocha é carinhoso, curioso e adora brincar",
+      "like": 284,
+      "clicado": false
+    },
+    {
+      "id": 6,
+      "image": "./../assets/gato 13.png",
+      "name": "luisinho",
+      "descriotion": "Luisinho, um cãozinho carismático e amoroso. Ele é cheio de energia, sempre pronto para brincar e explorar. Com um temperamento dócil e afetuoso.",
+      "like": 276,
+      "clicado": false
+    },
+    {
+      "id": 7,
+      "image": "./../assets/dog 5 1.png",
+      "name": "fofinha",
+      "descriotion": "Fofinha porque de fato é muito fofinha, uma cachorra muito amorosa porém com muita energia, o que pode te arrastar para fora de casa e correr com ela",
+      "like": 273,
+      "clicado": false
+    },
+    {
+      "id": 8,
+      "image": "./../assets/image 14.png",
+      "name": "floquinho",
+      "descriotion": "Em homenagem aos pelos brancos que já aparecem, Floquinho é um cachorro mais velho, calmo e silêncioso.",
+      "like": 1999,
+      "clicado": false
+    },
+    {
+      "id": 9,
+      "image": "./../assets/gato2 1.png",
+      "name": "Sol",
+      "descriotion": "Uma gatinha arteira, gosta de brincar com tudo que vê pela frente, não pode ver uma meia por exemplo.",
+      "like": 250,
+      "clicado": false
+    },
+    {
+      "id": 10,
+      "image": "./../assets/gato 5 1.png",
+      "name": "Linda",
+      "descriotion": "Com seus olhos claros, Linda conquista todos, mas o seu jeitinho amoroso que rouba a cena.",
+      "like": 250,
+      "clicado": false
+    },
+    {
+      "id": 11,
+      "image": "./../assets/senhorawoo.png",
+      "name": "Woo",
+      "descriotion": "Senhora Woo é uma mãezona que foi resgatada com 5 bebês que já conseguiram um lar. Ela é muito fofa e um pouquinho tímida.",
+      "like": 248,
+      "clicado": false
+    },
+    {
+      "id": 12,
+      "image": "./../assets/clara.png",
+      "name": "Clara",
+      "descriotion": "Clara, esta sialata perfeita, foi resgatada quando tinha apenas 3 meses, com muita sarna e super assustada. Tão novinha e já tinha passado por poucas e boas na vida. Mas o passado ruim foi deixado pra trás e agora Clara se transformou numa gatinha muito doce e carinhosa.",
+      "like": 232,
+      "clicado": false
+    },
+    {
+      "id": 13,
+      "image": "./../assets/matheus.png",
+      "name": "Matheus",
+      "descriotion": "Matheus tem 2 anos, é muito doce, divertido, carinhoso, mas um pouco assustado por todo abandono que já sofreu.",
+      "like": 1910,
+      "clicado": false
+    },
+    {
+      "id": 14,
+      "image": "./../assets/pretinha.png",
+      "name": "Pretinha",
+      "descriotion": "Uma menina de 6 anos, muito boazinha, dócil e tranquila. Ela só quer uma caminha fofinha e uma família para encher de carinho, não dá trabalho nenhum. Está castrada, vacinada e vermifugada, é de porte médio.",
+      "like": 221,
+      "clicado": false
+    },
+    {
+      "id": 15,
+      "image": "./../assets/picles.png",
+      "name": "Picles",
+      "descriotion": "Picles é um grandão de pata comprida, é super tranquilo com pessoas e animais. Ele tem 4 anos e é de porte grande. Foi abandonado nas ruas e a única coisa que ele quer é um lar e uma família pra chamar de sua!",
+      "like": 199,
+      "clicado": false
+    }
+  ],
+  "cadastrados": [
+    {
       "id": 1,
       "nome": "Anielle Carla",
       "email": "Ani@Gmail.com",
       "senha": "123",
       "tipo": "Pessoa"
+    },
+    {
+      "nome": "Ingrid",
+      "email": "Ingrid@gmail.com",
+      "senha": "456",
+      "tipo": "ONG",
+      "id": 2
+    },
+    {
+      "nome": "João Felipe",
+      "email": "Jãozinho@gmail.com",
+      "senha": "789",
+      "tipo": "pessoa",
+      "id": 3
+    },
+    {
+      "nome": "cer",
+      "email": "refer",
+      "senha": "refer",
+      "tipo": "ONG",
+      "id": 4
+    },
+    {
+      "nome": "rr",
+      "email": "ryty",
+      "senha": "ryrt",
+      "tipo": "ONG",
+      "id": 6
+    },
+    {
+      "nome": "Deborah",
+      "email": "Debs@gmai.com",
+      "senha": "1011",
+      "tipo": "ONG",
+      "id": 7
+    },
+    {
+      "nome": "",
+      "email": "",
+      "senha": "",
+      "tipo": "ONG",
+      "id": 8
     }
-  }
+  ],
+  "logado": {
+    "id": 1,
+    "nome": "Anielle Carla",
+    "email": "Ani@Gmail.com",
+    "senha": "123",
+    "tipo": "Pessoa"
+  },
+  "porcentagem":[
+    {
+      "number": 25,
+      "title":"Cães de raça em abrigos"
+    },
+    {
+      "number": 74,
+      "title":"Cães adotados em abrigos"
+    },
+    {
+      "number": 30,
+      "title":"Gatos de raça em abrigos"
+    },
+    {
+      "number": 80,
+      "title":"Gatos adotados em abrigos"
+    }
+  ],
+  "pets": [
+    {
+      "id": "dado-1",
+      "titulo": "Animais em Vulnerabilidade",
+      "quantidade": 800000,
+      "formato": "mil"
+    },
+    {
+      "id": "dado-2",
+      "titulo": "Animais Resgatados",
+      "quantidade": 190000,
+      "formato": "mil"
+    },
+    {
+      "id": "dado-3",
+      "titulo": "Animais que sofreram maus-tratos",
+      "quantidade": 60,
+      "formato": "porcentagem"
+    },
+    {
+      "id": "dado-4",
+      "titulo": "Animais abandonados",
+      "quantidade": 300000,
+      "formato": "mil"
+    }
+  ]
+}
