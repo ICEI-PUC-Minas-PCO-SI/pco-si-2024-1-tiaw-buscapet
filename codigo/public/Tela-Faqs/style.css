@@ -70,6 +70,7 @@ header > nav .menu-icon{
 }
 
 article#conteudosuperior{
+  
   background: url(./../assets/fotoconteudosuperior.png);
   background-position: center center;
   background-size: cover;

@@ -118,10 +118,6 @@ main>article#bem-vindo>div>img:hover {
 
 }
 
-
-
-
-
 main>article#bem-vindo>div>img#bloqueio{
 
 height: 103.3vh;
@@ -321,8 +317,6 @@ article#adocao>div > div#secao1>div#pets>div.informacoes>button {
     font-size: 1em;
 }
 
-
-
 /*Pet em destaque*/
 
 article#adocao>div > div#secaodestaque {
@@ -346,8 +340,6 @@ article#adocao>div > div#secaodestaque>h2 {
     padding-bottom: 30px;
 
 }
-
-
 
 article#adocao>div > div#secaodestaque>div#pets {
 
@@ -396,8 +388,6 @@ article#adocao>div > div#secaodestaque>div#pets>div.informacoes>button {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
-
 
 /*Carrossel*/
 
