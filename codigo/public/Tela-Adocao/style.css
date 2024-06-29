@@ -1,0 +1,619 @@
+html,
+body {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+/* --------------- NAV COMEÇA AQUI --------------------*/
+header {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #3f3f3f;
+    padding: 10px 60px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.392);
+    position: relative;
+    z-index: 3;
+}
+
+header>img {
+
+    max-width: 100%;
+    display: block;
+}
+
+header nav ul {
+
+    display: flex;
+
+}
+
+header nav ul li {
+
+    margin-left: 5px;
+    list-style-type: none;
+    padding: 10px 15px;
+    padding-top: 20px;
+}
+
+header nav ul li a {
+
+    color: #FBF5B7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+
+    color: #FF661B;
+    padding: 0px 20px;
+    font-size: 1.3em;
+}
+
+header>nav #menuToggle {
+
+    display: none;
+}
+
+header>nav .menu-icon {
+
+    display: none;
+}
+
+/* --------------- NAV TERMINA AQUI --------------------*/
+
+main {
+
+
+}
+
+main>article#bem-vindo {
+
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+main > h1{
+
+color: #FF661B;
+margin-top: 100px;
+margin-left: 550px;
+
+}
+
+main>article#bem-vindo>div{
+
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+
+}
+
+
+
+main>article#bem-vindo>div>img {
+
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 49.43vw;
+
+}
+
+main>article#bem-vindo>div>img:hover {
+
+    opacity: 0.6;
+
+}
+
+
+
+
+
+main>article#bem-vindo>div>img#bloqueio{
+
+height: 103.3vh;
+
+}
+
+
+main>article#bem-vindo>div#fundo-trans {
+
+
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 40%;
+    height: 35%;
+    padding: 30px;
+    padding-top: 45px;
+    position: absolute;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.607);
+    margin-top: 120px;
+
+
+}
+
+main>article#bem-vindo>div#fundo-trans>h2 {
+
+    color: #008745;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    margin: 0px;
+    font-size: 2.7em;
+
+}
+
+div.title {
+
+    color: #FF661B;
+    align-items: center;
+    text-align: center;
+    margin: 120px;
+
+
+}
+
+
+
+
+main>article#bem-vindo>div#fundo-trans {
+
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 40%;
+    height: 35%;
+    padding: 30px;
+    padding-top: 45px;
+    position: absolute;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.607);
+    margin-top: 120px;
+
+}
+
+main>article#bem-vindo>div#fundo-trans>h2 {
+
+    color: #008745;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    margin: 0px;
+    font-size: 2.7em;
+
+}
+
+/*Pets para adotar*/
+
+article#adocao>h1 {
+
+    color: #FF661B;
+    align-items: center;
+    text-align: center;
+    margin: 120px;
+}
+
+div.nave > button {
+
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+   margin-right: 100px;
+}
+
+div.nave {
+
+margin-left: 600px;
+
+
+
+}
+
+div.nave > button > i{
+
+color: #FF661B;
+font-weight: bolder;
+font-size: 2.5em;
+
+}
+
+
+div.gallery-wrapper{
+
+    overflow-x:auto;
+    display: block;
+    position: initial;
+    z-index: 9;
+    float: initial;
+}
+
+.gallery-wrapper::-webkit-scrollbar{
+
+    display: none;
+}
+
+.gallery-wrapper{
+
+    -ms-text-overflow-style:none;
+    scrollbar-width: none;
+}
+article#adocao{
+
+    display: flex;
+    flex-flow:row nowrap;
+    gap: 15px;
+
+}
+
+article#adocao > div.item{
+    margin:0px;
+    padding:0px;
+    transition: all 600ms ease-in-out;
+}
+
+.current-item{
+    opacity: 1;
+}
+
+article#adocao > div > div#secao1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+article#adocao> div > div#secao1>div#pets {
+
+    width: 45vw;
+    padding: 200px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+
+article#adocao> div > div#secao1>div#pets>img {
+
+    width: 350px;
+    ;
+
+}
+
+article#adocao>div > div#secao1>div#pets>div.informacoes>p {
+
+    text-align: justify;
+    width: 350px;
+}
+
+article#adocao>div > div#secao1>div#pets>div.informacoes>h4 {
+
+    margin: 20px 0px 20px 100px;
+    background: linear-gradient(90deg, #0AB15F, #BBE3A0, #FBF5B7);
+    width: 175px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+article#adocao>div > div#secao1>div#pets>div.informacoes>button {
+
+    color: #FFE500;
+    background-color: #437A5F;
+    font-weight: bold;
+    width: 175px;
+    margin: 20px 0px 20px 100px;
+    border-radius: 5%;
+    padding: 7px 10px;
+    border: none;
+    font-size: 1em;
+}
+
+
+
+/*Pet em destaque*/
+
+article#adocao>div > div#secaodestaque {
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin: 0 auto;
+    width: 100vw;
+    background-color: #3f3f3f;
+    padding-top: 50px;
+}
+
+
+article#adocao>div > div#secaodestaque>h2 {
+
+    color: #FFF26A;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+
+
+
+article#adocao>div > div#secaodestaque>div#pets {
+
+    width: 100vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+article#adocao>div > div#secaodestaque>div#pets>img {
+
+    width: 350px;
+
+}
+
+article#adocao>div > div#secaodestaque>div#pets>div.informacoes>p {
+
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    color: #FBF5B7;
+}
+
+article#adocao>div > div#secaodestaque>div#pets>div.informacoes>h4 {
+
+    margin: 0 auto;
+    background: linear-gradient(90deg, #0AB15F, #BBE3A0, #FBF5B7);
+    width: 175px;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+article#adocao>div > div#secaodestaque>div#pets>div.informacoes>button {
+
+    color: #FFE500;
+    background-color: #437A5F;
+    font-weight: bold;
+    width: 175px;
+    margin: 0 auto;
+    border-radius: 5%;
+    padding: 7px 10px;
+    border: none;
+    font-size: 1em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+/*Carrossel*/
+
+article#adocao>div > div#secao2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+article#adocao>div > div#secao2>div#pets {
+
+    width: 45vw;
+    padding: 200px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+
+}
+
+article#adocao>div > div#secao2>div#pets>img {
+
+    width: 350px;
+
+}
+
+article#adocao>div > div#secao2>div#pets>div.informacoes>p {
+
+    text-align: justify;
+    width: 350px;
+}
+
+article#adocao>div > div#secao2>div#pets>div.informacoes>h4 {
+
+    margin: 20px 0px 20px 100px;
+    background: linear-gradient(90deg, #0AB15F, #BBE3A0, #FBF5B7);
+    width: 175px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+article#adocao>div > div#secao2>div#pets>div.informacoes>button {
+
+    color: #FFE500;
+    background-color: #437A5F;
+    font-weight: bold;
+    width: 175px;
+    margin: 20px 0px 20px 100px;
+    border-radius: 5%;
+    padding: 7px 10px;
+    border: none;
+    font-size: 1em;
+}
+
+div > div#nave>.arrow-left, div > div#nave> .arrow-right {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 40px;
+    line-height: 250px;
+    width: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(left, black 200%);
+
+}
+
+
+div > div#nave> .arrow-right {
+
+    top: 0;
+    left: auto;
+    right: 0;
+    background: linear-gradient(right, black 200%);
+
+}
+
+
+
+div#ongs {
+    background-image: url('./../assets/ongs\ part\ 2.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    box-shadow: inset 6px 6px 9px 5px rgba(0, 0, 0, 0.611);
+    padding-top: 100px;
+}
+
+
+div#ongs>div.botao-redondo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #FF661B;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: bolder;
+    margin: 0 auto;
+
+}
+
+
+
+div#ongs>div.botao-redondo,
+p#ongs {
+    color: black;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div#ongs a {
+    text-decoration: none;
+    color: #008745;
+
+}
+
+div#ongs a:hover {
+    color: #008745;
+
+}
+
+
+/*Footer*/
+
+footer {
+  background-image: url(./../assets/footer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 300px;
+  height: 93vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer div#contatos ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  justify-content: center; /* Centraliza os itens dentro da lista */
+}
+
+footer div#contatos ul li {
+  text-align: center;
+  margin: 0 15px;
+  list-style-type: none;
+  padding: 10px 15px;
+}
+
+footer div#contatos ul li a, footer p {
+  font-size: 1.3em;
+  color: #FBF5B7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer div#contatos ul li a:hover {
+  color: #FF661B;
+}
+
+footer > img {
+  max-width: 180px; 
+  display: block;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+
+
+.post {
+    width: 400px;
+    font-family: 'Lexend', sans-serif;
+  }
+
+  .post-image {
+    display: block;
+    width: 100%;
+  }
+
+  .post-rating-container {
+    display: flex;
+    justify-content: end;
+    padding: 12px;
+  }
+
+  .post-rating {
+    display: flex;
+    align-items: center;
+    cursor: default;
+  }
+
+  .post-rating-button {
+    margin-right: 6px;
+    cursor: pointer;
+    color: #000000;
+  }
+
+  .post-rating-selected .post-rating-button,
+  .post-rating-selected .post-rating-count {
+    color: #009578;
+  }
