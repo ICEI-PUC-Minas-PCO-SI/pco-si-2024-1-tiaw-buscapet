@@ -29,7 +29,26 @@
     justify-content:center;
     align-items:center;
     align-content:center;
+    flex-direction: column;
+  
   }
+
+  .containerr{
+    margin-bottom: 200px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    flex-direction: column;
+  } 
+
+  .containerr > .texto{
+    font-size: 3em;
+    color: #FF661B;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  } 
   
   .container {
     

@@ -1,374 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ongs</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ongs</title>
 
-    <link rel="stylesheet" href="/Tela-ONGS/style.css">
-    <link rel="stylesheet" href="/Tela-ONGS/style2.css">
-    <link rel="stylesheet" href="/Tela-ONGS/style3.css">
+  <link rel="stylesheet" href="/Tela-ONGS/style.css">
+  <link rel="stylesheet" href="/Tela-ONGS/style2.css">
+  <link rel="stylesheet" href="/Tela-ONGS/style3.css">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
 
-    <header>
-        <img src="./../assets/Logo.png" alt="logo" srcset="">
-        
-        <div id="user">
-          <p></p>
-       </div>
-       
+  <header>
+    <img src="./../assets/Logo.png" alt="logo" srcset="">
 
-        <nav>
-            <input type="checkbox" id="menuToggle">
+    <div id="user">
+      <p></p>
+    </div>
 
-            <label for="menuToggle" class="menu-icon">
-                <i class="material-icons">menu</i>
-                <i class="large material-icons">cancel</i>
-            </label>
-           
-            <ul>
-              <li><a href="./../index.html">Início</a></li>
-              <li><a href="./../Tela-Adocao/Adote.html">Adotar</a></li>
-              <li><a href="#">ONGS</a></li>
-              <li><a href="./../Tela-Sobre/Sobre.html">Sobre</a></li>
-              <li><a href="./../Tela-Faqs/Faqs.html">FAQs</a></li>
-              <li class="select">
-                <select name="select" onchange="window.open(this.value, '_blank', '')">
-                    <option value="#" selected>Conta</option>
-                    <option value="./../Tela-Cadastro/Cadastro.html">Cadastre-se</option>
-                    <option value="./../Tela-Cadastro/Login.html">Login</option>
-                    <option value="#">Logout</option>
-                </select>
-            </li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
+    <nav>
+      <input type="checkbox" id="menuToggle">
 
-        <article id="bem-vindo">
+      <label for="menuToggle" class="menu-icon">
+        <i class="material-icons">menu</i>
+        <i class="large material-icons">cancel</i>
+      </label>
 
-            <div id="fundo-trans">
+      <ul>
+        <li><a href="./../index.html">Início</a></li>
+        <li><a href="./../Tela-Adocao/Adote.html">Adotar</a></li>
+        <li><a href="#">ONGS</a></li>
+        <li><a href="./../Tela-Sobre/Sobre.html">Sobre</a></li>
+        <li><a href="./../Tela-Faqs/Faqs.html">FAQs</a></li>
+        <li class="select">
+          <select name="select" onchange="window.open(this.value, '_blank', '')">
+            <option value="#" selected>Conta</option>
+            <option value="./../Tela-Cadastro/Cadastro.html">Cadastre-se</option>
+            <option value="./../Tela-Cadastro/Login.html">Login</option>
+            <option value="#">Logout</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-                <h1 id="tit-inicio">ONGS-SOS Vida Animal</h1>
-        
-                <h3>Não abandone aquele que nunca vai abandonar você.</h3>
-            </div>
+  <main>
 
-        </article>
+    <article id="bem-vindo">
 
-        <article id="secao-busca">
+      <div id="fundo-trans">
 
-            <h1 id="tit-pesquisa">Conheça alguns dos nossos parceiros !!!</h1>
-    
-            <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar ONGS" onkeyup="pesquisar()">
+        <h1 id="tit-inicio">ONGS-SOS Vida Animal</h1>
 
-            <button type="submit" onclick="pesquisar()">
-                
-                <i class="material-icons">search</i>
-            </button>
-        </article>
-       
-        <article id="ongs">
-
-        </article>
-    </main>
-   
-    <aside id="parallax">
-
-        <h2 id="tit-paralax">Conheça essas maravilhas</h2>
-
-    </aside>
-
-    <!----------------------------- FORMULÁRIO AQUI -->
-
-    <div class="containerr">
-      <div class="texto">Conheça alguns animais disponíveis para adotar!</div>
-      
-      <div class="bloco">
-
-          <div class="animal">
-            <img src="./../assets/Leone.jpg" alt="Gato" style="width: 150px;">
-          </div>
-        
-          <div class="animal">
-            <img src="./../assets/opq4jmsp.png" alt="Gato" style="width: 200px;">
-          </div>
-        
-          <div class="animal">
-            <img src="./../assets/2P6A1953.jpeg" alt="Cachorro" style="width: 200px;">
-          </div>
-        
-          <div class="animal">
-            <img src="./../assets/GN3BU7CM.jpg" alt="Gato" style="width: 200px;">
-          </div>
-        
-          <div class="animal">
-            <img src="./../assets/adotar-gato.jpg" alt="Gato" style="width: 200px;">
-          </div>
-        
-          <div class="animal">
-            <img src="./../assets/1_foto_breno_esaki_agencia_saude_df_7_12_640x427-6828046.jpg" alt="Cachorro"
-              style="width: 200px;">
-          </div>
-        
-          <div class="animal">
-            <img src="./../assets/Maxi-Shopping-Jundiai-promove-6a-Feira-de-Adocao-de-Animais-nesta-semana-1536x864.jpg"
-              alt="Cachorro" style="width: 200px;">
-          </div>
-        
-        </div>
+        <h3>Não abandone aquele que nunca vai abandonar você.</h3>
       </div>
 
-    <div class="formulario" id="forms_ONG">
+    </article>
+
+    <article id="secao-busca">
+
+      <h1 id="tit-pesquisa">Conheça alguns dos nossos parceiros !!!</h1>
+
+      <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar ONGS" onkeyup="pesquisar()">
+
+      <button type="submit" onclick="pesquisar()">
+
+        <i class="material-icons">search</i>
+      </button>
+    </article>
+
+    <article id="ongs">
+
+    </article>
+  </main>
+
+  <aside id="parallax">
+
+    <h2 id="tit-paralax">Conheça essas maravilhas</h2>
+
+  </aside>
+
+  <!----------------------------- FORMULÁRIO AQUI -->
+
+  <div class="containerr">
+    <div class="texto">Conheça alguns animais disponíveis para adotar!</div>
+
+    <div class="bloco">
+
+      <div class="animal">
+        <img src="./../assets/Leone.jpg" alt="Gato" style="width: 150px;">
+      </div>
+
+      <div class="animal">
+        <img src="./../assets/opq4jmsp.png" alt="Gato" style="width: 200px;">
+      </div>
+
+      <div class="animal">
+        <img src="./../assets/2P6A1953.jpeg" alt="Cachorro" style="width: 200px;">
+      </div>
+
+      <div class="animal">
+        <img src="./../assets/GN3BU7CM.jpg" alt="Gato" style="width: 200px;">
+      </div>
+
+      <div class="animal">
+        <img src="./../assets/adotar-gato.jpg" alt="Gato" style="width: 200px;">
+      </div>
+
+      <div class="animal">
+        <img src="./../assets/1_foto_breno_esaki_agencia_saude_df_7_12_640x427-6828046.jpg" alt="Cachorro"
+          style="width: 200px;">
+      </div>
+
+      <div class="animal">
+        <img src="./../assets/Maxi-Shopping-Jundiai-promove-6a-Feira-de-Adocao-de-Animais-nesta-semana-1536x864.jpg"
+          alt="Cachorro" style="width: 200px;">
+      </div>
+
+    </div>
+  </div>
+
+  <div class="formulario" id="forms_ONG">
+
+    <div>
 
       <h1 id="tit-cad">Cadastre sua Instituição aqui!</h1>
+      
+    </div>
+    <div class="container">
 
-      <div class="container">
+      <div class="form-container">
 
-        <div class="form-container">
+        <form id="form1">
 
-          <form id="form1">
+          <h2>Contatos</h2>
 
-              <h2>Contatos</h2>
+          <div id="infos">
 
-              <div id="infos">
+            <div class="campo">
+              <label for="nome">Nome da Organização:</label><br>
+              <input type="text" id="nome" name="nome" required><br>
+            </div>
 
-                <div class="campo">
-                  <label for="nome">Nome da Organização:</label><br>
-                  <input type="text" id="nome" name="nome" required><br>
-                </div>
+            <div class="campo">
+              <label for="telefone">Telefone:</label><br>
+              <input type="text" id="telefone" required><br>
+            </div>
 
-                <div class="campo">
-                  <label for="telefone">Telefone:</label><br>
-                  <input type="text" id="telefone" required><br>
-                </div>
+            <div class="campo">
+              <label for="whatsapp">WhatsApp:</label><br>
+              <input type="text" id="whatsapp"><br>
+            </div>
 
-                <div class="campo">
-                  <label for="whatsapp">WhatsApp:</label><br>
-                  <input type="text" id="whatsapp"><br>
-                </div>
-               
-                <div class="campo">
-                  <label for="endereco">Endereço:</label><br>
-                  <input type="text" id="endereco" required><br>
-                </div>
+            <div class="campo">
+              <label for="endereco">Endereço:</label><br>
+              <input type="text" id="endereco" required><br>
+            </div>
 
-                <div class="campo">
+            <div class="campo">
 
-                  <label for="email">E-mail:</label><br>
-                  <input type="email" id="email" name="email" required><br>
-                </div>
-               
-                <div class="campo">
-                  <label for="estado">Estado:</label><br>
-                  <select class="estado" id="estado">
-                    <option value="selected" selected="selected">Selecione seu estado...</option>
-                    <option value="ACRE">ACRE</option>
-                    <option value="ALAGOAS">ALAGOAS</option>
-                    <option value="AMAPÁ">AMAPÁ</option>
-                    <option value="AMAZONAS">AMAZONAS</option>
-                    <option value="BAHIA">BAHIA</option>
-                    <option value="CEARÁ">CEARÁ</option>
-                    <option value="DISTRITO FEDERAL">DISTRITO FEDERAL</option>
-                    <option value="ESPÍRITO SANTO">ESPÍRITO SANTO</option>
-                    <option value="GOIÁS">GOIÁS</option>
-                    <option value="MARANHÃO">MARANHÃO</option>
-                    <option value="MATO GROSSO">MATO GROSSO</option>
-                    <option value="MATO GROSSO DO SUL">MATO GROSSO DO SUL</option>
-                    <option value="MINAS GERAIS">MINAS GERAIS</option>
-                    <option value="PARÁ">PARÁ</option>
-                    <option value="PARAÍBA">PARAÍBA</option>
-                    <option value="PARANÁ">PARANÁ</option>
-                    <option value="PERNAMBUCO">PERNAMBUCO</option>
-                    <option value="PIAUÍ">PIAUÍ</option>
-                    <option value="RIO DE JANEIRO">RIO DE JANEIRO</option>
-                    <option value="RIO GRANDE DO ">RIO GRANDE DO NORTE</option>
-                    <option value="RIO GRANDE DO SUL">RIO GRANDE DO SUL</option>
-                    <option value="RONDÔNIA">RONDÔNIA</option>
-                    <option value="RORAIMA">RORAIMA</option>
-                    <option value="SANTA CATARINA">SANTA CATARINA</option>
-                    <option value="SÃO PAULO">SÃO PAULO</option>
-                    <option value="SERGIPE">SERGIPE</option>
-                    <option value="TOCANTINS">TOCANTINS</option>
-                  </select>
-                </div>
-                         
-              </div>
-            
-                <div class="btn-box">
-                  <button type="button" id="Proximo">Próximo</button>
-                </div>
-              </form>
+              <label for="email">E-mail:</label><br>
+              <input type="text" id="email" name="email" required><br>
+            </div>
 
-          <form id="form2">
-
-                <h3>Informações adicionais</h3>
-
-                <label for="frequenciaAdocao">Qual a frequência de adoções na sua ONG?</label><br>
-
-                <div class="slidecontainer">
-                  <input type="range" min="0" max="2" value="1" class="slider" id="frequenciaAdocao">
-                </div>
-
-                <div class="opcoes" style="color: #008443;">
-
-                  Pouco
-
-                  <div class="direita" style="float:right;">
-                    Muito
-                  </div>
-
-                </div>
-
-                <br>
-
-                <label for="quantosAnimaisProtecao">Quantos animais estão sobre sua proteção?</label><br>
-
-                <div class="slidecontainer">
-                  <input type="range" min="0" max="2" value="1" class="slider" id="quantosAnimaisProtecao">
-                </div>
-
-                <div class="opcoes" style="color: #008443; ">
-
-                  Pouco
-
-                  <div class="direita" style="float:right;">
-                    Muito
-                  </div>
-
-                </div>
-
-                <br>
-
-                <label for="tempoFilaDeAdocao">Qual o tempo médio que um animal
-                  fica na fila de adoção em sua ONG?</label><br>
-
-                <div class="slidecontainer">
-                  <input type="range" min="0" max="2" value="1" class="slider" id="tempoFilaDeAdocao">
-                </div>
-
-                <div class="opcoes" style="color: #008443;">
-
-                  Pouco
-
-                  <div class="direita" style="float:right;">
-                    Muito
-                  </div>
-                </div>
-
-                <br>
-
-                <label for="tempoCuidados">Quanto tempo você pode dedicar aos cuidados?</label><br>
-
-                <div class="slidecontainer">
-                  <input type="range" min="0" max="2" value="1" class="slider" id="tempoCuidados">
-                </div>
-
-                <div class="opcoes" style="color: #008443;">
-
-                  Pouco
-
-                  <div class="direita" style="float:right;">
-                    Muito
-                  </div>
-                </div>
-
-                <br>
-
-                <div id="switches">
-
-                  <div>
-
-                    <label for="animaisSituacaoRua">Vocês recolhem animais em <br> situação de rua?</label><br>
-
-                    <div class="toggle-btn" onclick="this.classList.toggle('active')" id="recolhemAnimais">
-                      <div class="inner-circle"></div>
-                    </div>
-
-                    <div class="escolha">Não Sim</div>
-
-                  </div>
-
-                  <div>
-
-                    <label for="animaisDoentes">Vocês aceitam animais doentes?</label><br>
-
-                    <div class="row row-cols-2 row-cols-md-3 g-4">
-
-                      <div class="col">
-                        <div class="toggle-btn" onclick="this.classList.toggle('active')" id="aceitamDoentes">
-                          <div class="inner-circle"></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="escolha">Não Sim</div>
-
-                  </div>                
-                </div>
-           
-                <div id="botoes">
-                  
-                  <div class="btn-box">
-                    <button type="button" id="Voltar">Voltar</button>
-                  </div>
-
-                  <div class="btn-box">
-                    <button id="btnIncluirContato" onSubmit="incluirContato()" type="submit">Enviar</button>
-                  </div>
-                  
-                </div>
-              </form>
-
-          <dvi class="step-row">
-
-            <div id="progress"></div>
-
-              <div class="step-col" style="color: #FFC700; font-weight: bold;">
-                <large> Parte 1</large>
-              </div>
-
-              <div class="step-col" style="color: #FFC700; font-weight: bold; margin-left: 260px;">
-                <large> Parte 2</large>
-              </div>
-
-            </dvi>
+            <div class="campo">
+              <label for="estado">Estado:</label><br>
+              <select class="estado" id="estado">
+                <option value="selected" selected="selected">Selecione seu estado...</option>
+                <option value="ACRE">ACRE</option>
+                <option value="ALAGOAS">ALAGOAS</option>
+                <option value="AMAPÁ">AMAPÁ</option>
+                <option value="AMAZONAS">AMAZONAS</option>
+                <option value="BAHIA">BAHIA</option>
+                <option value="CEARÁ">CEARÁ</option>
+                <option value="DISTRITO FEDERAL">DISTRITO FEDERAL</option>
+                <option value="ESPÍRITO SANTO">ESPÍRITO SANTO</option>
+                <option value="GOIÁS">GOIÁS</option>
+                <option value="MARANHÃO">MARANHÃO</option>
+                <option value="MATO GROSSO">MATO GROSSO</option>
+                <option value="MATO GROSSO DO SUL">MATO GROSSO DO SUL</option>
+                <option value="MINAS GERAIS">MINAS GERAIS</option>
+                <option value="PARÁ">PARÁ</option>
+                <option value="PARAÍBA">PARAÍBA</option>
+                <option value="PARANÁ">PARANÁ</option>
+                <option value="PERNAMBUCO">PERNAMBUCO</option>
+                <option value="PIAUÍ">PIAUÍ</option>
+                <option value="RIO DE JANEIRO">RIO DE JANEIRO</option>
+                <option value="RIO GRANDE DO ">RIO GRANDE DO NORTE</option>
+                <option value="RIO GRANDE DO SUL">RIO GRANDE DO SUL</option>
+                <option value="RONDÔNIA">RONDÔNIA</option>
+                <option value="RORAIMA">RORAIMA</option>
+                <option value="SANTA CATARINA">SANTA CATARINA</option>
+                <option value="SÃO PAULO">SÃO PAULO</option>
+                <option value="SERGIPE">SERGIPE</option>
+                <option value="TOCANTINS">TOCANTINS</option>
+              </select>
+            </div>
 
           </div>
-        </div>
+
+          <div class="btn-box">
+            <button type="button" id="Proximo">Próximo</button>
+          </div>
+        </form>
+
+        <form id="form2">
+
+          <h3>Informações adicionais</h3>
+
+          <label for="frequenciaAdocao">Qual a frequência de adoções na sua ONG?</label><br>
+
+          <div class="slidecontainer">
+            <input type="range" min="0" max="2" value="1" class="slider" id="frequenciaAdocao">
+          </div>
+
+          <div class="opcoes" style="color: #008443;">
+
+            Pouco
+
+            <div class="direita" style="float:right;">
+              Muito
+            </div>
+
+          </div>
+
+          <br>
+
+          <label for="quantosAnimaisProtecao">Quantos animais estão sobre sua proteção?</label><br>
+
+          <div class="slidecontainer">
+            <input type="range" min="0" max="2" value="1" class="slider" id="quantosAnimaisProtecao">
+          </div>
+
+          <div class="opcoes" style="color: #008443; ">
+
+            Pouco
+
+            <div class="direita" style="float:right;">
+              Muito
+            </div>
+
+          </div>
+
+          <br>
+
+          <label for="tempoFilaDeAdocao">Qual o tempo médio que um animal
+            fica na fila de adoção em sua ONG?</label><br>
+
+          <div class="slidecontainer">
+            <input type="range" min="0" max="2" value="1" class="slider" id="tempoFilaDeAdocao">
+          </div>
+
+          <div class="opcoes" style="color: #008443;">
+
+            Pouco
+
+            <div class="direita" style="float:right;">
+              Muito
+            </div>
+          </div>
+
+          <br>
+
+          <label for="tempoCuidados">Quanto tempo você pode dedicar aos cuidados?</label><br>
+
+          <div class="slidecontainer">
+            <input type="range" min="0" max="2" value="1" class="slider" id="tempoCuidados">
+          </div>
+
+          <div class="opcoes" style="color: #008443;">
+
+            Pouco
+
+            <div class="direita" style="float:right;">
+              Muito
+            </div>
+          </div>
+
+          <br>
+
+          <div id="switches">
+
+            <div>
+
+              <label for="animaisSituacaoRua">Vocês recolhem animais em <br> situação de rua?</label><br>
+
+              <div class="toggle-btn" onclick="this.classList.toggle('active')" id="recolhemAnimais">
+                <div class="inner-circle"></div>
+              </div>
+
+              <div class="escolha">Não Sim</div>
+
+            </div>
+
+            <div>
+
+              <label for="animaisDoentes">Vocês aceitam animais doentes?</label><br>
+
+              <div class="row row-cols-2 row-cols-md-3 g-4">
+
+                <div class="col">
+                  <div class="toggle-btn" onclick="this.classList.toggle('active')" id="aceitamDoentes">
+                    <div class="inner-circle"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="escolha">Não Sim</div>
+
+            </div>
+          </div>
+
+          <div id="botoes">
+
+            <div class="btn-box">
+              <button type="button" id="Voltar">Voltar</button>
+            </div>
+
+            <div class="btn-box">
+              <button id="btnIncluirContato" onSubmit="incluirContato()" type="submit">Enviar</button>
+            </div>
+
+          </div>
+        </form>
+
+        <dvi class="step-row">
+
+          <div id="progress"></div>
+
+          <div class="step-col" style="color: #FFC700; font-weight: bold;">
+            <large> Parte 1</large>
+          </div>
+
+          <div class="step-col" style="color: #FFC700; font-weight: bold; margin-left: 260px;">
+            <large> Parte 2</large>
+          </div>
+
+        </dvi>
+
       </div>
+    </div>
+  </div>
 
-    <footer>
+  <footer>
 
-      <div id="contatos">
-            <ul>
-                <li>
-                    <a href=""><i class="bi bi-instagram"></i> Instagram</a>
-                </li>
-                <li>
-                    <a href=""><i class="bi bi-twitter"></i> Twitter</a>
-                </li>
-                <li>
-                    <a href=""><i class="bi bi-whatsapp"></i> Whatsapp</a>
-                </li>
-                <li>
-                    <a href=""><i class="bi bi-envelope-at"></i> E-mail</a>
-                </li>
-            </ul>
-        </div>
-        <img src="./../assets/logo-footer.png" alt="logo" srcset="">
-        <p>&copy BuscaPet</p>
-      
-    </footer>
+    <div id="contatos">
+      <ul>
+        <li>
+          <a href=""><i class="bi bi-instagram"></i> Instagram</a>
+        </li>
+        <li>
+          <a href=""><i class="bi bi-twitter"></i> Twitter</a>
+        </li>
+        <li>
+          <a href=""><i class="bi bi-whatsapp"></i> Whatsapp</a>
+        </li>
+        <li>
+          <a href=""><i class="bi bi-envelope-at"></i> E-mail</a>
+        </li>
+      </ul>
+    </div>
+    <img src="./../assets/logo-footer.png" alt="logo" srcset="">
+    <p>&copy BuscaPet</p>
 
-    <script src="script.js"></script>
-   
+  </footer>
+
+  <script src="script.js"></script>
+
 </body>
+
 </html>
