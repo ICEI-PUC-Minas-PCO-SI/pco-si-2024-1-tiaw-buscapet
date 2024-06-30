@@ -443,14 +443,21 @@
       "senha": "123",
       "tipo": "pessoa",
       "id": 11
+    },
+    {
+      "nome": "Rodrigo Nunes",
+      "email": "Rodriguinho@gmail.com",
+      "senha": "123",
+      "tipo": "ONG",
+      "id": 12
     }
   ],
   "logado": {
-    "nome": "Ingrid Yara",
-    "email": "IngridYara@gmail.com",
+    "nome": "Rodrigo Nunes",
+    "email": "Rodriguinho@gmail.com",
     "senha": "123",
-    "tipo": "pessoa",
-    "id": 11
+    "tipo": "ONG",
+    "id": 12
   },
   "porcentagem": [
     {
