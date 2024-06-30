@@ -1,6 +1,5 @@
  *{
 
-<<<<<<< HEAD
     padding:0;
     margin:0;
   }
@@ -204,9 +203,10 @@
   
   .btn-box{
       
-=======
   padding:0;
   margin:0;
+
+  
 }
 
 
@@ -621,7 +621,7 @@ input[type="submit"]:hover {
 }
 @media (max-width: 700px) {
   .container {
->>>>>>> origin/melhorias-formulario
+
     width: 100%;
     padding-bottom: 400px;
   }
