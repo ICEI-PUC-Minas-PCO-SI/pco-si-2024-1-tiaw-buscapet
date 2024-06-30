@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="./../assets/Logo.png" alt="logo">
+        <nav>
+
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon">
+                <i class="material-icons">menu</i>
+                <i class="large material-icons">cancel</i>
+            </label>
+
+            <ul>
+                <li><a href="./../index.html">Início</a></li>
+                <li><a href="./../Tela-Adocao/Adote.html">Adotar</a></li>
+                <li><a href="./../Tela-ONGS/ONGS.html">ONGS</a></li>
+                <li><a href="./../Tela-Sobre/Sobre.html">Sobre</a></li>
+                <li><a href="./../Tela-Faqs/Faqs.html">FAQs</a></li>
+                <li class="select">
+                    <select name="select" onchange="window.open(this.value, '_blank', '')">
+                        <option value="#" selected>Conta</option>
+                        <option value="Cadastro.html">Cadastre-se</option>
+                        <option value="Login.html">Login</option>
+                        <option value="#">Logout</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="fundo-trans">
+            <form>
+    
+                <h3 id="log">Login</h3>
+    
+                <div>
+                    <label for="Email">E-mail:</label>
+                    <input id="email"placeholder="Digite seu email" type="text" required>
+                </div>
+    
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input id="senha" placeholder="Digite sua senha" type="password" required>
+                </div>
+    
+               <a href="./../index.html"><button type="button" id="add">Entrar</button></a>
+            </form>
+    
+            <div id="erro"></div>
+        </div>
+    </main>
+    
+    <script src="script2.js"></script>
+</body>
+</html>

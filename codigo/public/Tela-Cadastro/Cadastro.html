@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="./../assets/Logo.png" alt="logo">
+        <nav>
+
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon">
+                <i class="material-icons">menu</i>
+                <i class="large material-icons">cancel</i>
+            </label>
+
+            <ul>
+                <li><a href="./../index.html">Início</a></li>
+                <li><a href="./../Tela-Adocao/Adote.html">Adotar</a></li>
+                <li><a href="./../Tela-ONGS/ONGS.html">ONGS</a></li>
+                <li><a href="./../Tela-Sobre/Sobre.html">Sobre</a></li>
+                <li><a href="./../Tela-Faqs/Faqs.html">FAQs</a></li>
+                <li class="select">
+                    <select name="select" onchange="window.open(this.value, '_blank', '')">
+                        <option value="#" selected>Conta</option>
+                        <option value="Cadastro.html">Cadastre-se</option>
+                        <option value="Login.html">Login</option>
+                        <option value="#">Logout</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="fundo-trans">
+            <form id="cadastro">
+                <h3 id="log">Cadastro</h3>
+    
+                <div>
+                    <label for="Nome">Nome:</label>
+                    <input id="nome"placeholder="Digite seu nome" type="text" required>
+                </div>
+    
+                <div>
+                    <label for="E-mail">E-mai:</label>
+                    <input id="email" placeholder="Digite seu e-mail" type="text" required>
+                </div>
+    
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input id="senha" placeholder="Digite sua Senha" type="password" required>
+                </div>
+    
+                <div id="radios" class="radios">
+                    <label for="pergunta">Você é uma:</label>
+    
+                    <div>
+                        <label for="ong_radio">ONG</label>
+                        <input type="radio" id="ong_radio" name="tipo_cad" value="ONG" class="bolinha" checked>
+                    </div>
+    
+                    <div>
+                        <label for="pessoa_radio">Pessoa</label>
+                        <input type="radio" id="pessoa_radio" name="tipo_cad" value="pessoa" class="bolinha">
+                    </div>
+                </div>      
+    
+               <a href="Login.html"><button type="button" id="add">Cadastrar</button></a>
+            </form>
+    
+            <div id="login">
+                <a><p>Já possui uma conta?</p></a>
+            </div>
+    
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

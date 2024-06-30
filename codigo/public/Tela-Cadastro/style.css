@@ -1,0 +1,294 @@
+html,body{
+    background: url(./../assets/fundo.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    flex-direction:column;
+    overflow-x: hidden;
+      box-sizing: border-box;
+  }
+  
+  header{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #3f3f3f;
+    padding: 10px 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.392);
+    position: relative;
+    z-index: 3;
+  }
+  
+  header > img{
+  
+    max-width: 100%;
+    display: block;
+  }
+  
+  header nav ul{
+  
+    display: flex;
+  
+  }
+  
+  header nav ul li{
+  
+    margin-left: 5px;
+    list-style-type: none;
+    padding: 10px 15px;
+    padding-top: 20px;
+  }
+  
+  header nav ul li a{
+  
+    color:#FBF5B7;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover{
+  
+    color:#FF661B;
+    font-size: 1.3em;
+  }
+  
+  header nav ul li.select{
+  
+    padding:17px;
+    padding-top:14px;
+    padding-left:0
+  }
+  header nav ul li.select select{
+  
+    font-size: 1.1em;
+    outline:none;
+    background: linear-gradient(to right, #008443, #004120);
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.472);
+    height:30px;
+    border:none;
+    color:#FBF5B7;
+    font-weight: bold;
+  }
+  
+  header nav ul li.select select option{
+  
+    background:#3f3f3f;
+  
+  }
+  
+  header > nav #menuToggle{
+  
+    display:none;
+  }
+  
+  header > nav .menu-icon{
+  
+    display: none;
+  }
+  
+  main{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  div#fundo-trans{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+    background:linear-gradient(135deg, rgba(255, 255, 255, 0.587), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+  
+    width:40vw;
+    padding: 0px;
+    padding-top:60px;
+    margin: 0px;
+    padding-bottom: 50px;
+    margin: 30px 0;
+    
+  }
+  
+  div > form{
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    text-align:center;
+    align-items: center;
+    margin:0;
+    padding:0;
+  
+  }
+  
+  div > form > h3#log{
+  
+    margin-left: 20px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, #008443, #004120);
+    color:#FFE500;
+    border-radius: 30px;
+    font-size:2em;
+    padding-top: 10px;
+    margin-bottom:40px;
+    width: 30vw;
+  
+  }
+  
+  div > form > div{
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:row;
+    text-align:center;
+  
+    margin:0;
+    padding:0;
+  
+    width:30vw;
+    margin-top:40px
+  
+  }
+  
+  div > form > div > label, div > form > div#radios label{
+  
+    color: #004120;
+    font-weight: bold;
+    padding-right:7px;
+    font-size:1.1em;
+  
+  }
+  
+  div > form > div#radios > div label{
+  
+    padding-left:10px
+  }
+  
+  div > form > div > label::before, div#radios > label::before{
+  
+    content:"*";
+    color: red;
+    font-weight: bold;
+    padding-right:5px;
+  
+  }
+  
+  div > form > div > input{
+  
+    flex: 1;
+    border: 2px solid #feffff;
+    border-radius: 25px;
+    padding: 7px;
+    outline:none;
+    font-size:1em;
+   padding-bottom: 5px;
+  }
+  
+  input:required:invalid{
+  
+    border: 2px solid hsla(0, 90%, 70%, 1);
+  }
+  
+  input:valid {
+       border: 2px solid hsla(100, 90%, 70%, 1);
+  }
+  
+  ::placeholder{
+  
+    font-size: 0.8em;
+  
+  }
+  
+  div > form > div#radios{
+  
+    justify-content: start;
+    width:30vw;
+  }
+  
+  div > form > div#radios > div{
+  
+    margin-right:30px;
+  
+  }
+  
+  .bolinha {
+  
+    background-color:#ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .bolinha:hover {
+  
+    border-radius: 50%;
+    background-color: #FFD233;
+  }
+  
+  .bolinha.selecionada {
+    background-color: #FFD233;
+  }
+  
+  div > form > a > button{
+  
+   
+    background: linear-gradient(to right, #008443, #004120);
+    color:#FFE500;
+    font-size:1em;
+    width: 150px;
+    height:45px;
+    border:0;
+    border-radius: 30px;
+    font-weight: bold;
+    margin:0;
+    margin-top:50px;
+    box-shadow: 5px 5px 20px rgba(116, 116, 116, 0.282);
+    transition-duration: background 5s;
+  }
+  
+  div > form > a > button:hover{
+  
+      background: linear-gradient(to right, #FFE500, #FF661B);
+      color:#3f3f3f
+  }
+  
+  div#fundo-trans > div#login > a{
+  
+    font-weight:bold;
+    color:#FF661B;
+    font-size:1.3em;
+    text-shadow: 0px 1px 0px black;
+  }
+  
+  div#fundo-trans > div#login > a:hover{
+  
+    color:#FFE500;
+    text-decoration: underline
+      
+  }
+  
+  div#fundo-trans > div#erro > p{
+  
+    margin-top:50px;
+    color:red;
+    font-weight:bold;
+    font-size:1.1em;
+  }
+  
