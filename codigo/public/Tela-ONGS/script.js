@@ -37,11 +37,39 @@ window.onload = () => {
              
         escrever()
         db = data;
+        User_logado()
         imprimeOngs()
     })
     .catch(error => {
         alert('Erro ao obter dados do servidor: ' + error.message);
     })
+}
+
+function User_logado (){
+
+  let user = document.getElementById("user");
+
+  fetch(`/logado`, {
+
+     method: 'GET',
+  })
+  .then(response =>  response.json())
+  .then(data => {
+
+    user.innerHTML = `<p>Olá, ${data.nome}</p>`;
+    
+    if(data.tipo != "ONG"){
+      
+      let form_ONG = document.getElementById("forms_ONG");
+
+      form_ONG.style.display = "none";
+      
+    }
+  })
+  .catch(error => {
+
+    console.error("Erro ao soliciar elemento via API JSONServer: ", error)
+  })
 }
 
 const pesquisar = () => {
