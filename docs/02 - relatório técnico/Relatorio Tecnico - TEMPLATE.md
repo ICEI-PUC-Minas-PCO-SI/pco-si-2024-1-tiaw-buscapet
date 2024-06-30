@@ -372,50 +372,52 @@ Em conjunto com o grupo, optamos por usar o Github como ferramenta de gerência 
 # **############## SPRINT 1 ACABA AQUI #############**
 
 
-# Projeto da Solução
+# Projeto da 
 
-4.1. Projeto da Solução 
-O preconceito é um problema que afeta todas as camadas da sociedade, deixando cicatrizes por onde passa. Esse fenômeno não se restringe apenas às interações humanas, mas também é presente no mundo dos animais. No universo dos pets, esse estigma atua como um fator de segregação, tornando invisíveis e esquecidos os animais com certas características, privando-os de oportunidades de adoção e, em muitos casos, de uma vida digna.
+<h4><strong>Projeto da Solução:</strong></h4>
+<ul>
+  <li> O preconceito é um problema que afeta todas as camadas da sociedade, deixando cicatrizes por onde passa. Esse fenômeno não se restringe apenas às interações humanas, mas também é presente no mundo dos animais. No universo dos pets, esse estigma atua como um fator de segregação, tornando invisíveis e esquecidos os animais com certas características, privando-os de oportunidades de adoção e, em muitos casos, de uma vida digna.
 Diante disso, vimos a necessidade da criação de um site que destaque e chame a atenção para esses animais afetados pelo preconceito. Nossa plataforma, denominada Busca Pet, facilitará o contato entre os animais e possíveis adotantes que se opõem a esse problema. O Busca Pet oferecerá um meio eficiente de conectar bichinhos e futuros donos, disponibilizando endereços de ONGs de proteção animal, dicas de cuidados para pets com características limitantes, e, o mais importante, informações sobre onde adotar.
-
+</li>
+  
 
 ## Tecnologias Utilizadas
 
-Tecnologias Utilizadas
 Para implementar uma solução como o BuscaPet, utilizamos diversas tecnologias para que fosse uma plataforma eficiente e atraente. As tecnologias empregadas foram:
 Front-end:
-HTML: Para estruturar o conteúdo do site.
-CSS: Para estilizar o site, garantindo uma apresentação visual agradável e responsiva.
-JavaScript: Para adicionar interatividade ao site, como carrosseis de imagens e formulários dinâmicos.
-JSON (JavaScript Object Notation):  formato leve de intercâmbio de dados que é fácil para os seres humanos lerem e escreverem, e fácil para as máquinas analisarem e gerarem.
-Ferramentas de Desenvolvimento:
-Git: Para controle de versão e colaboração entre desenvolvedores.
-Segurança:
-HTTPS: Para garantir que todas as comunicações entre o cliente e o servidor sejam seguras.	
 
-4.3. Ferramentas
-Canvas Puc-Minas:
-O Canvas da PUC Minas foi a principal plataforma que utilizamos para a obtenção de informações e gerenciamento de atividades acadêmicas. No Canvas, conseguimos acessar materiais de aula, exemplos de execução de atividades, entregar trabalhos e acompanhar o feedback dos colegas e do professor de maneira centralizada e eficiente. A plataforma facilitou a nossa comunicação com o professor.
+<ul>
+  <li><strong>HTML:</strong>Para estruturar o conteúdo do site.</li>
+  <li><strong>CSS:</strong> Para estilizar o site, garantindo uma apresentação visual agradável e responsiva.</li>
+  <li><strong>JavaScript:</strong> Para adicionar interatividade ao site, como carrosseis de imagens e formulários dinâmicos.</li>
+  <li><strong>JSON (JavaScript Object Notation): </strong> formato leve de intercâmbio de dados que é fácil para os seres humanos lerem e escreverem, e fácil para as máquinas analisarem e gerarem.</li>
+  <li><strong>Git:</strong> Para controle de versão e colaboração entre desenvolvedores.
+Segurança:</li>
+  <li><strong>HTTPS:</strong>  Para garantir que todas as comunicações entre o cliente e o servidor sejam seguras.</li>
+</ul>
 
-Github:
-O GitHub oferece controle de versão avançado, permitindo que a gente rastreie e reverta mudanças, crie branches para desenvolvimento paralelo e integre código de maneira eficiente. Além disso, a plataforma facilita a colaboração, possibilitando pull requests, code reviews e integração contínua, o que aprimora a qualidade do código e acelera o ciclo de desenvolvimento.
 
-DOCS:
-O ambiente integrado para o Buscapet, documentado no Google Docs, foi a plataforma centralizada que unificou todas as ferramentas e recursos necessários para o desenvolvimento colaborativo. O docs promoveu uma colaboração eficiente entre os membros da equipe, garantindo que todas as etapas do desenvolvimento, desde o protótipo até a implementação final, sejam documentadas e acessíveis, melhorando a comunicação e a coordenação do projeto Busca Pet.
+<h4>Ferramentas<h4>
 
-Figma:
-O protótipo interativo para o projeto Busca Pet, desenvolvido no Figma, foi uma ferramenta essencial para visualizar e refinar a experiência do usuário antes da implementação final. Permitiu a criação de layouts detalhados e interativos que simulam o comportamento real do site, facilitando a validação de conceitos e fluxos de navegação. Utilizando o Figma, a equipe pôde colaborar em tempo real, realizar ajustes instantâneos e obter feedback contínuo, garantindo que todas as funcionalidades e elementos de interface atendam às expectativas dos usuários. Este processo iterativo de design assegura que o Busca Pet ofereça uma interface intuitiva e eficaz, proporcionando uma experiência de adoção de animais de estimação agradável e eficiente.
+  <ul>
+  <li><strong>Canvas Puc-Minas:</strong> O Canvas da PUC Minas foi a principal plataforma que utilizamos para a obtenção de informações e gerenciamento de atividades acadêmicas. No Canvas, conseguimos acessar materiais de aula, exemplos de execução de atividades, entregar trabalhos e acompanhar o feedback dos colegas e do professor de maneira centralizada e eficiente. A plataforma facilitou a nossa comunicação com o professor.</li>
+    
+  <li><strong>Github:</strong> O GitHub oferece controle de versão avançado, permitindo que a gente rastreie e reverta mudanças, crie branches para desenvolvimento paralelo e integre código de maneira eficiente. Além disso, a plataforma facilita a colaboração, possibilitando pull requests, code reviews e integração contínua, o que aprimora a qualidade do código e acelera o ciclo de desenvolvimento.</li>
+  
+  <li><strong>DOCS:strong> O ambiente integrado para o Buscapet, documentado no Google Docs, foi a plataforma centralizada que unificou todas as ferramentas e recursos necessários para o desenvolvimento colaborativo. O docs promoveu uma colaboração eficiente entre os membros da equipe, garantindo que todas as etapas do desenvolvimento, desde o protótipo até a implementação final, sejam documentadas e acessíveis, melhorando a comunicação e a coordenação do projeto Busca Pet.</li>
+    
+  <li><strong>Figma:</strong> O protótipo interativo para o projeto Busca Pet, desenvolvido no Figma, foi uma ferramenta essencial para visualizar e refinar a experiência do usuário antes da implementação final. Permitiu a criação de layouts detalhados e interativos que simulam o comportamento real do site, facilitando a validação de conceitos e fluxos de navegação. Utilizando o Figma, a equipe pôde colaborar em tempo real, realizar ajustes instantâneos e obter feedback contínuo, garantindo que todas as funcionalidades e elementos de interface atendam às expectativas dos usuários. Este processo iterativo de design assegura que o Busca Pet ofereça uma interface intuitiva e eficaz, proporcionando uma experiência de adoção de animais de estimação agradável e eficiente.</li>
+  
+  <li><strong>Canvas:</strong> A edição e criação de elementos visuais para o nosso projeto, realizada no Canva, desempenhou um papel crucial na construção de uma identidade visual atraente e coesa. Utilizando as ferramentas intuitivas do Canva, a equipe pôde desenvolver gráficos, ícones e outros materiais visuais de alta qualidade que complementam a interface do site. Este processo criativo permitiu a produção rápida e eficiente de elementos visuais, garantindo que cada componente esteja alinhado com a estética e a mensagem do Busca Pet. A capacidade de colaboração em tempo real no Canva também facilita a troca de ideias e ajustes instantâneos, assegurando que o produto final seja visualmente consistente e envolvente, aprimorando a experiência do usuário e fortalecendo a marca do Busca Pet.</li>
+  
+  <li><strong>Bitrix24:</strong> A gestão de tarefas para o projeto Busca Pet, realizada através do Bitrix24, foi fundamental para assegurar a organização e eficiência de todas as etapas do desenvolvimento. Utilizando as robustas ferramentas de gestão de projetos do Bitrix24, a equipe pôde criar, atribuir e acompanhar tarefas de maneira detalhada, garantindo que todos os membros estejam alinhados com os prazos e responsabilidades. </li>
+</ul>
 
-Canvas:
-A edição e criação de elementos visuais para o nosso projeto, realizada no Canva, desempenhou um papel crucial na construção de uma identidade visual atraente e coesa. Utilizando as ferramentas intuitivas do Canva, a equipe pôde desenvolver gráficos, ícones e outros materiais visuais de alta qualidade que complementam a interface do site. Este processo criativo permitiu a produção rápida e eficiente de elementos visuais, garantindo que cada componente esteja alinhado com a estética e a mensagem do Busca Pet. A capacidade de colaboração em tempo real no Canva também facilita a troca de ideias e ajustes instantâneos, assegurando que o produto final seja visualmente consistente e envolvente, aprimorando a experiência do usuário e fortalecendo a marca do Busca Pet.
+ <li><strong>Discord:</strong> As reuniões no Discord, desempenharam um papel vital na comunicação e colaboração da equipe. O Discord ofereceu de forma versátil e acessível a realização de chamadas de voz e vídeo, compartilhar telas e trocar mensagens instantâneas, facilitando a coordenação entre os membros da equipe, independentemente de sua localização. Utilizando os canais organizados por tópicos, a equipe pôde discutir aspectos específicos do projeto, como design, desenvolvimento e marketing, de maneira estruturada. As funcionalidades de chat em tempo real e notificações asseguram que todos ficaram atualizados sobre os últimos desenvolvimentos e decisões. Promoveram um ambiente colaborativo e dinâmico, permitindo que a equipe tomasse decisões rápidas e eficazes, resolvesse problemas de forma ágil e mantenha um fluxo constante de comunicação, essencial para o sucesso do projeto. </li>
+ 
+  <li><strong>Powerpoint:</strong> A criação de slides para o projeto, foi essencial para apresentar ideias, progressos e resultados de maneira clara e impactante. Utilizando as poderosas ferramentas de design do PowerPoint, a equipe pode elaborar apresentações visuais profissionais que destacam os principais aspectos do projeto, desde o conceito inicial até os detalhes técnicos e planos futuros.</li>
+</ul>
 
-Bitrix24:
-A gestão de tarefas para o projeto Busca Pet, realizada através do Bitrix24, foi fundamental para assegurar a organização e eficiência de todas as etapas do desenvolvimento. Utilizando as robustas ferramentas de gestão de projetos do Bitrix24, a equipe pôde criar, atribuir e acompanhar tarefas de maneira detalhada, garantindo que todos os membros estejam alinhados com os prazos e responsabilidades. 
-
-Discord:
-As reuniões no Discord, desempenharam um papel vital na comunicação e colaboração da equipe. O Discord ofereceu de forma versátil e acessível a realização de chamadas de voz e vídeo, compartilhar telas e trocar mensagens instantâneas, facilitando a coordenação entre os membros da equipe, independentemente de sua localização. Utilizando os canais organizados por tópicos, a equipe pôde discutir aspectos específicos do projeto, como design, desenvolvimento e marketing, de maneira estruturada. As funcionalidades de chat em tempo real e notificações asseguram que todos ficaram atualizados sobre os últimos desenvolvimentos e decisões. Promoveram um ambiente colaborativo e dinâmico, permitindo que a equipe tomasse decisões rápidas e eficazes, resolvesse problemas de forma ágil e mantenha um fluxo constante de comunicação, essencial para o sucesso do projeto.
-Powerpoint:
-A criação de slides para o projeto, foi essencial para apresentar ideias, progressos e resultados de maneira clara e impactante. Utilizando as poderosas ferramentas de design do PowerPoint, a equipe pode elaborar apresentações visuais profissionais que destacam os principais aspectos do projeto, desde o conceito inicial até os detalhes técnicos e planos futuros.
 
 
 ## Arquitetura da solução
