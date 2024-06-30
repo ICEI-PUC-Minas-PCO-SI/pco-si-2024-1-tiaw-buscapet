@@ -35,8 +35,7 @@
     
     position: relative;
     height: 150vh;
-    width: 60vw;
-    
+    width:60vw;
     background:linear-gradient(135deg, rgba(255, 255, 255, 0.687), rgba(255, 255, 255, 0.7));
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -224,7 +223,7 @@ div.formulario{
   background-position: center;
   background-size:cover;
   background-repeat:no-repeat;
-  width:100vw;
+
   padding:0px;
   padding-top:50px;
   padding-bottom:40px;
@@ -241,8 +240,7 @@ div.formulario{
 
   position: relative;
   height: 150vh;
-  width: 60vw;
-
+  width:60vw;
   background:linear-gradient(135deg, rgba(255, 255, 255, 0.687), rgba(255, 255, 255, 0.7));
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
