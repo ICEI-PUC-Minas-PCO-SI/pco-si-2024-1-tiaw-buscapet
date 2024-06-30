@@ -10,27 +10,42 @@
     <link rel="stylesheet" href="./Tela-Inicial/style2.css">
     <link rel="stylesheet" href="./Tela-Inicial/style3.css">
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
 
     <header>
         <img src="assets/Logo.png" alt="logo">
+
+        <div id="user">
+           <p></p>
+        </div>
+        
         <nav>
+            
             <input type="checkbox" id="menuToggle">
             <label for="menuToggle" class="menu-icon">
                 <i class="material-icons">menu</i>
                 <i class="large material-icons">cancel</i>
             </label>
+            
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="./Tela-Adocao/Adote.html">Adotar</a></li>
                 <li><a href="./Tela-ONGS/ONGS.html">ONGS</a></li>
                 <li><a href="./Tela-Sobre/Sobre.html">Sobre</a></li>
                 <li><a href="./Tela-Faqs/Faqs.html">FAQs</a></li>
-                 <li><a href="./Tela-Cadastro/Cadastro.html">Cadastre-se</a></li>
+                <li class="select">
+                    <select name="select" onchange="window.open(this.value, '_blank', '')">
+                        <option value="#" selected>Conta</option>
+                        <option value="./Tela-Cadastro/Cadastro.html">Cadastre-se</option>
+                        <option value="./Tela-Cadastro/Login.html">Login</option>
+                        <option value="#">Logout</option>
+                    </select>
+                </li>
             </ul>
         </nav>
     </header>
@@ -82,7 +97,7 @@
 
         <div id="parallax3">
             <div class="botao-redondo">
-                <p id="parallax3"><a href="#">Sobre</a></p>
+                <p id="parallax3"><a href="./../Tela-Sobre/Sobre.html"">Sobre</a></p>
             </div>
         </div>
     </main>

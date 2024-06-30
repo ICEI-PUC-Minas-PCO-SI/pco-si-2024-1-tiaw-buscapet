@@ -25,6 +25,23 @@ header>img {
     display: block;
 }
 
+header > div#user{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+
+}
+
+header > div#user > p{
+
+    color:#FFE500;
+    font-weight:bold;
+    font-size:2em;
+}
+
+
 header nav ul {
 
     display: flex;
@@ -51,6 +68,31 @@ header nav ul li a:hover {
     color: #FF661B;
     padding: 0px 20px;
     font-size: 1.3em;
+}
+
+header nav ul li.select{
+
+  padding:17px;
+  padding-top:14px;
+  padding-left:0
+}
+header nav ul li.select select{
+
+  font-size: 1.1em;
+  outline:none;
+  background: linear-gradient(to right, #008443, #004120);
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.472);
+  height:30px;
+  border:none;
+  color:#FBF5B7;
+  font-weight: bold;
+}
+
+header nav ul li.select select option{
+
+  background:#3f3f3f;
+
 }
 
 header>nav #menuToggle {

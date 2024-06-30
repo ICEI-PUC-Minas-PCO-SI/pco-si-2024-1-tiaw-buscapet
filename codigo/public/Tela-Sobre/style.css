@@ -12,7 +12,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: #3f3f3f;
-    padding: 10px 60px;
+    padding: 10px 40px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.392);
     position: relative;
     z-index: 3;
@@ -22,6 +22,22 @@ header > img{
 
     max-width: 100%;
     display: block;
+}
+
+header > div#user{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+
+}
+
+header > div#user > p{
+
+    color:#FFE500;
+    font-weight:bold;
+    font-size:2em;
 }
 
 header nav ul{
@@ -52,6 +68,32 @@ header nav ul li a:hover{
     font-size: 1.3em;
 }
 
+header nav ul li.select{
+
+  padding:17px;
+  padding-top:14px;
+  padding-left:0
+}
+
+header nav ul li.select select{
+
+  font-size: 1.1em;
+  outline:none;
+  background: linear-gradient(to right, #008443, #004120);
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.472);
+  height:30px;
+  border:none;
+  color:#FBF5B7;
+  font-weight: bold;
+}
+
+header nav ul li.select select option{
+
+  background:#3f3f3f;
+
+}
+
 header > nav #menuToggle{
 
     display:none;
@@ -68,7 +110,7 @@ header > nav .menu-icon{
     background-attachment: fixed; 
     background-position: center center; 
     background-repeat: no-repeat;
-    box-shadow: inset 6px 6px 8px 5px black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     padding: 150px 0; 
     margin-bottom: 100px;
     height: 50vh;
@@ -88,28 +130,26 @@ header > nav .menu-icon{
 /*-----------------------------nav termina aqui-----------------------------------*/
 /*-----------------------------main começa aqui----------------------------------*/
 main > article#titulo{
-    display: block;
+    display:block;
     flex-wrap: wrap;
-    background: url(./../assets/footer2.png) no-repeat;
+    background: url(./../assets/footer2.png);
+    background-repeat: no-repeat;
     background-size: cover;
     height: 810px;
     width: 98.93vw;
+    margin:0;
+    padding:0;
     position: relative;
     z-index: 2;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-
 }
 main > article#titulo >div#logo> img{
     margin: 0 auto;
     display: block;
     width: 50%;
-
 }
 main > article#titulo> div#frase > img{
     display: block;
     float: right;
-
 }
 main > article#titulo >div#logo{
    padding-top: 80px;
@@ -183,18 +223,12 @@ article#comentarios{
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    justify-content: center;
-    align-items: center;
-    width:100vw;
-    flex-direction:row;
-
 }
 article#comentarios > img{
 
-    width:47.09vw;
+    width:45vw;
     margin: 0;
     padding: 0;
-    height:107vh;
 }
 article#comentarios > div#imagem > div{
     width: 49vw;
@@ -207,7 +241,6 @@ article#comentarios > div#imagem > div{
     padding-bottom: 50px;
 }
 div#imagem{
-    display: inline;
     background: url(./../assets/formsbaixo.jpeg);
     background-position: center center;
     background-size: cover;
@@ -282,15 +315,30 @@ article#comentarios > div#imagem> div> form > textarea{
     border-width: 3px;
 }
 article#comentarios > div#imagem> div> form > button{
-    background-color: #437A5F;
+    
+    background: linear-gradient(to right, #008443, #004120);
+    color:#FFE500;
+
+    font-size:1em;
+    width: 170px;
+    height: 45px; 
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-weight:bold;
+    
     margin-top:30px;
     margin-left: 220px;
-    width: 180px;
-    height: 40px;
-    border: 2px solid #437A5F;
-    color: #FFE500;
-    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(116, 116, 116, 0.282);
+    transition-duration: background 5s;
 }
+
+article#comentarios > div#imagem> div> form > button:hover{
+
+    background: linear-gradient(to right, #FFE500, #FF661B);
+    color:#3f3f3f
+}
+
 article#comentarios>div#imagem > div > input#comentario{
     height: 120px;
     font-size: 2rem;
@@ -337,7 +385,6 @@ article#comentarios > div#imagem > div > button#add{
     color:green;
 }
 main >article#comentarios> div#area{
-    width: 100vw;
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
@@ -364,7 +411,6 @@ main >article#comentarios> h3{
 
 }
 main > article#comentarios > div#erro{
-    width: 100vw;
     display:flex;
     align-items:center;
     justify-content:center;
@@ -386,7 +432,7 @@ main > article#comentarios > div#erro > p{
     background-attachment: fixed; 
     background-position: center center; 
     background-repeat: no-repeat;
-    box-shadow: inset 6px 6px 8px 5px black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     padding: 200px 0; 
     margin-bottom: 100px;
     height: 60vh;
@@ -439,56 +485,50 @@ article.parallax2  a:hover{
 }
 
 /*--------------------------------------------footer--------------------------------------------*/
-footer{
-
-    background-image: url(./../assets/footer.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-top: 300px;
-    height: 93vh;
-    text-align: center;
+footer {
+  background-image: url(./../assets/footer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 300px;
+  height: 93vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer div#contatos ul {
-
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 150px;
-    margin-left:350px;
-    height:40%;
-
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  justify-content: center; /* Centraliza os itens dentro da lista */
 }
 
-footer div#contatos ul li{
-
-    text-align: center;
-    margin-left: 70px;
-    list-style-type: none;
-    padding: 10ps 15px;
-
+footer div#contatos ul li {
+  text-align: center;
+  margin: 0 15px;
+  list-style-type: none;
+  padding: 10px 15px;
 }
 
-footer div#contatos ul li a, footer p{
-
-    font-size: 1.3em;
-    color:#FBF5B7;
-    font-weight: bold;
-    text-decoration: none;
-
+footer div#contatos ul li a, footer p {
+  font-size: 1.3em;
+  color: #FBF5B7;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-footer div#contatos ul li a:hover{
-
-    color:#FF661B
+footer div#contatos ul li a:hover {
+  color: #FF661B;
 }
 
-footer > img{
-
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    padding-top: 20px;
+footer > img {
+  max-width: 180px; 
+  display: block;
+  margin: 20px auto;
+  padding-top: 20px;
 }
 /*----------------------tag-------------------*/
 .content{

@@ -8,7 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
   .then(response => response.json())
   .then(data => {
     carouselData = data
+     User_logado()
     Funcionar();
+   
   })
   
   /************************************* Script POP-UP*************************************************/
@@ -52,7 +54,13 @@ document.addEventListener('DOMContentLoaded', function() {
       ajudaLista.appendChild(li);
     });
 
-    document.getElementById('popup-botao-doacao').textContent = data[0].textoBotaoDoacao;
+    const botaoDoacao = document.getElementById('popup-botao-doacao');
+    botaoDoacao.textContent = data[0].textoBotaoDoacao;
+
+    botaoDoacao.addEventListener('click', function() {
+        window.open('https://www.vakinha.com.br/vaquinha/a-maior-campanha-solidaria-do-rs', '_blank');
+    });
+    
     document.getElementById('popup-local-doacao-titulo').textContent = data[0].doacaoLocalTitulo;
     document.getElementById('popup-local-doacao').textContent = data[0].doacaoLocal;
   
@@ -68,6 +76,33 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("popup").classList.remove("show");
   });
 })
+
+function User_logado (){
+
+  let user = document.getElementById("user");
+
+  fetch(`/logado`, {
+
+     method: 'GET',
+  })
+  .then(response =>  response.json())
+  .then(data => {
+
+    user.innerHTML = `<p>Olá, ${data.nome}</p>`;
+
+    if(data.tipo != "ONG"){
+
+      let form_ONG = document.getElementById("forms_ONG");
+
+      form_ONG.style.display = "none";
+
+    }
+  })
+  .catch(error => {
+
+    console.error("Erro ao soliciar elemento via API JSONServer: ", error)
+  })
+}
 
 function Funcionar(){
 

@@ -19,6 +19,10 @@
 
     <img src="./../assets/Logo.png" alt="logo" srcset="">
 
+    <div id="user">
+       <p></p>
+    </div>
+
     <nav>
       <input type="checkbox" id="menuToggle">
 
@@ -33,6 +37,15 @@
         <li><a href="#">ONGS</a></li>
         <li><a href="./../Tela-Sobre/Sobre.html">Sobre</a></li>
         <li><a href="./../Tela-Faqs/Faqs.html">FAQs</a></li>
+
+        <li class="select">
+            <select name="select" onchange="window.open(this.value, '_blank', '')">
+                <option value="#" selected>Conta</option>
+                <option value="./../Tela-Cadastro/Cadastro.html">Cadastre-se</option>
+                <option value="./../Tela-Cadastro/Login.html">Login</option>
+                <option value="#">Logout</option>
+            </select>
+        </li>
       </ul>
     </nav>
   </header>

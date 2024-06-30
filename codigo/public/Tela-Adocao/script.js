@@ -1,4 +1,4 @@
-const requestURL = "http://localhost:3000/db/db.json/animais";
+const requestURL = "https://62f225f9-6c7c-4c01-8f7d-42f8b60e7989-00-27qftabnr2mym.worf.replit.dev/db/db.json/animais";
 const request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType ="json";
@@ -16,13 +16,42 @@ request.onload = function () {
     }
 
     salvaDados(db);
+    User_logado ()
     pets()
 
+}
+
+function User_logado (){
+
+  let user = document.getElementById("user");
+
+  fetch(`/logado`, {
+
+     method: 'GET',
+  })
+  .then(response =>  response.json())
+  .then(data => {
+
+    user.innerHTML = `<p>Olá, ${data.nome}</p>`;
+
+    if(data.tipo != "ONG"){
+
+      let form_ONG = document.getElementById("forms_ONG");
+
+      form_ONG.style.display = "none";
+
+    }
+  })
+  .catch(error => {
+
+    console.error("Erro ao soliciar elemento via API JSONServer: ", error)
+  })
 }
 
 function salvaDados(dados){
 
     localStorage.setItem('dados_animais' , JSON.stringify(dados))
+
 }
 
 const controls = document.querySelectorAll('.control');
@@ -82,10 +111,8 @@ function pets() {
     let k = 0;
     let coracao = "";
 
-    
-
     for (let i=0 ; i < 3 ; i++)  {
-      console.log(db[k])
+
         let secao = 1;
 
         str += ` <div class="item ${current}">
@@ -114,7 +141,13 @@ function pets() {
                             </div>
                           </div>
                         </div>
-                        <button type="button" >Adotar</button>
+                        <button type="button"><a href="https://institutoamparanimal.org.br/" >Adotar</a></button>
+                        <style>
+                          a {
+                            text-decoration: none;
+                            color: inherit;
+                          }
+                        </style>
                     </div>
                 </div>`
 
@@ -145,8 +178,13 @@ function pets() {
                               </div>
                             </div>
                           </div>
-                          <button type="button" >Adotar</button>
-
+                          <button type="button" ><a href="https://institutoamparanimal.org.br/">Adotar</a></button>
+                                <style>
+                                  a {
+                                    text-decoration: none;
+                                    color: inherit;
+                                  }
+                                </style>
                         </div>
                       </div>
             </div>
@@ -176,7 +214,13 @@ function pets() {
                             </div>
                           </div>
                         </div>
-                        <button type="button" >Adotar</button>
+                        <button type="button" ><a href="https://institutoamparanimal.org.br/">Adotar</a></button>
+                        <style>
+                          a {
+                            text-decoration: none;
+                            color: inherit;
+                          }
+                        </style>
                     </div>
                 </div>`
             k++
