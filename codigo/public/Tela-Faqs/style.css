@@ -201,7 +201,7 @@ div.accordion-body > h1{
 }
 
 aside#conteudomeio{
-  background: url(./../assets/fotoconteudomeio.png);
+  background: url(./../assets/dogs_paralax_faq.jpg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -224,7 +224,7 @@ aside#conteudomeio > h2{
 
 article#conteudoinferior{
 
-  background: url(./../assets/fotoconteudoinferior.png);
+  background: url(./../assets/gato_maus_tratos2.png);
   background-position: center center;
   background-size: center;
   background-repeat: no-repeat;
