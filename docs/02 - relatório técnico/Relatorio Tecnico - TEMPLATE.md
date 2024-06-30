@@ -498,19 +498,19 @@ Foi utilizada a ferramenta Replit, um site na qual todos do grupo puderam colabo
  
 ### **2) Responsividade das páginas** 
 *Página Home:* Responsividade total: 
-![Responsividade_Home](images/responsividade_home.png)
+![Responsividade_Home](images/responsivo_home.png)
 
 *Página Adotar:* Responsividade total: 
-![Responsividade_Adotar](images/responsividade_adotar.png)
+![Responsividade_Adotar](images/responsivo_adotar.png)
 
  *Página ONGs:* Responsividade total: 
-![Responsividade_ONGs](images/responsividade_ongs.png)
+![Responsividade_ONGs](images/responsivo_ongs.png)
 
  *Página Sobre:* Responsividade total: 
-![Responsividade_Sobre](images/responsividade_sobre.png)
+![Responsividade_Sobre](images/responsivo_sobre.png)
 
  *Página FAQs:* Responsividade total: 
-![Responsividade_Faqs](images/responsividade_faqs.png)
+![Responsividade_Faqs](images/responsivo_faqs.png)
 
 *Pontos fortes:* Todas as páginas estão funcionais em telas menores, como smartphones e tablets. 
 *Pontos fracos:* Nenhum ponto fraco a ser destacado.
