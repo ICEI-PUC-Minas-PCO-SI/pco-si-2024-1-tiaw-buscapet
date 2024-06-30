@@ -111,15 +111,15 @@ header > nav .menu-icon{
     background-position: center center; 
     background-repeat: no-repeat;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    padding: 150px 0; 
     margin-bottom: 100px;
-    height: 50vh;
+    height: 45vh;
 }
 .parallax >p{
-    font-size: 1.9em;
+    font-size: 2em;
     color: #FFE500;
     float: right;
     margin-top: 20px;
+    padding-top: 100px;
     padding-right: 250px;
     font-weight: bold;
     word-break: break-all;
@@ -219,14 +219,21 @@ main> p#titulocomen{
 }
 /*---------------------------------------comentarios---------------------*/
 article#comentarios{
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
+    margin-bottom: 450px;
     padding: 0;
+    height: 100vh;
 }
 article#comentarios > img{
-
-    width:45vw;
+    height: 100vh;
+    flex: 1 1 300px;
+    float: left;
+    width:50vw;
     margin: 0;
     padding: 0;
 }
@@ -245,8 +252,16 @@ div#imagem{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    float: right;
+    flex: 0 1 250px;
     margin: 0;
-    padding: 40px 30px;
+    width: 50vw;
+    height: 100vh;
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
 }
 article#comentarios >div#imagem> div > h3#tituloc{
@@ -258,6 +273,7 @@ article#comentarios >div#imagem> div > h3#tituloc{
     margin: 0 auto;
     font-weight: bold;
     margin-right: 200px;
+    clear: both;
 }
 article#comentarios >div#imagem > div > form > label{
     color: #E55812;
@@ -389,6 +405,7 @@ main >article#comentarios> div#area{
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
+    
 }
 main > article#comentarios >#area > h2{
     color: #E55812;
@@ -432,12 +449,13 @@ main > article#comentarios > div#erro > p{
     background-attachment: fixed; 
     background-position: center center; 
     background-repeat: no-repeat;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    padding: 200px 0; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); 
     margin-bottom: 100px;
-    height: 60vh;
+    height: 45vh;
+    clear: both;
 }
 main > p#colaboradores{
+    margin-top: 100px;
     color: #E55812;
     font-weight: bold;
     font-size: 30px;
@@ -446,10 +464,10 @@ main > p#colaboradores{
     margin-left: 550px;
     padding-top: 300px;
     padding-bottom: 100px;
+    clear: both;
 }
 /*-------------------------------------botao parallax-----------------------------------------*/
 article.parallax2 > div.botaoOngs{
-
     width: 120px;
     height: 120px; 
     border-radius: 50%; 
@@ -569,13 +587,14 @@ footer > img {
     color: #BCFF64;
 }
 .tab-buttons{
-    width: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
     border: none;
     color: #020617;
     background-color: #3f3f3f;
     border-radius: 8px 8px 0px 0px;
     font-weight: 500;
-    padding: 8px;
     cursor: pointer;
 }
 .tab-btn{
