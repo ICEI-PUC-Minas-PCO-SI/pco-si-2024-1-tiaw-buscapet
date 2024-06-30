@@ -424,7 +424,6 @@ input[type="submit"]:hover {
   }
 }
 
-
 @media (max-width: 1100px) {
   .container {
     padding-bottom: 300px;
@@ -432,8 +431,10 @@ input[type="submit"]:hover {
   .step-col{
     width: 90%;
   }
+  button#Proximo{
+    margin-top: 100px;
+  }
 }
-
 
 .container-1 {
   width: 90%;
