@@ -33,6 +33,13 @@ header > div#user{
     
 }
 
+header > div#user > p{
+
+    color:#FFE500;
+    font-weight:bold;
+    font-size:2em;
+}
+
 header nav ul{
 
     display: flex;

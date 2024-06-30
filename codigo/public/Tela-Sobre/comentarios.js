@@ -6,7 +6,7 @@ let nome = document.getElementById('insiran');
 let ocupacao = document.getElementById('ocupacao');
 let erro = document.getElementById('erro');
 
-const requestURL = "https://62f225f9-6c7c-4c01-8f7d-42f8b60e7989-00-27qftabnr2mym.worf.replit.dev/db/db.json/comentarios";
+const requestURL = "http://localhost:3000/db/db.json/comentarios";
 const request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType ="json";

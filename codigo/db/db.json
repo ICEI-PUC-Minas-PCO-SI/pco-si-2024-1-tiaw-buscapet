@@ -436,14 +436,21 @@
       "senha": "123456",
       "tipo": "pessoa",
       "id": 10
+    },
+    {
+      "nome": "Ingrid Yara",
+      "email": "IngridYara@gmail.com",
+      "senha": "123",
+      "tipo": "pessoa",
+      "id": 11
     }
   ],
   "logado": {
-    "nome": "joao",
-    "email": "joaofprado13@gmail.com",
-    "senha": "1234",
+    "nome": "Ingrid Yara",
+    "email": "IngridYara@gmail.com",
+    "senha": "123",
     "tipo": "pessoa",
-    "id": 9
+    "id": 11
   },
   "porcentagem": [
     {

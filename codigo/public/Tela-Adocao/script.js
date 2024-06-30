@@ -1,4 +1,4 @@
-const requestURL = "https://62f225f9-6c7c-4c01-8f7d-42f8b60e7989-00-27qftabnr2mym.worf.replit.dev/db/db.json/animais";
+const requestURL = "http://localhost:3000/db/db.json/animais";
 const request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType ="json";
@@ -34,9 +34,9 @@ function User_logado (){
 
     user.innerHTML = `<p>Olá, ${data.nome}</p>`;
 
-    if(data.tipo != "ONG"){
+    if(data.tipo != "Pessoa"){
 
-      let form_ONG = document.getElementById("forms_ONG");
+      let form_ONG = document.getElementById("Quiz_pessoas");
 
       form_ONG.style.display = "none";
 
