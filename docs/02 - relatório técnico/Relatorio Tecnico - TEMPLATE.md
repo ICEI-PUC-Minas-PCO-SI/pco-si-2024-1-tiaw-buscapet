@@ -415,7 +415,26 @@ Em conjunto com o grupo, optamos por usar o Github como ferramenta de gerência 
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### **1) Cadastro de Pessoa/ONG** 
+Avaliar se a página de cadastro de ONGs e Pessoas está funcional. 
+Grupo de usuário: Todos 
+Ferramentas utilizadas: Replit   
+ 
+### **2) Responsividade das páginas** 
+Avaliar se as páginas estão responsivas em diferentes telas, como tablets, smartphones e computadores. 
+Grupo de usuário: Todos 
+Ferramentas utilizadas: Replit   
+ 
+### **3) Envio formulário ONGs**
+Avaliar se o formulário de cadastro de ONGs está funcional. 
+Grupo de usuário: ONGs 
+Ferramentas utilizadas: Replit   
+ 
+### **4) Envio comentário** 
+Avaliar se está sendo salvo e exibido corretamente. 
+Grupo de usuário: Todos 
+Ferramentas utilizadas: Replit   
+
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -429,7 +448,7 @@ Em conjunto com o grupo, optamos por usar o Github como ferramenta de gerência 
 
 ## Ferramentas de Testes (Opcional)
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Foi utilizada a ferramenta Replit, um site na qual todos do grupo puderam colaborar, simultaneamente, com o projeto, já que o mesmo permite a visualização ao vivo de todas as alterações feitas.
 
 > Comente sobre as ferramentas de testes utilizadas.
 > 
@@ -439,7 +458,57 @@ Em conjunto com o grupo, optamos por usar o Github como ferramenta de gerência 
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### **1) Cadastro de Pessoa/ONG** 
+*Cadastro de Pessoa:* Cadastro ocorrendo de forma correta e funcional.
+*Cadastro de ONG:* Cadastro feito corretamente:
+![Tela_Cadastro](images/tela_cadastro.png)
+
+*Login:* Login concluído corretamente:
+![Tela_Login](images/tela_login.png)
+
+*Pontos fortes:* Cadastro intuitivo e fácil de ser feito.
+*Pontos fracos:* Nenhum
+ 
+### **2) Responsividade das páginas** 
+*Página Home:* Responsividade total: 
+![Responsividade_Home](images/responsividade_home.png)
+
+*Página Adotar:* Responsividade total: 
+![Responsividade_Adotar](images/responsividade_adotar.png)
+
+ *Página ONGs:* Responsividade total: 
+![Responsividade_ONGs](images/responsividade_ongs.png)
+
+ *Página Sobre:* Responsividade total: 
+![Responsividade_Sobre](images/responsividade_sobre.png)
+
+ *Página FAQs:* Responsividade total: 
+![Responsividade_Faqs](images/responsividade_faqs.png)
+
+*Pontos fortes:* Todas as páginas estão funcionais em telas menores, como smartphones e tablets. 
+*Pontos fracos:* Nenhum ponto fraco a ser destacado.
+
+
+### **3) Envio formulário ONGs**
+Envio dos dados ocorrendo corretamente:
+![Envio_Formulario](images/envio_formulario.png)
+
+*Pontos fortes:* Formulário com muitos dados diferentes e importantes. 
+*Pontos fracos:* Nenhum ponto fraco
+
+ 
+### **4) Envio comentário** 
+![Tela_Comentarios](images/tela_comentarios.png)
+
+*Adicionar comentários:* Funcionando corretamente. 
+*Visualizar comentários:* Comentários estão carregando corretamente:
+![Comentarios](images/comentarios.png)
+
+Comentários estão sendo carregados corretamente 
+*Pontos fortes:* Os comentários trazem mais interatividade ao site, podendo fazer com que usuários tornem o site mais completo e útil para todos. 
+*Pontos fracos:* Sem pontos fracos a destacar.
+
+
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
