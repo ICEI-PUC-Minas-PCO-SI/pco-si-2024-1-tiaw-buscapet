@@ -286,7 +286,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-> ![userflow](images/userflow.png)
+> ![userflow](images/userflow-final.png)
 
 
 ## Wireframes
