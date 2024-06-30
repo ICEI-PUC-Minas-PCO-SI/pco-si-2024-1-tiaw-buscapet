@@ -487,6 +487,7 @@ Foi utilizada a ferramenta Replit, um site na qual todos do grupo puderam colabo
 
 ### **1) Cadastro de Pessoa/ONG** 
 *Cadastro de Pessoa:* Cadastro ocorrendo de forma correta e funcional.
+
 *Cadastro de ONG:* Cadastro feito corretamente:
 ![Tela_Cadastro](images/tela_cadastro.png)
 
@@ -494,25 +495,32 @@ Foi utilizada a ferramenta Replit, um site na qual todos do grupo puderam colabo
 ![Tela_Login](images/tela_login.png)
 
 *Pontos fortes:* Cadastro intuitivo e fácil de ser feito.
+
 *Pontos fracos:* Nenhum
  
 ### **2) Responsividade das páginas** 
 *Página Home:* Responsividade total: 
+
 ![Responsividade_Home](images/responsivo_home.png)
 
 *Página Adotar:* Responsividade total: 
+
 ![Responsividade_Adotar](images/responsivo_adotar.png)
 
  *Página ONGs:* Responsividade total: 
+ 
 ![Responsividade_ONGs](images/responsivo_ongs.png)
 
  *Página Sobre:* Responsividade total: 
+ 
 ![Responsividade_Sobre](images/responsivo_sobre.png)
 
  *Página FAQs:* Responsividade total: 
+ 
 ![Responsividade_Faqs](images/responsivo_faqs.png)
 
 *Pontos fortes:* Todas as páginas estão funcionais em telas menores, como smartphones e tablets. 
+
 *Pontos fracos:* Nenhum ponto fraco a ser destacado.
 
 
@@ -520,19 +528,23 @@ Foi utilizada a ferramenta Replit, um site na qual todos do grupo puderam colabo
 Envio dos dados ocorrendo corretamente:
 ![Envio_Formulario](images/envio_formulario.png)
 
-*Pontos fortes:* Formulário com muitos dados diferentes e importantes. 
+*Pontos fortes:* Formulário com muitos dados diferentes e importantes.
+
 *Pontos fracos:* Nenhum ponto fraco
 
  
 ### **4) Envio comentário** 
 ![Tela_Comentarios](images/tela_comentarios.png)
 
-*Adicionar comentários:* Funcionando corretamente. 
+*Adicionar comentários:* Funcionando corretamente.
+
 *Visualizar comentários:* Comentários estão carregando corretamente:
 ![Comentarios](images/comentarios.png)
 
 Comentários estão sendo carregados corretamente 
-*Pontos fortes:* Os comentários trazem mais interatividade ao site, podendo fazer com que usuários tornem o site mais completo e útil para todos. 
+
+*Pontos fortes:* Os comentários trazem mais interatividade ao site, podendo fazer com que usuários tornem o site mais completo e útil para todos.
+
 *Pontos fracos:* Sem pontos fracos a destacar.
 
 
