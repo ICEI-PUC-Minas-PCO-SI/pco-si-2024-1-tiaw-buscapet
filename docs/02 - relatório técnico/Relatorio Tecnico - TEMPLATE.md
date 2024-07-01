@@ -426,12 +426,11 @@ Segurança:</li>
 
 ......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
+> O diagrama apresenta o funcionamento do sistema da plataforma do BuscaPet. Na seção do navergador estão dispostas ás páginas que o usuário consegue acessar, elas são requeridas pelo o cliente ao servidor, e o servidor as devolve, o mesmo também acontece com as imagens, que embora não estejam no diagrama funciona da mesma maneira. Segindo temos a seção do LocalStorage no navegador do cliente, nesta parte são armazenados alguns dados JSON apenas no navegador desde usuário. Do outro lado, à hospedagem do site e da API utilizada no versel. Na API são armazenados os restantes dos dados JSON que constituem o repositório completo. Por fim, o site postado funciona com o auxilio do LocalStorage no navegador do cliente, o JSONServer e a API instalada no versel.
 > 
 > **Exemplo do diagrama de Arquitetura**:
 > 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> ![Exemplo de Arquitetura](images/BuscaPet.drawio.png)
 
 
 # Avaliação da Aplicação
