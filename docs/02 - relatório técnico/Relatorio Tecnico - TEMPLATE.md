@@ -301,6 +301,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 > ![Wireframe](images/ONGS.jpg)
 > ![Wireframe](images/FAQS.jpg)
 > ![Wireframe](images/Sobre.jpg)
+> ![Wireframe](images/Login.png)
+> ![Wireframe](images/Cadastro.png)
 
 
 
